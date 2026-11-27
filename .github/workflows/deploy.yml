@@ -3,18 +3,32 @@ name: Deploy to SiteGround
 on:
   push:
     branches: [main]
-    paths: ["site/**", "deploy/**", ".github/workflows/deploy.yml"]
+    paths: ["site/**", "deploy/**", "scripts/**", ".github/workflows/deploy.yml"]
   workflow_dispatch:
 
 concurrency:
   group: deploy
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Fetch covers for new books
+        run: |
+          python3 scripts/fetch_covers.py || echo "::warning::Cover lookup failed; plain covers will be shown"
+          if [ -n "$(git status --porcelain site/images)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/images
+            git commit -m "Add book cover images"
+            git push
+          fi
 
       - name: Check SiteGround secrets are set
         id: check

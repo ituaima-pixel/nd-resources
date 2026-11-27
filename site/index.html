@@ -123,6 +123,7 @@ section + section { margin-top: 3.5rem; }
 .price { font-variant-numeric: tabular-nums; font-weight: 600; }
 .cover { aspect-ratio: 1 / 1; width: 100%; max-width: 100%; display: grid; place-items: end start; padding: 1.1rem; color: #fff; position: relative; }
 .cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cover img.book-img { object-fit: contain; background: var(--sunk); padding: 14px; filter: drop-shadow(0 4px 10px rgba(0,0,0,.18)); }
 .cover.teal { background: var(--cover-teal); }
 .cover.mustard { background: var(--cover-mustard); }
 .cover.brown { background: var(--cover-brown); }
@@ -260,7 +261,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   function buyLabel(b) { var r = (site.retailers || {})[b.retailer] || {}; return r.label || ("Buy from " + b.retailer); }
   function isBook(p) { return p.kind === "book"; }
   function money(p) {
-    if (isBook(p)) return "Available on Amazon";
+    if (isBook(p)) return "See price on Amazon";
     if (p.price == null || p.price === "") return "Price coming soon";
     try { return new Intl.NumberFormat("en-GB", { style: "currency", currency: p.currency || "GBP" }).format(p.price); }
     catch (e) { return p.price + " " + (p.currency || ""); }
@@ -269,10 +270,10 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   var FAMILY_AUD = ["parents", "adults", "children", "families"];
 
   function cover(p, big) {
-    var inner = p.cover
-      ? '<img src="' + esc(p.cover) + '" alt="Cover of ' + esc(p.title) + '">'
-      : '<svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-5 70 C 25 50, 45 85, 105 55 M-5 82 C 30 62, 55 95, 105 68 M-5 94 C 35 76, 60 104, 105 80" stroke="#fff" stroke-width="1.2" fill="none"/></svg><span class="ct">' + esc(p.title) + '</span>';
-    return '<div class="cover ' + esc(p.coverColor || "teal") + '"' + (p.cover ? "" : ' role="img" aria-label="Placeholder cover for ' + esc(p.title) + '"') + '>' + inner + (p.example ? '<span class="ex">Example</span>' : "") + '</div>';
+    var src = p.cover || (isBook(p) ? "images/" + p.id + ".jpg" : "");
+    var plain = '<svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-5 70 C 25 50, 45 85, 105 55 M-5 82 C 30 62, 55 95, 105 68 M-5 94 C 35 76, 60 104, 105 80" stroke="#fff" stroke-width="1.2" fill="none"/></svg><span class="ct">' + esc(p.title) + '</span>';
+    var img = src ? '<img class="book-img" src="' + esc(src) + '" alt="Cover of ' + esc(p.title) + '" loading="lazy" onerror="this.remove()">' : "";
+    return '<div class="cover ' + esc(p.coverColor || "teal") + '">' + plain + img + (p.example ? '<span class="ex">Example</span>' : "") + '</div>';
   }
   function card(p) {
     return '<a class="card" href="#product-' + esc(p.id) + '">' + cover(p) +
