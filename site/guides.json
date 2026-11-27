@@ -235,7 +235,7 @@
       {
         "id": "course",
         "heading": "How the training works",
-        "html": "<p>All courses are approved by the regulators and follow the same core design: taught days, supervised learning in practice, and exams.</p><ul class=\"checklist\"><li><span><strong>Length:</strong> usually about 6 months part-time.</span></li><li><span><strong>Level:</strong> Level 6 (degree) or Level 7 (master's), usually 30 to 45 credits.</span></li><li><span><strong>Taught days:</strong> often about 26 days, in person or online.</span></li><li><span><strong>Learning in practice:</strong> commonly about 90 hours (12 days) with your prescribing supervisor.</span></li><li><span><strong>Assessment:</strong> a pharmacology exam, a numeracy test (usually 100% needed), a portfolio of practice, and sign-off by your assessor.</span></li><li><span><strong>Standards:</strong> the <a href=\"https://www.rcpharm.org/professional-standards/a-competency-framework-for-all-prescribers/\" target=\"_blank\" rel=\"noopener\">Competency Framework for all Prescribers</a> and, for nurses, the <a href=\"https://www.nmc.org.uk/standards/standards-for-post-registration/standards-for-prescribers/\" target=\"_blank\" rel=\"noopener\">NMC standards for prescribing programmes</a>.</span></li></ul>"
+        "html": "<p>All courses are approved by the regulators and follow the same core design: taught days, supervised learning in practice, and exams.</p><ul class=\"checklist\"><li><span><strong>Length:</strong> usually about 6 months part-time.</span></li><li><span><strong>Level:</strong> Level 6 (degree) or Level 7 (master's), usually 30 to 45 credits.</span></li><li><span><strong>Taught days:</strong> often about 26 days, in person or online.</span></li><li><span><strong>Learning in practice:</strong> commonly about 90 hours (12 days) with your prescribing supervisor.</span></li><li><span><strong>Assessment:</strong> a pharmacology exam, a numeracy test (usually 100% needed), a portfolio of practice, and sign-off by your assessor.</span></li><li><span><strong>Standards:</strong> the <a href=\"https://www.rcpharm.org/professional-standards/a-competency-framework-for-all-prescribers/\" target=\"_blank\" rel=\"noopener\">Competency Framework for all Prescribers</a> and, for nurses, the <a href=\"https://www.nmc.org.uk/standards/standards-for-post-registration/standards-for-prescribers/\" target=\"_blank\" rel=\"noopener\">NMC standards for prescribing programmes</a>.</span></li></ul><p>Not sure what to read? See our <a href=\"#books\">recommended books for prescribers</a>, from V300 course texts to the BNF.</p>"
       },
       {
         "id": "nhs-private",
@@ -300,6 +300,64 @@
         "title": "NHS Employers: Agenda for Change pay scales 2025/26",
         "url": "https://www.nhsemployers.org/articles/pay-scales-202526"
       }
-    ]
+    ],
+    "booksHeading": "Recommended books for prescribers",
+    "booksIntro": "Books that help with the V300 course and with prescribing safely afterwards. Open a book to see details and buy it on Amazon UK.",
+    "bookGroups": [
+      {
+        "heading": "Core texts for the V300 course",
+        "note": "Written for non-medical prescribing students. Most courses recommend at least one.",
+        "ids": [
+          "the-textbook-of-non-medical-prescribing",
+          "non-medical-prescribing",
+          "the-new-prescriber",
+          "independent-and-supplementary-prescribing-at-a-glance"
+        ]
+      },
+      {
+        "heading": "Pharmacology and prescribing skills",
+        "note": "For the pharmacology exam and for safe everyday prescribing.",
+        "ids": [
+          "trounce-s-clinical-pharmacology-for-nurses-and-allied-health",
+          "the-top-100-drugs",
+          "the-unofficial-guide-to-prescribing",
+          "prescribing-scenarios-at-a-glance"
+        ]
+      },
+      {
+        "heading": "Formularies and reference",
+        "note": "Reference books prescribers use every day. The BNF is updated twice a year.",
+        "ids": [
+          "british-national-formulary-bnf-92",
+          "stockley-s-drug-interactions",
+          "bnf-for-children-bnfc-2026-2027",
+          "prescribing-medicines-for-children"
+        ]
+      },
+      {
+        "heading": "Mental health and ADHD prescribing",
+        "note": "For prescribers working in mental health, ADHD or neurodevelopmental services.",
+        "ids": [
+          "the-maudsley-prescribing-guidelines-in-psychiatry",
+          "prescriber-s-guide",
+          "prescriber-s-guide-children-and-adolescents",
+          "stahl-s-essential-psychopharmacology"
+        ]
+      },
+      {
+        "heading": "Consultation and assessment skills",
+        "note": "Prescribing starts with a good consultation and examination.",
+        "ids": [
+          "the-inner-consultation",
+          "skills-for-communicating-with-patients",
+          "macleod-s-clinical-examination",
+          "the-minor-illness-manual"
+        ]
+      }
+    ],
+    "shopLink": {
+      "url": "/shop/?for=prescribing",
+      "label": "See all prescribing books in the shop"
+    }
   }
 ]
