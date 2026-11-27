@@ -1754,10 +1754,7 @@
       }
     ],
     "previews": [],
-    "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9781108928519.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781108928519-L.jpg?default=false"
-    ]
+    "coverLookup": false
   },
   {
     "id": "independent-and-supplementary-prescribing-at-a-glance",
@@ -2114,10 +2111,7 @@
       }
     ],
     "previews": [],
-    "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9780192855169.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780192855169-L.jpg?default=false"
-    ]
+    "coverLookup": false
   },
   {
     "id": "stockley-s-drug-interactions",
@@ -2146,10 +2140,7 @@
       }
     ],
     "previews": [],
-    "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9780857113474.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780857113474-L.jpg?default=false"
-    ]
+    "coverLookup": false
   },
   {
     "id": "independent-prescribing-for-paramedics",
