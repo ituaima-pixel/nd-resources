@@ -416,9 +416,9 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   document.getElementById("skip").addEventListener("click", function (e) { e.preventDefault(); document.getElementById("content").focus(); });
   view.innerHTML = '<p class="muted">Loading…</p>';
   Promise.all([
-    fetch("products.json").then(function (r) { return r.json(); }).catch(function () { return []; }),
-    fetch("site.json").then(function (r) { return r.json(); }).catch(function () { return { retailers: {} }; }),
-    fetch("resources.json").then(function (r) { return r.json(); }).catch(function () { return { families: [], professionals: [], principles: [] }; })
+    fetch("products.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return []; }),
+    fetch("site.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { retailers: {} }; }),
+    fetch("resources.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { families: [], professionals: [], principles: [] }; })
   ]).then(function (res) { products = res[0]; site = res[1]; resources = res[2]; route(); });
   window.addEventListener("hashchange", function () { route(); });
 })();
