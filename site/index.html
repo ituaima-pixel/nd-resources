@@ -197,6 +197,14 @@ section + section { margin-top: 3.5rem; }
 .features .feature { max-width: none; align-content: start; }
 .feature:hover { border-color: var(--accent); }
 .feature .go { font-family: var(--font-display); color: var(--accent); }
+.rail { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: .5rem; }
+.rail-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 2rem) / 3); gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; padding: 2px 2px 10px; overscroll-behavior-x: contain; }
+.rail-track > .card { scroll-snap-align: start; }
+@media (prefers-reduced-motion: no-preference) { .rail-track { scroll-behavior: smooth; } }
+.rail-btn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--accent); font-size: 1.25rem; cursor: pointer; display: grid; place-items: center; }
+.rail-btn:hover:not(:disabled) { border-color: var(--accent); background: var(--sunk); }
+.rail-btn:disabled { opacity: .35; cursor: default; }
+@media (max-width: 760px) { .rail { grid-template-columns: 1fr auto auto; grid-template-areas: "t t t" ". p n"; } .rail-track { grid-area: t; grid-auto-columns: 72%; } .rail-btn.prev { grid-area: p; } .rail-btn.next { grid-area: n; } }
 .book-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1rem; }
 .book-row .cover .ct { font-size: .95rem; }
 
@@ -433,7 +441,15 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
           g.sections.map(function (s) { return '<section class="guide-sec" id="' + esc(s.id) + '" aria-labelledby="' + esc(s.id) + '-h"><h2 id="' + esc(s.id) + '-h">' + esc(s.heading) + '</h2>' + s.html + '</section>'; }).join("") +
           (books.length || groups.length ? '<section class="guide-sec" id="books" aria-labelledby="books-h" style="max-width:none"><h2 id="books-h">' + esc(booksTitle) + '</h2><p class="muted">' + esc(g.booksIntro || "Reading we recommend from the shop.") + '</p>' +
             (books.length ? '<div class="book-row">' + books.map(card).join("") + '</div>' : "") +
-            groups.map(function (gr) { return '<h3>' + esc(gr.heading) + '</h3>' + (gr.note ? '<p class="muted">' + esc(gr.note) + '</p>' : "") + '<div class="book-row">' + gr.items.map(card).join("") + '</div>'; }).join("") +
+            groups.map(function (gr, gi) {
+              var hid = "bookgroup-" + gi;
+              var row = g.carousel
+                ? '<div class="rail" role="group" aria-labelledby="' + hid + '"><button class="rail-btn prev" type="button" data-rail="-1" aria-label="Scroll back through ' + esc(gr.heading) + '" disabled><span aria-hidden="true">&larr;</span></button>' +
+                  '<div class="rail-track" tabindex="0" aria-label="' + esc(gr.heading) + ', ' + gr.items.length + ' books">' + gr.items.map(card).join("") + '</div>' +
+                  '<button class="rail-btn next" type="button" data-rail="1" aria-label="Scroll for more ' + esc(gr.heading) + '"' + (gr.items.length > 3 ? "" : " disabled") + '><span aria-hidden="true">&rarr;</span></button></div>'
+                : '<div class="book-row">' + gr.items.map(card).join("") + '</div>';
+              return '<h3 id="' + hid + '">' + esc(gr.heading) + ' <span class="muted" style="font-size:.85rem;font-weight:400">(' + gr.items.length + ')</span></h3>' + (gr.note ? '<p class="muted">' + esc(gr.note) + '</p>' : "") + row;
+            }).join("") +
             (g.shopLink ? '<p><a class="btn" href="' + esc(g.shopLink.url) + '">' + esc(g.shopLink.label) + '</a></p>' : "") +
             '<p class="muted" style="font-size:.85rem">Book pages link to Amazon UK. ' + DISCLOSURE + '</p></section>' : "") +
           '<section class="guide-sec" id="sources" aria-labelledby="sources-h"><h2 id="sources-h">Sources</h2><p class="muted">This guide summarises the sources below in our own words. Links open in a new tab.</p>' + resList(g.sources) +
@@ -462,6 +478,14 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '</div></div>';
     }
   };
+  function setRails() {
+    view.querySelectorAll(".rail-track").forEach(function (tr) {
+      var upd = function () { var r = tr.parentNode; r.querySelector(".prev").disabled = tr.scrollLeft < 4; r.querySelector(".next").disabled = tr.scrollLeft + tr.clientWidth >= tr.scrollWidth - 4; };
+      if (!tr._bound) { tr._bound = true; tr.addEventListener("scroll", upd, { passive: true }); tr.addEventListener("keydown", function (e) { if (e.key === "ArrowRight" || e.key === "ArrowLeft") { e.preventDefault(); tr.scrollBy({ left: (e.key === "ArrowRight" ? 1 : -1) * tr.clientWidth / 3 }); } }); }
+      upd();
+    });
+  }
+  window.addEventListener("resize", function () { setRails(); });
   function door(href, title, text, go, icon) {
     return '<a class="door" href="/' + href + '/"><svg class="door-icon" viewBox="0 0 40 40" aria-hidden="true">' + icon + '</svg><h3>' + title + '</h3><p class="muted">' + text + '</p><span class="go">' + go + ' &rarr;</span></a>';
   }
@@ -485,6 +509,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       var titles = { home: "", shop: "Shop", families: "For you and your family", professionals: "For professionals", about: "About" };
       document.title = (titles[c.nav] ? titles[c.nav] + " · " : "") + "ND Resources";
     }
+    setRails();
     if (keepScroll !== true && fresh) { if (location.hash.length > 1 && document.getElementById(location.hash.slice(1))) document.getElementById(location.hash.slice(1)).scrollIntoView(); else window.scrollTo(0, 0); }
     document.documentElement.setAttribute("data-rendered", "1");
   }
@@ -503,6 +528,8 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     var f = e.target.closest("[data-filter]");
     if (f) { filter = f.dataset.filter; route(true); var nb = document.getElementById("filter-" + filter); if (nb) nb.focus(); return; }
     if (e.target.closest("#buy-btn")) openModal();
+    var rb = e.target.closest("[data-rail]");
+    if (rb) { var tr = rb.parentNode.querySelector(".rail-track"); tr.scrollBy({ left: Number(rb.dataset.rail) * tr.clientWidth, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); }
   });
 
   var modal = document.getElementById("modal"), lastFocus = null;

@@ -306,12 +306,16 @@
     "bookGroups": [
       {
         "heading": "Core texts for the V300 course",
-        "note": "Written for non-medical prescribing students. Most courses recommend at least one.",
+        "note": "Written for non-medical prescribing students, including books for paramedics and pharmacists.",
         "ids": [
           "the-textbook-of-non-medical-prescribing",
           "non-medical-prescribing",
           "the-new-prescriber",
-          "independent-and-supplementary-prescribing-at-a-glance"
+          "independent-and-supplementary-prescribing-at-a-glance",
+          "oxford-handbook-of-prescribing-for-nurses-and-allied-health",
+          "independent-prescribing-for-paramedics",
+          "the-prescribing-pharmacist",
+          "independent-and-supplementary-prescribing"
         ]
       },
       {
@@ -321,7 +325,10 @@
           "trounce-s-clinical-pharmacology-for-nurses-and-allied-health",
           "the-top-100-drugs",
           "the-unofficial-guide-to-prescribing",
-          "prescribing-scenarios-at-a-glance"
+          "prescribing-scenarios-at-a-glance",
+          "prescribing-at-a-glance",
+          "lecture-notes",
+          "oxford-handbook-of-clinical-pharmacy"
         ]
       },
       {
@@ -341,7 +348,12 @@
           "the-maudsley-prescribing-guidelines-in-psychiatry",
           "prescriber-s-guide",
           "prescriber-s-guide-children-and-adolescents",
-          "stahl-s-essential-psychopharmacology"
+          "stahl-s-essential-psychopharmacology",
+          "the-maudsley-deprescribing-guidelines",
+          "the-maudsley-prescribing-guidelines-for-mental-health-condit",
+          "the-maudsley-practice-guidelines-for-physical-health-conditi",
+          "pocket-prescriber-psychiatry",
+          "cambridge-prescriber-s-guide-in-psychiatry"
         ]
       },
       {
@@ -358,6 +370,7 @@
     "shopLink": {
       "url": "/shop/?for=prescribing",
       "label": "See all prescribing books in the shop"
-    }
+    },
+    "carousel": true
   }
 ]
