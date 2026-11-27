@@ -39,6 +39,24 @@ def cover_for(p):
             data = get(f"https://covers.openlibrary.org/b/id/{d['cover_i']}-L.jpg")
             if len(data) > 2000:
                 return data
+    # Fallback: Google Books
+    gq = f"isbn:{isbn}" if isbn else f'intitle:"{p["title"]}" inauthor:"{author}"'
+    try:
+        items = json.loads(get("https://www.googleapis.com/books/v1/volumes?" + urllib.parse.urlencode({"q": gq, "maxResults": 3}))).get("items", [])
+    except Exception as e:
+        print(f"  Google Books lookup failed: {e}")
+        items = []
+    for it in items:
+        links = it.get("volumeInfo", {}).get("imageLinks", {})
+        url = links.get("thumbnail") or links.get("smallThumbnail")
+        if url:
+            url = url.replace("http://", "https://").replace("&edge=curl", "").replace("zoom=1", "zoom=3")
+            try:
+                data = get(url)
+            except Exception:
+                data = get(url.replace("zoom=3", "zoom=1"))
+            if len(data) > 2000:
+                return data
     return None
 
 
@@ -48,7 +66,7 @@ def main():
     added = 0
     for p in products:
         path = os.path.join(IMAGES, p["id"] + ".jpg")
-        if os.path.exists(path):
+        if os.path.exists(path) or p.get("coverLookup") is False:
             continue
         print(f"Looking up cover: {p['title']}")
         data = cover_for(p)
