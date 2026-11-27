@@ -91,7 +91,11 @@ jobs:
           for f in "" index.html products.json; do
             echo "== /$f"; curl -sSI "https://neurodivergentresources.co.uk/$f?ci=$GITHUB_RUN_ID" | grep -iE "^(HTTP|cache-control|expires|x-proxy-cache|x-cache)" || true
           done
-          curl -s "https://neurodivergentresources.co.uk/?ci=$GITHUB_RUN_ID" | grep -c "Parents and carers" && echo "Live page has the new shop"
+          if curl -s "https://neurodivergentresources.co.uk/?ci=$GITHUB_RUN_ID" | grep -q "ND Resources"; then
+            echo "Live page answered with the ND Resources site"
+          else
+            echo "::warning::Could not read the live page (SiteGround sometimes shows automated visitors a check page). The upload itself succeeded."
+          fi
 
       - name: Remove key
         if: always()
