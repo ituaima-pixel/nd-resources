@@ -1,0 +1,33 @@
+name: Check live site
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect files on SiteGround
+        env:
+          SG_KEY: ${{ secrets.SG_KEY }}
+          SG_KEY_PASSPHRASE: ${{ secrets.SG_KEY_PASSPHRASE }}
+          SG_HOST: ${{ secrets.SG_HOST }}
+          SG_USER: ${{ secrets.SG_USER }}
+          SG_PORT: ${{ secrets.SG_PORT }}
+          SG_PATH: ${{ secrets.SG_PATH }}
+        run: |
+          mkdir -p ~/.ssh; printf '%s\n' "$SG_KEY" > ~/.ssh/k; chmod 600 ~/.ssh/k
+          [ -n "$SG_KEY_PASSPHRASE" ] && ssh-keygen -p -P "$SG_KEY_PASSPHRASE" -N "" -f ~/.ssh/k >/dev/null
+          ssh-keyscan -p "${SG_PORT:-18765}" "$SG_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          P="${SG_PATH:-www/neurodivergentresources.co.uk/public_html}"
+          ssh -p "${SG_PORT:-18765}" -i ~/.ssh/k "$SG_USER@$SG_HOST" "ls -la www/; cd $P && pwd && ls -la && ls images | head -30 && grep -c 'book-img' index.html; grep -c 'See price on Amazon' index.html; md5sum index.html products.json"
+          md5sum site/index.html site/products.json
+          rm -f ~/.ssh/k
+      - name: Fetch like a browser
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          for u in "https://neurodivergentresources.co.uk/" "https://www.neurodivergentresources.co.uk/" "http://neurodivergentresources.co.uk/"; do
+            echo "== $u"; curl -sSIL -A "$UA" "$u" | grep -iE "^(HTTP|location|cache-control|x-proxy-cache|x-cache|server|age)" || true
+            curl -sSL -A "$UA" "$u" | grep -cE "book-img|See price on Amazon" || true
+          done
