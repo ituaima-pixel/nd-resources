@@ -1,0 +1,480 @@
+[
+  {
+    "id": "explaining-audhd",
+    "kind": "book",
+    "title": "Explaining AuDHD",
+    "subtitle": "The expert-led guide to Autism and ADHD Co-concurrence",
+    "author": "Khurram Sadiq",
+    "publisher": "",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "parents"
+    ],
+    "tags": [
+      "Autism",
+      "ADHD",
+      "AuDHD"
+    ],
+    "coverColor": "mustard",
+    "summary": "A guide to what it is like to be both autistic and ADHD, where the two conditions meet, and how to understand your own brain.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://link.amazon/B08evmh3r"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "the-autistic-brain",
+    "kind": "book",
+    "title": "The Autistic Brain",
+    "subtitle": "Understanding Autism and the Power of Neurodiversity",
+    "author": "Temple Grandin and Richard Panek",
+    "publisher": "",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "parents"
+    ],
+    "tags": [
+      "Autism",
+      "Neurodiversity"
+    ],
+    "coverColor": "teal",
+    "summary": "Temple Grandin, one of the best-known autistic thinkers, combines research with her own lived experience to explain what autism really is.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://link.amazon/B05cRyW2y"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "girl-unmasked",
+    "kind": "book",
+    "title": "Girl Unmasked",
+    "subtitle": "How Uncovering My Autism Saved My Life",
+    "author": "Emily Katy",
+    "publisher": "",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults"
+    ],
+    "tags": [
+      "Autism",
+      "Women and girls",
+      "Memoir"
+    ],
+    "coverColor": "brown",
+    "summary": "A Sunday Times bestselling memoir about growing up as an undiagnosed autistic girl, masking, and what changed after diagnosis.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://link.amazon/B0gdWbmfn"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism-and-asperger-syndrome-the-facts",
+    "kind": "book",
+    "title": "Autism and Asperger Syndrome",
+    "subtitle": "The Facts",
+    "author": "Simon Baron-Cohen",
+    "publisher": "Oxford University Press",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "adults"
+    ],
+    "tags": [
+      "Autism",
+      "Introduction"
+    ],
+    "coverColor": "teal",
+    "summary": "A short, readable introduction to autism from one of the best-known researchers in the field, covering diagnosis, causes and support.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Autism and Asperger Syndrome Simon Baron-Cohen"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "living-with-ptsd-on-the-autism-spectrum",
+    "kind": "book",
+    "title": "Living with PTSD on the Autism Spectrum",
+    "subtitle": "Insightful Analysis with Practical Applications",
+    "author": "Lisa Morgan and Mary Donahue",
+    "publisher": "Jessica Kingsley Publishers",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Trauma"
+    ],
+    "coverColor": "brown",
+    "summary": "Explores how trauma and PTSD can look different in autistic people, with practical ideas for recognising it and finding support.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Living with PTSD on the Autism Spectrum Lisa Morgan"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "connecting-and-communicating-with-your-autistic-child",
+    "kind": "book",
+    "title": "Connecting and Communicating with Your Autistic Child",
+    "subtitle": "A Toolkit of Activities to Encourage Emotional Regulation and Social Development",
+    "author": "Act for Autism",
+    "publisher": "Jessica Kingsley Publishers",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents"
+    ],
+    "tags": [
+      "Autism",
+      "Activities",
+      "Communication"
+    ],
+    "coverColor": "mustard",
+    "summary": "A toolkit of activities for parents, built around the 3C Pathway, to support connection, communication and emotional regulation.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Connecting and Communicating with Your Autistic Child Act for Autism"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "sensory-perceptual-issues-in-autism",
+    "kind": "book",
+    "title": "Sensory Perceptual Issues in Autism and Asperger Syndrome",
+    "subtitle": "Different Sensory Experiences, Different Perceptual Worlds (2nd edition)",
+    "author": "Olga Bogdashina",
+    "publisher": "Jessica Kingsley Publishers",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "tags": [
+      "Autism",
+      "Sensory"
+    ],
+    "coverColor": "teal",
+    "summary": "A detailed guide to the different ways autistic people experience the senses, including the Sensory Profile Checklist.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "isbn": "9781849056731"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "defining-autism",
+    "kind": "book",
+    "title": "Defining Autism",
+    "subtitle": "A Guide to Brain, Biology, and Behavior",
+    "author": "Emily L. Casanova and Manuel F. Casanova",
+    "publisher": "Jessica Kingsley Publishers",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Research"
+    ],
+    "coverColor": "brown",
+    "summary": "An accessible guide to what research tells us about the brain and biology of autism.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Defining Autism Emily L. Casanova"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "diagnosing-and-caring-for-the-child-with-asd",
+    "kind": "book",
+    "title": "Diagnosing and Caring for the Child with Autism Spectrum Disorder",
+    "subtitle": "A Practical Guide for the Primary Care Provider",
+    "author": "Tina Iyama-Kurtycz",
+    "publisher": "Springer",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Diagnosis"
+    ],
+    "coverColor": "mustard",
+    "summary": "A practical guide for GPs, paediatricians and other primary care clinicians on recognising autism and supporting children and families.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "isbn": "9783030265304"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "differential-diagnosis-of-asd",
+    "kind": "book",
+    "title": "Differential Diagnosis of Autism Spectrum Disorder",
+    "subtitle": "",
+    "author": "Katherine K. M. Stavropoulos and James C. McPartland (eds)",
+    "publisher": "Oxford University Press",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Diagnosis"
+    ],
+    "coverColor": "teal",
+    "summary": "Helps clinicians tell autism apart from conditions that can look similar, and recognise when they occur together.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Differential Diagnosis of Autism Spectrum Disorder Stavropoulos McPartland"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism-spectrum-disorders-research-review",
+    "kind": "book",
+    "title": "Autism Spectrum Disorders",
+    "subtitle": "A Research Review for Practitioners",
+    "author": "Sally Ozonoff, Sally J. Rogers and Robert L. Hendren (eds)",
+    "publisher": "American Psychiatric Publishing",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Research"
+    ],
+    "coverColor": "brown",
+    "summary": "A review of autism research written for practitioners, from assessment to intervention.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "isbn": "9781585627479"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "trauma-autism-and-neurodevelopmental-disorders",
+    "kind": "book",
+    "title": "Trauma, Autism, and Neurodevelopmental Disorders",
+    "subtitle": "Integrating Research, Practice, and Policy",
+    "author": "Jason M. Fogler and Randall A. Phelps (eds)",
+    "publisher": "Springer",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Trauma"
+    ],
+    "coverColor": "mustard",
+    "summary": "Brings together research, clinical practice and policy on trauma in people with autism and other neurodevelopmental conditions.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Trauma Autism and Neurodevelopmental Disorders Fogler Phelps"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "early-start-denver-model",
+    "kind": "book",
+    "title": "Early Start Denver Model for Young Children with Autism",
+    "subtitle": "Promoting Language, Learning, and Engagement",
+    "author": "Sally J. Rogers and Geraldine Dawson",
+    "publisher": "Guilford Press",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "tags": [
+      "Autism",
+      "Early years"
+    ],
+    "coverColor": "teal",
+    "summary": "The manual for the Early Start Denver Model, a play-based early intervention approach for young autistic children.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Early Start Denver Model for Young Children with Autism Sally J. Rogers"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autplay-therapy-handbook",
+    "kind": "book",
+    "title": "The AutPlay Therapy Handbook",
+    "subtitle": "Integrative Family Play Therapy with Neurodivergent Children",
+    "author": "Robert Jason Grant",
+    "publisher": "Routledge",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Play therapy",
+      "Neurodivergent"
+    ],
+    "coverColor": "brown",
+    "summary": "A guide to AutPlay, a family play therapy approach for neurodivergent children.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "The AutPlay Therapy Handbook Robert Jason Grant"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "play-based-interventions-for-asd",
+    "kind": "book",
+    "title": "Play-Based Interventions for Autism Spectrum Disorder and Other Developmental Disabilities",
+    "subtitle": "",
+    "author": "Robert Jason Grant",
+    "publisher": "Routledge",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Play therapy",
+      "Autism"
+    ],
+    "coverColor": "mustard",
+    "summary": "Practical play-based techniques for working with autistic children and children with other developmental disabilities.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Play-Based Interventions for Autism Spectrum Disorder and Other Developmental Disabilities Robert Jason Grant"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "practical-social-skills-for-asd",
+    "kind": "book",
+    "title": "Practical Social Skills for Autism Spectrum Disorders",
+    "subtitle": "Designing Child-Specific Interventions",
+    "author": "Kathleen Koenig",
+    "publisher": "W. W. Norton",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Social skills"
+    ],
+    "coverColor": "teal",
+    "summary": "A clinician's guide to designing social skills support around the individual child.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Practical Social Skills for Autism Spectrum Disorders Kathleen Koenig"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism-and-enablement",
+    "kind": "book",
+    "title": "Autism and Enablement",
+    "subtitle": "Occupational Therapy Approaches to Promote Independence for Adults with Autism",
+    "author": "Matt Bushell, Sandra Gasson and Ute Vann",
+    "publisher": "Jessica Kingsley Publishers",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Autism",
+      "Occupational therapy",
+      "Adults"
+    ],
+    "coverColor": "brown",
+    "summary": "Occupational therapy approaches that help autistic adults build independence in everyday life.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Autism and Enablement Matt Bushell"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "handbook-childhood-psychopathology-treatment",
+    "kind": "book",
+    "title": "Handbook of Childhood Psychopathology and Developmental Disabilities Treatment",
+    "subtitle": "",
+    "author": "Johnny L. Matson (ed.)",
+    "publisher": "Springer",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "tags": [
+      "Research",
+      "Treatment"
+    ],
+    "coverColor": "teal",
+    "summary": "A reference handbook on evidence-based treatments for childhood mental health conditions and developmental disabilities.",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "query": "Handbook of Childhood Psychopathology and Developmental Disabilities Treatment Johnny L. Matson (ed.)"
+      }
+    ],
+    "previews": []
+  }
+]

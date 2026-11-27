@@ -1,0 +1,65 @@
+name: Deploy to SiteGround
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/deploy.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check SiteGround secrets are set
+        id: check
+        env:
+          SG_KEY: ${{ secrets.SG_KEY }}
+          SG_HOST: ${{ secrets.SG_HOST }}
+          SG_USER: ${{ secrets.SG_USER }}
+        run: |
+          if [ -z "$SG_KEY" ] || [ -z "$SG_HOST" ] || [ -z "$SG_USER" ]; then
+            echo "::notice::SiteGround secrets are not set yet, so nothing was uploaded. See README.md."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare SSH key
+        if: steps.check.outputs.ready == 'true'
+        env:
+          SG_KEY: ${{ secrets.SG_KEY }}
+          SG_KEY_PASSPHRASE: ${{ secrets.SG_KEY_PASSPHRASE }}
+          SG_HOST: ${{ secrets.SG_HOST }}
+          SG_PORT: ${{ secrets.SG_PORT }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SG_KEY" > ~/.ssh/sg_key
+          chmod 600 ~/.ssh/sg_key
+          # SiteGround keys usually have a password; remove it from this temporary copy only
+          if [ -n "$SG_KEY_PASSPHRASE" ]; then
+            ssh-keygen -p -P "$SG_KEY_PASSPHRASE" -N "" -f ~/.ssh/sg_key >/dev/null
+          fi
+          ssh-keyscan -p "${SG_PORT:-18765}" "$SG_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Upload site files
+        if: steps.check.outputs.ready == 'true'
+        env:
+          SG_HOST: ${{ secrets.SG_HOST }}
+          SG_USER: ${{ secrets.SG_USER }}
+          SG_PORT: ${{ secrets.SG_PORT }}
+          SG_PATH: ${{ secrets.SG_PATH }}
+        run: |
+          # No --delete: other folders in public_html (like old-wordpress) are left alone
+          rsync -rvz --checksum \
+            -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
+            site/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/"
+
+      - name: Remove key
+        if: always()
+        run: rm -f ~/.ssh/sg_key

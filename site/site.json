@@ -1,0 +1,10 @@
+{
+  "name": "ND Resources",
+  "retailers": {
+    "amazon": {
+      "label": "Buy on Amazon",
+      "tag": "ndresources-21",
+      "disclosure": "As an Amazon Associate I earn from qualifying purchases."
+    }
+  }
+}

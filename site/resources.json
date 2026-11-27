@@ -1,0 +1,177 @@
+{
+  "families": [
+    {
+      "heading": "Understanding autism",
+      "items": [
+        {
+          "title": "National Autistic Society: advice and guidance",
+          "url": "https://www.autism.org.uk/advice-and-guidance",
+          "note": "Plain-language guides on diagnosis, sensory differences, school and everyday life."
+        },
+        {
+          "title": "NHS: autism",
+          "url": "https://www.nhs.uk/conditions/autism/",
+          "note": "What autism is, how assessment works, and where to get support."
+        },
+        {
+          "title": "Autistica",
+          "url": "https://www.autistica.org.uk",
+          "note": "Research charity with practical guides written with autistic people."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding ADHD",
+      "items": [
+        {
+          "title": "NHS: ADHD",
+          "url": "https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/",
+          "note": "Symptoms, diagnosis and treatment options for children and adults."
+        },
+        {
+          "title": "ADHD UK",
+          "url": "https://adhduk.co.uk",
+          "note": "Information, community and peer support run by people with ADHD."
+        },
+        {
+          "title": "ADDISS",
+          "url": "https://www.addiss.co.uk",
+          "note": "The National ADHD Information and Support Service, with resources for families."
+        }
+      ]
+    },
+    {
+      "heading": "School, rights and family support",
+      "items": [
+        {
+          "title": "IPSEA",
+          "url": "https://www.ipsea.org.uk",
+          "note": "Free legal advice on special educational needs and EHC plans in England."
+        },
+        {
+          "title": "Contact",
+          "url": "https://contact.org.uk",
+          "note": "Advice and a helpline for families with disabled children."
+        }
+      ]
+    },
+    {
+      "heading": "Grief and loss",
+      "items": [
+        {
+          "title": "Child Bereavement UK: supporting a bereaved child who is autistic",
+          "url": "https://www.childbereavementuk.org/supporting-a-bereaved-child-who-is-autistic",
+          "note": "Practical guidance on explaining death clearly and supporting sensory needs."
+        },
+        {
+          "title": "National Autistic Society: bereavement guide for parents and carers",
+          "url": "https://www.autism.org.uk/advice-and-guidance/topics/mental-health/bereavement/parents",
+          "note": "How autistic children may experience and show grief."
+        }
+      ]
+    },
+    {
+      "heading": "Mental health and urgent help",
+      "items": [
+        {
+          "title": "Mind",
+          "url": "https://www.mind.org.uk",
+          "note": "Information and support for anyone with a mental health problem."
+        },
+        {
+          "title": "Samaritans",
+          "url": "https://www.samaritans.org",
+          "note": "Free to call on 116 123, any time, day or night."
+        }
+      ]
+    }
+  ],
+  "professionals": [
+    {
+      "heading": "Clinical guidance",
+      "items": [
+        {
+          "title": "NICE CG128: Autism spectrum disorder in under 19s, recognition, referral and diagnosis",
+          "url": "https://www.nice.org.uk/guidance/cg128",
+          "note": "Guideline"
+        },
+        {
+          "title": "NICE CG142: Autism spectrum disorder in adults, diagnosis and management",
+          "url": "https://www.nice.org.uk/guidance/cg142",
+          "note": "Guideline"
+        },
+        {
+          "title": "NICE NG87: Attention deficit hyperactivity disorder, diagnosis and management",
+          "url": "https://www.nice.org.uk/guidance/ng87",
+          "note": "Guideline"
+        }
+      ]
+    },
+    {
+      "heading": "Education settings",
+      "items": [
+        {
+          "title": "SEND code of practice: 0 to 25 years",
+          "url": "https://www.gov.uk/government/publications/send-code-of-practice-0-to-25",
+          "note": "Statutory guidance"
+        },
+        {
+          "title": "Autism Education Trust",
+          "url": "https://www.autismeducationtrust.org.uk",
+          "note": "Training and frameworks for schools"
+        },
+        {
+          "title": "ADHD Foundation",
+          "url": "https://www.adhdfoundation.org.uk",
+          "note": "Training and resources for schools"
+        }
+      ]
+    },
+    {
+      "heading": "Grief in autistic people",
+      "items": [
+        {
+          "title": "Bonin, Augustine and Meng. Beyond Silence: A Scoping Review of Grief in Autistic People. OMEGA, Journal of Death and Dying",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38176635/",
+          "note": "Research"
+        },
+        {
+          "title": "Child Bereavement UK: supporting a bereaved child who is autistic",
+          "url": "https://www.childbereavementuk.org/supporting-a-bereaved-child-who-is-autistic",
+          "note": "Practice guidance"
+        },
+        {
+          "title": "Bogdashina, O. Sensory Perceptual Issues in Autism and Asperger Syndrome, 2nd edition. Jessica Kingsley Publishers, 2016",
+          "url": "",
+          "note": "Book"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "title": "Ask about sensory needs",
+      "text": "Lighting, noise, smells and waiting rooms can decide whether an appointment works. Ask before, not after."
+    },
+    {
+      "title": "Make plans visible",
+      "text": "Share what will happen, in what order, and what will stay the same. Visual schedules help adults as well as children."
+    },
+    {
+      "title": "Allow processing time",
+      "text": "Pause after questions. Offer written follow-up so information can be revisited."
+    },
+    {
+      "title": "Offer real choices",
+      "text": "Agree breaks, exits and communication methods, including AAC and written replies."
+    },
+    {
+      "title": "Use clear, literal language",
+      "text": "Say what you mean. Avoid idioms and vague timeframes such as soon or in a bit."
+    },
+    {
+      "title": "Follow the person's language",
+      "text": "Many people prefer identity-first terms such as autistic person. Ask and follow their lead."
+    }
+  ]
+}

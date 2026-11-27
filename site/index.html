@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Clear, calm resources and recommended books about autism and ADHD for neurodivergent people, families and professionals.">
+<title>ND Resources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@400;500;600&display=swap">
+<style>
+/* Layout: one calm column, a plain top bar, three clear doors (Shop, You & family, Professionals). Products and resources render from JSON files. */
+:root {
+  --bg: #f5f4ef;
+  --surface: #fffefa;
+  --sunk: #eae8df;
+  --ink: #1f2b33;
+  --muted: #55626a;
+  --line: #d6d3c7;
+  --accent: #2c6a66;
+  --accent-ink: #ffffff;
+  --ochre: #b9852c;
+  --ochre-soft: #f3e6c9;
+  --notice: #fbf1d9;
+  --cover-teal: #2c6a66;
+  --cover-mustard: #c7923a;
+  --cover-brown: #6b4a36;
+  --font-display: "Lexend", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", Verdana, "Segoe UI", system-ui, sans-serif;
+  --step: 1;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171c1f; --surface: #1f262a; --sunk: #12171a; --ink: #e9ece8; --muted: #a7b2b5;
+    --line: #33403f; --accent: #7cc2bc; --accent-ink: #0f1a19; --ochre: #e2b45f; --ochre-soft: #3a3120;
+    --notice: #2f2a1c; --cover-teal: #2b5c59; --cover-mustard: #8f6a2b; --cover-brown: #5a4032;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171c1f; --surface: #1f262a; --sunk: #12171a; --ink: #e9ece8; --muted: #a7b2b5;
+  --line: #33403f; --accent: #7cc2bc; --accent-ink: #0f1a19; --ochre: #e2b45f; --ochre-soft: #3a3120;
+  --notice: #2f2a1c; --cover-teal: #2b5c59; --cover-mustard: #8f6a2b; --cover-brown: #5a4032;
+  color-scheme: dark;
+}
+html.size-large { --step: 1.15; }
+html.size-larger { --step: 1.3; }
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body);
+  font-size: calc(1.0625rem * var(--step));
+  line-height: 1.65; letter-spacing: 0.01em;
+}
+html.spacious body { line-height: 1.9; letter-spacing: 0.03em; word-spacing: 0.08em; }
+html.low-stim img, html.low-stim .cover { filter: saturate(0.35); }
+html.low-stim .door, html.low-stim .card { box-shadow: none !important; }
+@media (prefers-reduced-motion: no-preference) { a, button { transition: background-color .15s, color .15s, border-color .15s; } }
+
+a { color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--ochre); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.25; text-wrap: balance; margin: 0; }
+h1 { font-size: calc(2.1rem * var(--step)); }
+h2 { font-size: calc(1.5rem * var(--step)); }
+h3 { font-size: calc(1.15rem * var(--step)); }
+p { margin: 0; }
+.wrap { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.prose { max-width: 65ch; display: grid; gap: 1rem; }
+.muted { color: var(--muted); }
+.label { font-family: var(--font-display); font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+.skip { position: absolute; left: -999px; top: 8px; background: var(--surface); padding: .5rem 1rem; z-index: 50; }
+.skip:focus { left: 16px; }
+
+/* Header */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 9; background: var(--surface); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.5rem; padding-block: .75rem; }
+.brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--ink); font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; margin-right: auto; }
+.brand-mark { width: 28px; height: 28px; flex: none; }
+nav.main ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem; }
+nav.main a { display: block; padding: .45rem .75rem; border-radius: 8px; text-decoration: none; color: var(--ink); font-family: var(--font-display); font-size: .95rem; }
+nav.main a:hover { background: var(--sunk); }
+nav.main a[aria-current="page"] { background: var(--accent); color: var(--accent-ink); }
+.comfort-btn { font: inherit; font-family: var(--font-display); font-size: .9rem; background: transparent; color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: .4rem .75rem; cursor: pointer; }
+.comfort-btn:hover { background: var(--sunk); }
+
+/* Comfort panel */
+.comfort { background: var(--sunk); border-bottom: 1px solid var(--line); }
+.comfort .wrap { padding-block: 1rem; display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; }
+.comfort fieldset { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.comfort legend { float: left; margin-right: .5rem; font-family: var(--font-display); font-size: .9rem; }
+.seg { font: inherit; font-size: .9rem; padding: .35rem .7rem; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; cursor: pointer; }
+.seg[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+main { padding-block: 2.5rem 4rem; }
+section + section { margin-top: 3.5rem; }
+
+.notice { background: var(--notice); border: 1px solid var(--line); border-radius: var(--radius); padding: .9rem 1.1rem; font-size: .95rem; }
+
+/* Home */
+.hero { display: grid; gap: 1.25rem; max-width: 46rem; }
+.hero p.lede { font-size: calc(1.2rem * var(--step)); color: var(--muted); }
+.doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.door { display: grid; gap: .6rem; align-content: start; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem; text-decoration: none; color: var(--ink); }
+.door:hover { border-color: var(--accent); }
+.door .go { font-family: var(--font-display); color: var(--accent); font-size: .95rem; }
+.door-icon { width: 40px; height: 40px; }
+.promise { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; border-top: 1px solid var(--line); padding-top: 1.75rem; }
+.promise h3 { font-size: calc(1rem * var(--step)); margin-bottom: .3rem; }
+
+/* Products */
+.shop-head { display: grid; gap: 1rem; margin-bottom: 1.5rem; }
+.filters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1.25rem; }
+.card { display: grid; grid-template-rows: auto 1fr; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--ink); }
+.card:hover { border-color: var(--accent); }
+.card-body { display: grid; gap: .45rem; padding: 1rem 1.1rem 1.2rem; align-content: start; }
+.card-foot { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; margin-top: .4rem; font-family: var(--font-display); }
+.price { font-variant-numeric: tabular-nums; font-weight: 600; }
+.cover { aspect-ratio: 1 / 1; width: 100%; max-width: 100%; display: grid; place-items: end start; padding: 1.1rem; color: #fff; position: relative; }
+.cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cover.teal { background: var(--cover-teal); }
+.cover.mustard { background: var(--cover-mustard); }
+.cover.brown { background: var(--cover-brown); }
+.cover .ct { position: relative; font-family: var(--font-display); font-size: 1.1rem; line-height: 1.25; max-width: 14ch; }
+.cover .ex { position: absolute; top: .75rem; left: .75rem; background: rgba(255,255,255,.92); color: #1f2b33; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; padding: .15rem .5rem; border-radius: 6px; font-family: var(--font-display); }
+.cover svg.lines { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .18; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; margin: 0; padding: 0; }
+.tags li { font-size: .78rem; background: var(--sunk); border-radius: 6px; padding: .1rem .5rem; }
+
+/* Product page */
+.crumbs { font-size: .9rem; margin-bottom: 1.25rem; }
+.product { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 2.5rem; align-items: start; }
+.product .cover { border-radius: var(--radius); }
+.product .cover .ct { font-size: 1.6rem; }
+.buy { display: grid; gap: .8rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; }
+.buy .price { font-size: calc(1.6rem * var(--step)); }
+.btn { display: inline-flex; justify-content: center; align-items: center; gap: .5rem; font: inherit; font-family: var(--font-display); font-weight: 500; background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 8px; padding: .8rem 1.2rem; text-decoration: none; cursor: pointer; }
+.btn:hover { filter: brightness(1.08); }
+.facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem 1rem; margin: 0; font-size: .95rem; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; }
+.checklist { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; }
+.checklist li { display: grid; grid-template-columns: 1.25rem 1fr; gap: .5rem; }
+.checklist li::before { content: ""; width: .7rem; height: .7rem; margin-top: .55rem; border: 2px solid var(--ochre); border-radius: 3px; }
+.detail-stack { display: grid; gap: 1.75rem; }
+
+/* Resources */
+.res-intro { display: grid; gap: 1rem; margin-bottom: 2rem; }
+.res-group { display: grid; gap: .75rem; }
+.res-group + .res-group { margin-top: 2rem; }
+.res-list { list-style: none; margin: 0; padding: 0; display: grid; border-top: 1px solid var(--line); }
+.res-list li { display: grid; gap: .2rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.res-list a { font-weight: 700; }
+.res-list .kind { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ochre); font-family: var(--font-display); }
+.principles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; list-style: none; margin: 0; padding: 0; }
+.principles li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem; display: grid; gap: .35rem; }
+.urgent { border-left: 4px solid var(--ochre); background: var(--ochre-soft); padding: 1rem 1.1rem; border-radius: 0 var(--radius) var(--radius) 0; }
+.two-col { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 2.5rem; align-items: start; }
+.aside { display: grid; gap: 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; }
+
+footer { border-top: 1px solid var(--line); background: var(--surface); }
+footer .wrap { padding-block: 1.75rem; display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; font-size: .9rem; color: var(--muted); }
+footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin: 0; padding: 0; }
+
+.modal-backdrop { position: fixed; inset: 0; background: rgba(15, 20, 22, .45); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-left, 0px)); z-index: 40; }
+.modal { background: var(--surface); color: var(--ink); border-radius: var(--radius); max-width: 30rem; width: 100%; padding: 1.5rem; display: grid; gap: 1rem; border: 1px solid var(--line); }
+
+@media (max-width: 760px) {
+  .product, .two-col { grid-template-columns: 1fr; gap: 1.75rem; }
+  h1 { font-size: calc(1.75rem * var(--step)); }
+  .top .wrap { gap: .5rem; }
+  nav.main { order: 3; width: 100%; }
+}
+</style>
+<style>html{color-scheme:light}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+
+<a class="skip" href="#home" id="skip">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="ND Resources, home">
+      <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="13" fill="var(--accent)"/><path d="M7 17c3-6 11-6 14 0" stroke="var(--accent-ink)" stroke-width="2.2" fill="none" stroke-linecap="round"/><circle cx="14" cy="10" r="2.2" fill="var(--accent-ink)"/></svg>
+      <span id="site-name">ND Resources</span>
+    </a>
+    <nav class="main" aria-label="Main">
+      <ul>
+        <li><a href="#shop" data-nav="shop">Shop</a></li>
+        <li><a href="#families" data-nav="families">For you and your family</a></li>
+        <li><a href="#professionals" data-nav="professionals">For professionals</a></li>
+        <li><a href="#about" data-nav="about">About</a></li>
+      </ul>
+    </nav>
+    <button class="comfort-btn" id="comfort-toggle" aria-expanded="false" aria-controls="comfort">Comfort settings</button>
+  </div>
+</header>
+
+<div class="comfort" id="comfort" hidden>
+  <div class="wrap">
+    <fieldset>
+      <legend>Text size</legend>
+      <button class="seg" id="size-standard" data-size="">Standard</button>
+      <button class="seg" id="size-large" data-size="size-large">Large</button>
+      <button class="seg" id="size-larger" data-size="size-larger">Larger</button>
+    </fieldset>
+    <fieldset>
+      <legend>Reading</legend>
+      <button class="seg" id="opt-spacious" data-opt="spacious">More spacing</button>
+      <button class="seg" id="opt-lowstim" data-opt="low-stim">Softer colours</button>
+    </fieldset>
+  </div>
+</div>
+
+<main id="content" tabindex="-1">
+  <div class="wrap" id="view" aria-live="polite"></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> ND Resources. Digital downloads for personal and professional use. As an Amazon Associate I earn from qualifying purchases.</p>
+    <ul>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#families">For you and your family</a></li>
+      <li><a href="#professionals">For professionals</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="modal-backdrop" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h2 id="modal-title">Checkout is not connected yet</h2>
+    <p>This is a private preview. When payments are set up, this button takes buyers to a secure checkout and they receive their download by email straight after paying.</p>
+    <button class="btn" id="modal-close">Close</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var products = [], resources = null, site = { retailers: {} }, filter = "all";
+  var view = document.getElementById("view");
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function buyUrl(b) {
+    var r = (site.retailers || {})[b.retailer] || {};
+    if (b.url) return b.url;
+    if (b.retailer === "amazon") {
+      var q = b.isbn || b.query || "";
+      return "https://www.amazon.co.uk/s?k=" + encodeURIComponent(q) + (r.tag ? "&tag=" + encodeURIComponent(r.tag) : "");
+    }
+    return "";
+  }
+  function buyLabel(b) { var r = (site.retailers || {})[b.retailer] || {}; return r.label || ("Buy from " + b.retailer); }
+  function isBook(p) { return p.kind === "book"; }
+  function money(p) {
+    if (isBook(p)) return "Available on Amazon";
+    if (p.price == null || p.price === "") return "Price coming soon";
+    try { return new Intl.NumberFormat("en-GB", { style: "currency", currency: p.currency || "GBP" }).format(p.price); }
+    catch (e) { return p.price + " " + (p.currency || ""); }
+  }
+  var AUD = { parents: "Parents and carers", adults: "Adults", children: "For children", professionals: "Professionals", families: "Individuals and families" };
+  var FAMILY_AUD = ["parents", "adults", "children", "families"];
+
+  function cover(p, big) {
+    var inner = p.cover
+      ? '<img src="' + esc(p.cover) + '" alt="Cover of ' + esc(p.title) + '">'
+      : '<svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-5 70 C 25 50, 45 85, 105 55 M-5 82 C 30 62, 55 95, 105 68 M-5 94 C 35 76, 60 104, 105 80" stroke="#fff" stroke-width="1.2" fill="none"/></svg><span class="ct">' + esc(p.title) + '</span>';
+    return '<div class="cover ' + esc(p.coverColor || "teal") + '"' + (p.cover ? "" : ' role="img" aria-label="Placeholder cover for ' + esc(p.title) + '"') + '>' + inner + (p.example ? '<span class="ex">Example</span>' : "") + '</div>';
+  }
+  function card(p) {
+    return '<a class="card" href="#product-' + esc(p.id) + '">' + cover(p) +
+      '<div class="card-body"><span class="label">' + esc((p.audience || []).map(function (x) { return AUD[x] || x; }).join(" / ") || p.type) + '</span><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.subtitle) + '</p>' + (isBook(p) ? '<p style="font-size:.9rem">' + esc(p.author) + '</p>' : "") +
+      '<div class="card-foot"><span class="price">' + esc(money(p)) + '</span>' + (isBook(p) ? "" : '<span class="muted" style="font-size:.85rem">' + esc(p.format) + '</span>') + '</div></div></a>';
+  }
+  function list(items) { return '<ul class="checklist">' + items.map(function (i) { return "<li>" + esc(i) + "</li>"; }).join("") + "</ul>"; }
+  function resList(items) {
+    return '<ul class="res-list">' + items.map(function (r) {
+      var url = r.url, rel = "noopener";
+      if (r.amazon) { var tag = resources && resources.affiliateTag; url = "https://www.amazon.co.uk/s?k=" + encodeURIComponent(r.amazon) + (tag ? "&tag=" + encodeURIComponent(tag) : ""); rel = "sponsored noopener"; }
+      var t = url ? '<a href="' + esc(url) + '" target="_blank" rel="' + rel + '">' + esc(r.title) + '</a>' : '<strong>' + esc(r.title) + '</strong>';
+      return '<li>' + (r.note && r.note.length < 30 ? '<span class="kind">' + esc(r.note) + '</span>' + t : t + (r.note ? '<span class="muted">' + esc(r.note) + '</span>' : "")) + '</li>';
+    }).join("") + '</ul>';
+  }
+  var DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases.";
+  function disclose(g) { return g.items.some(function (i) { return i.amazon; }) ? '<p class="muted" style="font-size:.85rem">Book links go to Amazon UK. ' + DISCLOSURE + '</p>' : ""; }
+  function exampleNotice() {
+    return products.some(function (p) { return p.example; })
+      ? '<p class="notice">Preview: the products shown are examples. Your real books and downloads will replace them.</p>' : "";
+  }
+  function productsFor(aud) { var want = aud === "families" ? FAMILY_AUD : [aud]; return products.filter(function (p) { return (p.audience || []).some(function (a) { return want.indexOf(a) > -1; }); }); }
+
+  var pages = {
+    home: function () {
+      var feat = products.length;
+      return '<section class="hero"><span class="label">Autism and ADHD</span><h1>Clear, calm resources for neurodivergent people, families and the professionals who support them</h1>' +
+        '<p class="lede">Downloadable books and printables, plus free links to trusted information. Everything is written in plain language and designed to be easy on the senses.</p></section>' +
+        '<section aria-labelledby="doors-h"><h2 id="doors-h" class="label" style="margin-bottom:1rem">Where would you like to go?</h2><div class="doors">' +
+          door("shop", "Shop", "Books, printables and guides to download straight away.", "Browse the shop", '<rect x="6" y="10" width="28" height="24" rx="3" fill="none" stroke="var(--accent)" stroke-width="2.5"/><path d="M13 14V9a7 7 0 0 1 14 0v5" fill="none" stroke="var(--accent)" stroke-width="2.5"/>') +
+          door("families", "For you and your family", "For people who are autistic or have ADHD, and the people close to them.", "See resources", '<circle cx="14" cy="13" r="5" fill="none" stroke="var(--accent)" stroke-width="2.5"/><circle cx="28" cy="16" r="4" fill="none" stroke="var(--accent)" stroke-width="2.5"/><path d="M5 34c1-7 5-10 9-10s8 3 9 10M22 34c1-5 3-8 6-8s5 3 6 8" fill="none" stroke="var(--accent)" stroke-width="2.5"/>') +
+          door("professionals", "For professionals", "Guidance and tools for teachers, clinicians and support workers.", "See resources", '<rect x="7" y="6" width="26" height="30" rx="3" fill="none" stroke="var(--accent)" stroke-width="2.5"/><path d="M13 15h14M13 21h14M13 27h9" stroke="var(--accent)" stroke-width="2.5"/>') +
+        '</div></section>' +
+        (feat ? '<section aria-labelledby="feat-h"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:1rem"><h2 id="feat-h">From the shop</h2><a href="#shop">See everything</a></div><div class="grid">' + products.slice(0, 3).map(card).join("") + '</div></section>' : "") +
+        '<section class="promise" aria-label="How this site is designed"><div><h3>Plain language</h3><p class="muted">Short sentences, literal words and no jargon.</p></div><div><h3>Easy on the senses</h3><p class="muted">No pop-ups, autoplay or flashing. Change text size and colours in Comfort settings.</p></div><div><h3>Instant downloads</h3><p class="muted">Pay once and get your file by email straight away.</p></div></section>';
+    },
+    shop: function () {
+      var shown = filter === "all" ? products : productsFor(filter);
+      return '<div class="shop-head"><h1>Shop</h1><p class="muted prose">Books we recommend about autism and ADHD. Book links take you to Amazon UK to buy.</p>' + exampleNotice() +
+        '<div class="filters" role="group" aria-label="Show books for">' +
+        [["all", "Everything"], ["parents", "Parents and carers"], ["adults", "Autistic and ADHD adults"], ["children", "For children"], ["professionals", "Professionals"]].filter(function (f) { return f[0] === "all" || productsFor(f[0]).length; }).map(function (f) {
+          return '<button class="seg" id="filter-' + f[0] + '" data-filter="' + f[0] + '" aria-pressed="' + (filter === f[0]) + '">' + f[1] + '</button>';
+        }).join("") + '</div></div><div class="grid">' + shown.map(card).join("") + '</div>' +
+        (shown.length ? "" : '<div class="notice prose"><p><strong>Our first downloads are coming soon.</strong> In the meantime, the free resources <a href="#families">for you and your family</a> and <a href="#professionals">for professionals</a> are ready to use.</p></div>');
+    },
+    families: function () {
+      var r = resources ? resources.families : [];
+      var prods = productsFor("families");
+      return '<div class="res-intro"><span class="label">Resources</span><h1>For you and your family</h1><p class="prose muted">Whether you have just been diagnosed, are waiting for an assessment, or are supporting someone you love, these are good places to start. All links are free and open in a new tab.</p></div>' +
+        '<div class="two-col"><div>' + r.map(function (g) { return '<section class="res-group"><h2>' + esc(g.heading) + '</h2>' + resList(g.items) + disclose(g) + '</section>'; }).join("") + '</div>' +
+        '<aside class="aside" aria-label="Help now and downloads"><div class="urgent"><h3>Need help now?</h3><p>In an emergency call 999. For emotional support any time, call Samaritans free on <strong>116 123</strong>.</p></div>' +
+        (prods.length ? '<h3>Books for families</h3>' + prods.map(function (p) { return '<a href="#product-' + esc(p.id) + '">' + esc(p.title) + '</a>'; }).join("<br>") + '<a href="#shop">Visit the shop</a>' : "") + '</aside></div>';
+    },
+    professionals: function () {
+      var r = resources ? resources.professionals : [];
+      var pr = resources ? resources.principles : [];
+      var prods = productsFor("professionals");
+      return '<div class="res-intro"><span class="label">Resources</span><h1>For professionals</h1><p class="prose muted">For teachers, SENCOs, clinicians, therapists and support workers. Guidance is UK-focused.</p></div>' +
+        '<section><h2 style="margin-bottom:1rem">Six habits of neuro-affirming practice</h2><ul class="principles">' + pr.map(function (p) { return '<li><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.text) + '</p></li>'; }).join("") + '</ul></section>' +
+        '<section><div class="two-col"><div>' + r.map(function (g) { return '<div class="res-group"><h2>' + esc(g.heading) + '</h2>' + resList(g.items) + disclose(g) + '</div>'; }).join("") + '</div>' +
+        '<aside class="aside" aria-label="Books for professionals"><h3>Books for professionals</h3>' + (prods.length ? prods.map(function (p) { return '<a href="#product-' + esc(p.id) + '">' + esc(p.title) + '</a>'; }).join("<br>") : '<p class="muted">Coming soon.</p>') + '<p class="muted" style="font-size:.9rem">Ask about licences for whole schools or services.</p></aside></div></section>';
+    },
+    about: function () {
+      return '<div class="prose"><span class="label">About</span><h1>About these resources</h1>' +
+        '<p>This shop offers small, practical resources about autism and ADHD: books, printables and guides you can download and use the same day.</p>' +
+        '<p>Every resource is written to be clear and kind. That means literal language, visible structure and room to go at your own pace.</p>' +
+        '<p class="notice">Preview note: add your own story here, such as who you are, why you make these resources and how to get in touch.</p>' +
+        '<h2>Accessibility</h2><p>The site works with a keyboard and screen readers, follows your device\'s light or dark setting, and has Comfort settings at the top of every page for larger text, more spacing and softer colours.</p>' +
+        '<h2>Downloads and refunds</h2><p>Files arrive by email straight after payment. If a file does not arrive or will not open, get in touch and we will sort it out.</p></div>';
+    },
+    product: function (id) {
+      var p = products.filter(function (x) { return x.id === id; })[0];
+      if (!p) return '<h1>Product not found</h1><p><a href="#shop">Back to the shop</a></p>';
+      var facts = [["Type", p.type], ["Format", p.format], ["Pages", p.pages], ["Author", p.author], ["Publisher", p.publisher], ["For", (p.audience || []).map(function (a) { return AUD[a] || a; }).join(", ")]]
+        .filter(function (f) { return f[1]; }).map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
+      var prev = (p.previews || []).map(function (i) { return '<figure style="margin:0"><img src="' + esc(i.src) + '" alt="' + esc(i.alt) + '" style="border-radius:var(--radius);border:1px solid var(--line)"></figure>'; }).join("");
+      return '<p class="crumbs"><a href="#shop">Shop</a> <span class="muted">/ ' + esc(p.title) + '</span></p>' + (p.example ? '<p class="notice" style="margin-bottom:1.5rem">This is an example product to show the layout.</p>' : "") +
+        '<div class="product"><div class="detail-stack">' + cover(p, true) + (prev ? '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem">' + prev + '</div>' : "") + '</div>' +
+        '<div class="detail-stack"><div style="display:grid;gap:.5rem"><span class="label">' + esc(p.type) + '</span><h1>' + esc(p.title) + '</h1><p class="muted" style="font-size:1.1em">' + esc(p.subtitle) + '</p>' +
+        '<ul class="tags">' + (p.tags || []).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + '</ul></div>' +
+        (isBook(p) ? '<div class="buy">' + (p.buy || []).map(function (b) {
+            return '<a class="btn" href="' + esc(buyUrl(b)) + '" target="_blank" rel="sponsored noopener">' + esc(buyLabel(b)) + '</a>';
+          }).join("") + '<p class="muted" style="font-size:.9rem">Opens the retailer in a new tab. ' + esc(((site.retailers || {}).amazon || {}).disclosure || "") + '</p><dl class="facts">' + facts + '</dl></div>' :
+        '<div class="buy"><span class="price">' + esc(money(p)) + '</span>' +
+          (p.checkoutUrl ? '<a class="btn" href="' + esc(p.checkoutUrl) + '" target="_blank" rel="noopener">Buy and download</a>' : '<button class="btn" id="buy-btn">Buy and download</button>') +
+          '<p class="muted" style="font-size:.9rem">Instant download. The file is emailed to you after payment.</p><dl class="facts">' + facts + '</dl></div>') +
+        '<div class="prose"><p>' + esc(p.summary) + '</p>' + (p.description || []).map(function (d) { return "<p>" + esc(d) + "</p>"; }).join("") + '</div>' +
+        (p.includes && p.includes.length ? '<div style="display:grid;gap:.75rem"><h2>What is inside</h2>' + list(p.includes) + '</div>' : "") +
+        (p.goodFor && p.goodFor.length ? '<div style="display:grid;gap:.75rem"><h2>Useful for</h2>' + list(p.goodFor) + '</div>' : "") +
+        '</div></div>';
+    }
+  };
+  function door(href, title, text, go, icon) {
+    return '<a class="door" href="#' + href + '"><svg class="door-icon" viewBox="0 0 40 40" aria-hidden="true">' + icon + '</svg><h3>' + title + '</h3><p class="muted">' + text + '</p><span class="go">' + go + ' &rarr;</span></a>';
+  }
+
+  function route(keepScroll) {
+    var h = (location.hash || "#home").slice(1), html, nav = h;
+    if (h.indexOf("product-") === 0) { html = pages.product(h.slice(8)); nav = "shop"; }
+    else if (pages[h] && h !== "product") html = pages[h]();
+    else { html = pages.home(); nav = "home"; }
+    view.innerHTML = html;
+    document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.dataset.nav === nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+    var titles = { home: "", shop: "Shop", families: "For you and your family", professionals: "For professionals", about: "About" };
+    document.title = (titles[nav] ? titles[nav] + " · " : "") + "ND Resources";
+    if (keepScroll !== true) window.scrollTo(0, 0);
+  }
+
+  view.addEventListener("click", function (e) {
+    var f = e.target.closest("[data-filter]");
+    if (f) { filter = f.dataset.filter; route(true); var nb = document.getElementById("filter-" + filter); if (nb) nb.focus(); return; }
+    if (e.target.closest("#buy-btn")) openModal();
+  });
+
+  var modal = document.getElementById("modal"), lastFocus = null;
+  function openModal() { lastFocus = document.activeElement; modal.hidden = false; document.getElementById("modal-close").focus(); }
+  function closeModal() { modal.hidden = true; if (lastFocus) lastFocus.focus(); }
+  document.getElementById("modal-close").addEventListener("click", closeModal);
+  modal.addEventListener("click", function (e) { if (e.target === modal) closeModal(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !modal.hidden) closeModal(); });
+
+  // Comfort settings (remembered on this device only)
+  var root = document.documentElement, prefs = { size: "", spacious: false, "low-stim": false };
+  try { prefs = Object.assign(prefs, JSON.parse(localStorage.getItem("comfort") || "{}")); } catch (e) {}
+  function applyPrefs() {
+    root.classList.remove("size-large", "size-larger"); if (prefs.size) root.classList.add(prefs.size);
+    root.classList.toggle("spacious", !!prefs.spacious); root.classList.toggle("low-stim", !!prefs["low-stim"]);
+    document.querySelectorAll("[data-size]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.size === prefs.size)); });
+    document.querySelectorAll("[data-opt]").forEach(function (b) { b.setAttribute("aria-pressed", String(!!prefs[b.dataset.opt])); });
+    try { localStorage.setItem("comfort", JSON.stringify(prefs)); } catch (e) {}
+  }
+  document.getElementById("comfort").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.size !== undefined) prefs.size = b.dataset.size; else if (b.dataset.opt) prefs[b.dataset.opt] = !prefs[b.dataset.opt];
+    applyPrefs();
+  });
+  var ct = document.getElementById("comfort-toggle"), cp = document.getElementById("comfort");
+  ct.addEventListener("click", function () { cp.hidden = !cp.hidden; ct.setAttribute("aria-expanded", String(!cp.hidden)); });
+  applyPrefs();
+
+  document.getElementById("skip").addEventListener("click", function (e) { e.preventDefault(); document.getElementById("content").focus(); });
+  view.innerHTML = '<p class="muted">Loading…</p>';
+  Promise.all([
+    fetch("products.json").then(function (r) { return r.json(); }).catch(function () { return []; }),
+    fetch("site.json").then(function (r) { return r.json(); }).catch(function () { return { retailers: {} }; }),
+    fetch("resources.json").then(function (r) { return r.json(); }).catch(function () { return { families: [], professionals: [], principles: [] }; })
+  ]).then(function (res) { products = res[0]; site = res[1]; resources = res[2]; route(); });
+  window.addEventListener("hashchange", function () { route(); });
+})();
+</script>
+
+</body>
+</html>
