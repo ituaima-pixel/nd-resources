@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img" aria-labelledby="t d"><title id="t">Observe, listen, play</title><desc id="d">Three overlapping circles labelled observe, listen and play, with toy blocks below.</desc>
+<rect width="400" height="200" rx="16" fill="#eae8df"/>
+<circle cx="150" cy="88" r="56" fill="#2c6a66" opacity=".9"/><circle cx="250" cy="88" r="56" fill="#c7923a" opacity=".85"/><circle cx="200" cy="118" r="44" fill="#6b4a36" opacity=".8"/>
+<text x="122" y="80" font-family="Lexend, sans-serif" font-size="15" fill="#fffefa">Observe</text><text x="252" y="80" font-family="Lexend, sans-serif" font-size="15" fill="#1f2b33">Listen</text><text x="184" y="138" font-family="Lexend, sans-serif" font-size="15" fill="#fffefa">Play</text>
+<rect x="40" y="150" width="22" height="22" rx="3" fill="#2c6a66"/><rect x="64" y="150" width="22" height="22" rx="3" fill="#c7923a"/><rect x="52" y="126" width="22" height="22" rx="3" fill="#b9852c"/>
+<circle cx="350" cy="160" r="14" fill="#c7923a"/><path d="M337 154q13 8 26 0" stroke="#fffefa" stroke-width="2" fill="none"/>
+</svg>

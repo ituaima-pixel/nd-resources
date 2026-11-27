@@ -195,6 +195,9 @@ section + section { margin-top: 3.5rem; }
 .table-wrap table.wide { min-width: 44rem; font-size: .86rem; }
 .table-wrap table.wide th, .table-wrap table.wide td { padding: .55rem .6rem; }
 .table-wrap tr.group th { background: var(--ochre-soft); font-family: var(--font-display); font-weight: 500; font-size: .85rem; letter-spacing: .04em; }
+.illus { margin: 0 0 .5rem; display: grid; gap: .5rem; }
+.illus img { width: 100%; max-width: 560px; height: auto; border-radius: var(--radius); border: 1px solid var(--line); }
+.illus figcaption { font-size: .9rem; color: var(--muted); }
 .compare { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
 .compare > div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem; display: grid; gap: .75rem; align-content: start; }
 .steps { padding-left: 1.4rem; display: grid; gap: .5rem; }
@@ -416,9 +419,9 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       var pr = resources ? resources.principles : [];
       var prods = productsFor("professionals");
       return '<div class="res-intro"><span class="label">Resources</span><h1>For professionals</h1><p class="prose muted">For teachers, SENCOs, clinicians, therapists and support workers. Guidance is UK-focused.</p></div>' +
-        (function (gs) { return gs.length ? '<section aria-labelledby="guides-h"><h2 id="guides-h" style="margin-bottom:1rem">Career guides</h2><div class="features">' + gs.map(function (g) {
-          return '<a class="feature" href="/professionals/' + esc(g.id) + '/"><span class="label">' + esc(g.label) + '</span><h3>' + esc(g.title) + '</h3><p class="muted">' + esc(g.lede) + '</p><span class="go">Read the guide &rarr;</span></a>';
-        }).join("") + '</div></section>' : ""; })(guides.filter(function (g) { return g.parent === "professionals"; })) +
+        (function (gs) { return gs.length ? '<section aria-labelledby="guides-h"><h2 id="guides-h" style="margin-bottom:1rem">Guides for professionals</h2><div class="features">' + gs.map(function (g) {
+          return '<a class="feature" href="' + guideUrl(g) + '"><span class="label">' + esc(g.label) + '</span><h3>' + esc(g.title) + '</h3><p class="muted">' + esc(g.lede) + '</p><span class="go">' + esc(g.go || "Read the guide") + ' &rarr;</span></a>';
+        }).join("") + '</div></section>' : ""; })(guides.filter(function (g) { return g.parent === "professionals" && !g.hub; })) +
         '<section><h2 style="margin-bottom:1rem">Six habits of neuro-affirming practice</h2><ul class="principles">' + pr.map(function (p) { return '<li><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.text) + '</p></li>'; }).join("") + '</ul></section>' +
         '<section><div class="two-col"><div>' + r.map(function (g) { return '<div class="res-group"><h2>' + esc(g.heading) + '</h2>' + resList(g.items) + disclose(g) + '</div>'; }).join("") + '</div>' +
         '<aside class="aside" aria-label="Books for professionals"><h3>Books for professionals</h3>' + (prods.length ? prods.map(function (p) { return '<a href="/books/' + esc(p.id) + '/">' + esc(p.title) + '</a>'; }).join("<br>") : '<p class="muted">Coming soon.</p>') + '<p class="muted" style="font-size:.9rem">Ask about licences for whole schools or services.</p></aside></div></section>';
@@ -431,19 +434,23 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '<h2>Accessibility</h2><p>The site works with a keyboard and screen readers, follows your device\'s light or dark setting, and has Comfort settings at the top of every page for larger text, more spacing and softer colours.</p>' +
         '<h2>Downloads and refunds</h2><p>Files arrive by email straight after payment. If a file does not arrive or will not open, get in touch and we will sort it out.</p></div>';
     },
-    guide: function (id, parent) {
-      var g = guides.filter(function (x) { return x.id === id && x.parent === parent; })[0];
+    guide: function (id, parent, hub) {
+      var g = guides.filter(function (x) { return x.id === id && x.parent === parent && (x.hub || "") === (hub || ""); })[0];
       if (!g) return '<h1>Page not found</h1><p><a href="/' + esc(parent) + '/">Back</a></p>';
       var parentName = { professionals: "For professionals", families: "For you and your family" }[g.parent] || g.parent;
       var byId = function (bid) { return products.filter(function (p) { return p.id === bid; })[0]; };
       var books = (g.books || []).map(byId).filter(Boolean);
       var groups = (g.bookGroups || []).map(function (gr) { return { heading: gr.heading, note: gr.note, items: (gr.ids || []).map(byId).filter(Boolean) }; }).filter(function (gr) { return gr.items.length; });
       var booksTitle = g.booksHeading || "Books for assessors";
-      var secs = g.sections.concat(books.length || groups.length ? [{ id: "books", heading: booksTitle }] : []).concat([{ id: "sources", heading: "Sources" }]);
-      return '<p class="crumbs"><a href="/">Home</a> <span class="muted">/</span> <a href="/' + esc(g.parent) + '/">' + esc(parentName) + '</a> <span class="muted">/ ' + esc(g.title) + '</span></p>' +
-        '<div class="guide-head"><span class="label">' + esc(g.label) + '</span><h1>' + esc(g.title) + '</h1><p class="lede">' + esc(g.lede) + '</p><p class="muted" style="font-size:.9rem">Last checked ' + esc(g.checked) + '. Fees and pay change often, so always confirm with the provider.</p>' + (g.download ? '<p><a class="btn" href="' + esc(g.download.url) + '" download>' + esc(g.download.label) + '</a> <span class="muted" style="font-size:.9rem;margin-left:.5rem">' + esc(g.download.note || "") + '</span></p>' : "") + '</div>' +
+      var hubG = g.hub ? guides.filter(function (x) { return x.id === g.hub && x.parent === g.parent; })[0] : null;
+      var kids = guides.filter(function (x) { return x.hub === g.id && x.parent === g.parent; });
+      var srcs = g.sources || [];
+      var secs = (kids.length ? [{ id: "articles", heading: g.articlesHeading || "Articles" }] : []).concat(g.sections).concat(books.length || groups.length ? [{ id: "books", heading: booksTitle }] : []).concat(srcs.length ? [{ id: "sources", heading: "Sources" }] : []);
+      return '<p class="crumbs"><a href="/">Home</a> <span class="muted">/</span> <a href="/' + esc(g.parent) + '/">' + esc(parentName) + '</a>' + (hubG ? ' <span class="muted">/</span> <a href="' + guideUrl(hubG) + '">' + esc(hubG.title) + '</a>' : "") + ' <span class="muted">/ ' + esc(g.title) + '</span></p>' +
+        '<div class="guide-head"><span class="label">' + esc(g.label) + '</span><h1>' + esc(g.title) + '</h1><p class="lede">' + esc(g.lede) + '</p><p class="muted" style="font-size:.9rem">Last checked ' + esc(g.checked) + '. ' + esc(g.checkedNote || "Fees and pay change often, so always confirm with the provider.") + '</p>' + (g.download ? '<p><a class="btn" href="' + esc(g.download.url) + '" download>' + esc(g.download.label) + '</a> <span class="muted" style="font-size:.9rem;margin-left:.5rem">' + esc(g.download.note || "") + '</span></p>' : "") + '</div>' +
         '<div class="guide"><div class="guide-body">' +
-          '<section class="glance" aria-labelledby="glance-h"><h2 id="glance-h" style="font-size:calc(1.2rem * var(--step))">At a glance</h2>' + list(g.summary) + '</section>' +
+          (g.summary && g.summary.length ? '<section class="glance" aria-labelledby="glance-h"><h2 id="glance-h" style="font-size:calc(1.2rem * var(--step))">At a glance</h2>' + list(g.summary) + '</section>' : "") +
+          (kids.length ? '<section class="guide-sec" id="articles" aria-labelledby="articles-h" style="max-width:none"><h2 id="articles-h">' + esc(g.articlesHeading || "Articles") + '</h2><div class="features">' + kids.map(function (k) { return '<a class="feature" href="' + guideUrl(k) + '"><span class="label">' + esc(k.label) + '</span><h3>' + esc(k.title) + '</h3><p class="muted">' + esc(k.lede) + '</p><span class="go">Read the article &rarr;</span></a>'; }).join("") + '</div></section>' : "") +
           g.sections.map(function (s) { return '<section class="guide-sec" id="' + esc(s.id) + '" aria-labelledby="' + esc(s.id) + '-h"><h2 id="' + esc(s.id) + '-h">' + esc(s.heading) + '</h2>' + s.html + '</section>'; }).join("") +
           (books.length || groups.length ? '<section class="guide-sec" id="books" aria-labelledby="books-h" style="max-width:none"><h2 id="books-h">' + esc(booksTitle) + '</h2><p class="muted">' + esc(g.booksIntro || "Reading we recommend from the shop.") + '</p>' +
             (books.length ? '<div class="book-row">' + books.map(card).join("") + '</div>' : "") +
@@ -458,8 +465,8 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
             }).join("") +
             (g.shopLink ? '<p><a class="btn" href="' + esc(g.shopLink.url) + '">' + esc(g.shopLink.label) + '</a></p>' : "") +
             '<p class="muted" style="font-size:.85rem">Book pages link to Amazon UK. ' + DISCLOSURE + '</p></section>' : "") +
-          '<section class="guide-sec" id="sources" aria-labelledby="sources-h"><h2 id="sources-h">Sources</h2><p class="muted">This guide summarises the sources below in our own words. Links open in a new tab.</p>' + resList(g.sources) +
-          '<p class="notice">This guide is general information to help you plan, not clinical, legal or careers advice. Follow your professional body, your employer and current NICE guidance.</p></section>' +
+          (srcs.length ? '<section class="guide-sec" id="sources" aria-labelledby="sources-h"><h2 id="sources-h">Sources</h2><p class="muted">This guide summarises the sources below in our own words. Links open in a new tab.</p>' + resList(srcs) +
+          '<p class="notice">This guide is general information to help you plan, not clinical, legal or careers advice. Follow your professional body, your employer and current NICE guidance.</p></section>' : '<section class="guide-sec"><p class="notice">This page is general information, not clinical advice. Follow your professional body, your employer and current NICE guidance.</p></section>') +
         '</div><nav class="toc" aria-label="On this page"><span class="label">On this page</span><ol>' + secs.map(function (s) { return '<li><a href="#' + esc(s.id) + '">' + esc(s.heading) + '</a></li>'; }).join("") + '</ol></nav></div>';
     },
     product: function (id) {
@@ -484,6 +491,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '</div></div>';
     }
   };
+  function guideUrl(g) { return "/" + esc(g.parent) + "/" + (g.hub ? esc(g.hub) + "/" : "") + esc(g.id) + "/"; }
   function setRails() {
     view.querySelectorAll(".rail-track").forEach(function (tr) {
       var upd = function () { var r = tr.parentNode; r.querySelector(".prev").disabled = tr.scrollLeft < 4; r.querySelector(".next").disabled = tr.scrollLeft + tr.clientWidth >= tr.scrollWidth - 4; };
@@ -501,6 +509,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   function current() {
     var parts = location.pathname.replace(/index\.html$/, "").split("/").filter(Boolean);
     if (parts[0] === "books" && parts[1]) return { page: "product", id: decodeURIComponent(parts[1]), nav: "shop" };
+    if (parts.length === 3 && (parts[0] === "professionals" || parts[0] === "families")) return { page: "guide", id: decodeURIComponent(parts[2]), hub: decodeURIComponent(parts[1]), parent: parts[0], nav: parts[0] };
     if (parts.length === 2 && (parts[0] === "professionals" || parts[0] === "families")) return { page: "guide", id: decodeURIComponent(parts[1]), parent: parts[0], nav: parts[0] };
     if (parts.length === 1 && pages[parts[0]] && parts[0] !== "product" && parts[0] !== "guide" && parts[0] !== "home") return { page: parts[0], nav: parts[0] };
     return { page: "home", nav: "home" };
@@ -509,7 +518,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     var c = current();
     var fresh = !(firstRoute && prerendered) || (c.page === "shop" && filter !== "all");
     firstRoute = false;
-    if (fresh) view.innerHTML = c.page === "product" ? pages.product(c.id) : c.page === "guide" ? pages.guide(c.id, c.parent) : pages[c.page]();
+    if (fresh) view.innerHTML = c.page === "product" ? pages.product(c.id) : c.page === "guide" ? pages.guide(c.id, c.parent, c.hub) : pages[c.page]();
     document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.dataset.nav === c.nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     if (!prerendered) {
       var titles = { home: "", shop: "Shop", families: "For you and your family", professionals: "For professionals", about: "About" };

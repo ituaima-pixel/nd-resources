@@ -70,10 +70,11 @@ const pages = [
     ld: [crumbs([["Home", "/"], ["About", "/about/"]])],
   },
   ...guides.map((g) => {
-    const url = `/${g.parent}/${encodeURIComponent(g.id)}/`;
+    const hub = g.hub ? guides.find((x) => x.id === g.hub && x.parent === g.parent) : null;
+    const url = `/${g.parent}/${hub ? encodeURIComponent(hub.id) + "/" : ""}${encodeURIComponent(g.id)}/`;
     const parentName = g.parent === "professionals" ? "For professionals" : "For you and your family";
-    const article = { "@context": "https://schema.org", "@type": "Article", headline: g.title, description: g.description, url: ORIGIN + url, inLanguage: "en-GB", publisher: { "@id": ORIGIN + "/#org" }, isPartOf: { "@id": ORIGIN + "/#site" }, citation: (g.sources || []).map((s) => s.url) };
-    return { url, title: g.metaTitle || `${g.title} | ${SITE_NAME}`, description: clip(g.description), ld: [article, crumbs([["Home", "/"], [parentName, `/${g.parent}/`], [g.title, url]])] };
+    const article = { "@context": "https://schema.org", "@type": "Article", headline: g.title, description: g.description, url: ORIGIN + url, inLanguage: "en-GB", publisher: { "@id": ORIGIN + "/#org" }, isPartOf: { "@id": ORIGIN + "/#site" }, citation: (g.sources || []).map((s) => s.url), image: g.image ? ORIGIN + g.image : undefined };
+    return { url, title: g.metaTitle || `${g.title} | ${SITE_NAME}`, description: clip(g.description), ld: [article, crumbs([["Home", "/"], [parentName, `/${g.parent}/`], ...(hub ? [[hub.title, `/${g.parent}/${hub.id}/`]] : []), [g.title, url]])] };
   }),
   ...products.map((p) => {
     const url = `/books/${encodeURIComponent(p.id)}/`;

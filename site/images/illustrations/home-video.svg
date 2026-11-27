@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="t d"><title id="t">Online assessment at home</title><desc id="d">A parent and child play with toys on the floor at home while a clinician watches and guides them through a video call on a laptop.</desc>
+<rect width="400" height="240" rx="16" fill="#f3e6c9"/>
+<rect x="0" y="180" width="400" height="60" fill="#e8d6ae"/>
+<path d="M30 70h80v40H30z" fill="#fffefa" stroke="#6b4a36" stroke-width="3"/><path d="M45 70v-8h50v8" stroke="#6b4a36" stroke-width="3" fill="none"/><circle cx="70" cy="90" r="8" fill="#c7923a"/>
+<rect x="232" y="140" width="130" height="10" rx="3" fill="#6b4a36"/><rect x="240" y="150" width="8" height="40" fill="#6b4a36"/><rect x="346" y="150" width="8" height="40" fill="#6b4a36"/>
+<rect x="250" y="70" width="96" height="64" rx="6" fill="#1f2b33"/><rect x="256" y="76" width="84" height="52" rx="3" fill="#eae8df"/><path d="M240 140h116l-8-6H248z" fill="#55626a"/>
+<circle cx="298" cy="96" r="10" fill="#2c6a66"/><path d="M280 128c0-16 8-24 18-24s18 8 18 24z" fill="#2c6a66"/>
+<path d="M352 58a14 14 0 0 1 20 0M356 64a8 8 0 0 1 12 0" stroke="#2c6a66" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="362" cy="69" r="2.5" fill="#2c6a66"/>
+<circle cx="110" cy="132" r="15" fill="#6b4a36"/><path d="M80 196c0-30 12-48 30-48s30 18 30 48z" fill="#6b4a36"/>
+<circle cx="176" cy="148" r="11" fill="#c7923a"/><path d="M158 196c0-22 8-36 18-36s18 14 18 36z" fill="#c7923a"/>
+<rect x="132" y="196" width="14" height="14" rx="2" fill="#2c6a66"/><rect x="148" y="196" width="14" height="14" rx="2" fill="#b9852c"/><circle cx="208" cy="202" r="9" fill="#2c6a66"/>
+</svg>

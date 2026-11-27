@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-labelledby="t d"><title id="t">In-person assessment in a clinic room</title><desc id="d">A clinician and a child sit at a low table with blocks, a ball and a picture book, while a second clinician watches and takes notes.</desc>
+<rect width="400" height="240" rx="16" fill="#eae8df"/>
+<rect x="0" y="176" width="400" height="64" fill="#d6d3c7"/>
+<rect x="28" y="28" width="92" height="70" rx="6" fill="#fffefa" stroke="#2c6a66" stroke-width="3"/><path d="M74 28v70M28 63h92" stroke="#2c6a66" stroke-width="2"/>
+<circle cx="335" cy="52" r="20" fill="#f3e6c9" stroke="#b9852c" stroke-width="3"/><path d="M335 40v12l8 6" stroke="#b9852c" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="120" y="150" width="170" height="12" rx="4" fill="#6b4a36"/><rect x="132" y="162" width="8" height="34" fill="#6b4a36"/><rect x="270" y="162" width="8" height="34" fill="#6b4a36"/>
+<rect x="150" y="128" width="16" height="16" rx="2" fill="#2c6a66"/><rect x="168" y="128" width="16" height="16" rx="2" fill="#c7923a"/><rect x="159" y="112" width="16" height="16" rx="2" fill="#b9852c"/>
+<circle cx="210" cy="138" r="11" fill="#c7923a"/><path d="M200 133q10 6 20 0" stroke="#fffefa" stroke-width="2" fill="none"/>
+<path d="M232 146l18-12 18 12z" fill="#fffefa" stroke="#6b4a36" stroke-width="2"/><path d="M250 134v12" stroke="#6b4a36" stroke-width="2"/>
+<circle cx="92" cy="104" r="17" fill="#2c6a66"/><path d="M62 176c0-34 12-54 30-54s30 20 30 54z" fill="#2c6a66"/>
+<circle cx="322" cy="118" r="12" fill="#c7923a"/><path d="M302 176c0-26 8-42 20-42s20 16 20 42z" fill="#c7923a"/>
+<circle cx="370" cy="96" r="13" fill="#6b4a36"/><path d="M350 176c0-30 8-48 20-48s20 18 20 48z" fill="#6b4a36"/><rect x="352" y="136" width="20" height="26" rx="2" fill="#fffefa" stroke="#6b4a36" stroke-width="2"/><path d="M356 144h12M356 150h12M356 156h8" stroke="#55626a" stroke-width="1.5"/>
+</svg>
