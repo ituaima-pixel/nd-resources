@@ -69,6 +69,8 @@ jobs:
           SG_PORT: ${{ secrets.SG_PORT }}
           SG_PATH: ${{ secrets.SG_PATH }}
         run: |
+          # Stamp this deploy into cover image links so browsers fetch changed covers
+          sed -i "s/__BUILD__/${GITHUB_SHA::8}/g" site/index.html
           # No --delete: other folders in public_html (like old-wordpress) are left alone
           rsync -rvz --checksum \
             -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \

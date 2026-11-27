@@ -273,11 +273,12 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   var FAMILY_AUD = ["parents", "adults", "children", "families"];
 
   function cover(p, big) {
-    var src = p.cover || (isBook(p) ? "images/" + p.id + ".jpg" : "");
+    var src = p.cover || (isBook(p) ? "images/" + p.id + ".jpg?v=" + BUILD : "");
     var plain = '<svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-5 70 C 25 50, 45 85, 105 55 M-5 82 C 30 62, 55 95, 105 68 M-5 94 C 35 76, 60 104, 105 80" stroke="#fff" stroke-width="1.2" fill="none"/></svg><span class="ct">' + esc(p.title) + '</span>';
     var img = src ? '<img class="book-img" src="' + esc(src) + '" alt="Cover of ' + esc(p.title) + '" loading="lazy" onerror="this.remove()">' : "";
     return '<div class="cover ' + esc(p.coverColor || "teal") + '">' + plain + img + (p.example ? '<span class="ex">Example</span>' : "") + '</div>';
   }
+  var BUILD = "__BUILD__";
   function card(p) {
     return '<a class="card" href="#product-' + esc(p.id) + '">' + cover(p) +
       '<div class="card-body"><span class="label">' + esc((p.audience || []).map(function (x) { return AUD[x] || x; }).join(" / ") || p.type) + '</span><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.subtitle) + '</p>' +
