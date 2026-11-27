@@ -190,6 +190,8 @@ section + section { margin-top: 3.5rem; }
 .compare > div { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem; display: grid; gap: .75rem; align-content: start; }
 .steps { padding-left: 1.4rem; display: grid; gap: .5rem; }
 .feature { display: grid; gap: .6rem; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--ochre); border-radius: 0 var(--radius) var(--radius) 0; padding: 1.25rem 1.4rem; text-decoration: none; color: var(--ink); max-width: 46rem; }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+.features .feature { max-width: none; align-content: start; }
 .feature:hover { border-color: var(--accent); }
 .feature .go { font-family: var(--font-display); color: var(--accent); }
 .book-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1rem; }
@@ -396,9 +398,9 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       var pr = resources ? resources.principles : [];
       var prods = productsFor("professionals");
       return '<div class="res-intro"><span class="label">Resources</span><h1>For professionals</h1><p class="prose muted">For teachers, SENCOs, clinicians, therapists and support workers. Guidance is UK-focused.</p></div>' +
-        guides.filter(function (g) { return g.parent === "professionals"; }).map(function (g) {
-          return '<section aria-label="' + esc(g.label) + '"><a class="feature" href="/professionals/' + esc(g.id) + '/"><span class="label">' + esc(g.label) + '</span><h2>' + esc(g.title) + '</h2><p class="muted">' + esc(g.lede) + '</p><span class="go">Read the guide &rarr;</span></a></section>';
-        }).join("") +
+        (function (gs) { return gs.length ? '<section aria-labelledby="guides-h"><h2 id="guides-h" style="margin-bottom:1rem">Career guides</h2><div class="features">' + gs.map(function (g) {
+          return '<a class="feature" href="/professionals/' + esc(g.id) + '/"><span class="label">' + esc(g.label) + '</span><h3>' + esc(g.title) + '</h3><p class="muted">' + esc(g.lede) + '</p><span class="go">Read the guide &rarr;</span></a>';
+        }).join("") + '</div></section>' : ""; })(guides.filter(function (g) { return g.parent === "professionals"; })) +
         '<section><h2 style="margin-bottom:1rem">Six habits of neuro-affirming practice</h2><ul class="principles">' + pr.map(function (p) { return '<li><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.text) + '</p></li>'; }).join("") + '</ul></section>' +
         '<section><div class="two-col"><div>' + r.map(function (g) { return '<div class="res-group"><h2>' + esc(g.heading) + '</h2>' + resList(g.items) + disclose(g) + '</div>'; }).join("") + '</div>' +
         '<aside class="aside" aria-label="Books for professionals"><h3>Books for professionals</h3>' + (prods.length ? prods.map(function (p) { return '<a href="/books/' + esc(p.id) + '/">' + esc(p.title) + '</a>'; }).join("<br>") : '<p class="muted">Coming soon.</p>') + '<p class="muted" style="font-size:.9rem">Ask about licences for whole schools or services.</p></aside></div></section>';

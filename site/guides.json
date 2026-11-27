@@ -8,7 +8,14 @@
     "description": "A UK guide to autism assessment for professionals: how NICE assessment pathways work for children and adults, the tools used (ADOS-2, ADI-R, DISCO and more), how assessors train, and how to find assessor jobs.",
     "lede": "How autism assessment works in the UK, the tools assessors use, how those skills are learnt, and how to find work as an assessor in the NHS or with private providers.",
     "checked": "27 November 2026",
-    "books": ["assessment-of-autism-spectrum-disorder", "is-this-autism-a-guide-for-clinicians-and-everyone-else", "differential-diagnosis-of-asd", "diagnosing-and-caring-for-the-child-with-asd", "defining-autism", "women-and-girls-on-the-autism-spectrum"],
+    "books": [
+      "assessment-of-autism-spectrum-disorder",
+      "is-this-autism-a-guide-for-clinicians-and-everyone-else",
+      "differential-diagnosis-of-asd",
+      "diagnosing-and-caring-for-the-child-with-asd",
+      "defining-autism",
+      "women-and-girls-on-the-autism-spectrum"
+    ],
     "summary": [
       "In the UK, autism is diagnosed by registered clinicians (usually psychologists, psychiatrists or paediatricians), often working with speech and language therapists, occupational therapists and nurses in a multidisciplinary team.",
       "Assessments follow NICE guidance: CG128 for children and young people, CG142 for adults. No single test or questionnaire can diagnose autism on its own.",
@@ -43,21 +50,159 @@
       }
     ],
     "sources": [
-      { "title": "NICE CG128: Autism spectrum disorder in under 19s, recognition, referral and diagnosis", "url": "https://www.nice.org.uk/guidance/cg128" },
-      { "title": "NICE CG142: Autism spectrum disorder in adults, diagnosis and management", "url": "https://www.nice.org.uk/guidance/cg142" },
-      { "title": "NICE CG142: AQ-10 screening tool", "url": "https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-143968" },
-      { "title": "NHS England: national framework for all-age autism assessment pathways (2023)", "url": "https://www.england.nhs.uk/long-read/a-national-framework-to-deliver-improved-outcomes-in-all-age-autism-assessment-pathways-guidance-for-integrated-care-boards/" },
-      { "title": "NHS England: operational guidance for all-age autism assessment pathways (2023)", "url": "https://www.england.nhs.uk/long-read/operational-guidance-to-deliver-improved-outcomes-in-all-age-autism-assessment-pathways-guidance-for-integrated-care-boards/" },
-      { "title": "SIGN 145: Assessment, diagnosis and interventions for autism spectrum disorders (Scotland)", "url": "https://www.sign.ac.uk/our-guidelines/assessment-diagnosis-and-interventions-for-autism-spectrum-disorders/" },
-      { "title": "Compass Psychology: autism and ADHD assessments", "url": "https://compasspsy.co.uk/assessments/" },
-      { "title": "Compass Psychology: ADOS-2 training", "url": "https://compasspsy.co.uk/ados2-training/" },
-      { "title": "Compass Psychology: ADI-R training", "url": "https://compasspsy.co.uk/adir-training/" },
-      { "title": "Hogrefe: ADOS-2 and ADI-R courses", "url": "https://www.hogrefe.com/uk/training/courses/ados-2-and-adi-r-courses" },
-      { "title": "Hogrefe: ADOS-2 product and qualification level", "url": "https://www.hogrefe.com/uk/shop/autism-diagnostic-observation-schedule-2nd-edition.html" },
-      { "title": "Pearson Clinical: ADOS-2 clinical training", "url": "https://www.pearsonclinical.co.uk/training/ados-2-training.html" },
-      { "title": "National Autistic Society: DISCO training", "url": "https://www.autism.org.uk/learn/what-we-do/training/the-disco-training" },
-      { "title": "NHS Employers: Agenda for Change pay scales 2025/26", "url": "https://www.nhsemployers.org/articles/pay-scales-202526" },
-      { "title": "Parliamentary and Health Service Ombudsman: patient choice and ADHD and autism assessment", "url": "https://www.ombudsman.org.uk/publications/improving-access-adhd-and-autism-assessment-and-treatment-commissioning/poor-information-and-understanding-about-patient-choice-affects-access" }
+      {
+        "title": "NICE CG128: Autism spectrum disorder in under 19s, recognition, referral and diagnosis",
+        "url": "https://www.nice.org.uk/guidance/cg128"
+      },
+      {
+        "title": "NICE CG142: Autism spectrum disorder in adults, diagnosis and management",
+        "url": "https://www.nice.org.uk/guidance/cg142"
+      },
+      {
+        "title": "NICE CG142: AQ-10 screening tool",
+        "url": "https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-143968"
+      },
+      {
+        "title": "NHS England: national framework for all-age autism assessment pathways (2023)",
+        "url": "https://www.england.nhs.uk/long-read/a-national-framework-to-deliver-improved-outcomes-in-all-age-autism-assessment-pathways-guidance-for-integrated-care-boards/"
+      },
+      {
+        "title": "NHS England: operational guidance for all-age autism assessment pathways (2023)",
+        "url": "https://www.england.nhs.uk/long-read/operational-guidance-to-deliver-improved-outcomes-in-all-age-autism-assessment-pathways-guidance-for-integrated-care-boards/"
+      },
+      {
+        "title": "SIGN 145: Assessment, diagnosis and interventions for autism spectrum disorders (Scotland)",
+        "url": "https://www.sign.ac.uk/our-guidelines/assessment-diagnosis-and-interventions-for-autism-spectrum-disorders/"
+      },
+      {
+        "title": "Compass Psychology: autism and ADHD assessments",
+        "url": "https://compasspsy.co.uk/assessments/"
+      },
+      {
+        "title": "Compass Psychology: ADOS-2 training",
+        "url": "https://compasspsy.co.uk/ados2-training/"
+      },
+      {
+        "title": "Compass Psychology: ADI-R training",
+        "url": "https://compasspsy.co.uk/adir-training/"
+      },
+      {
+        "title": "Hogrefe: ADOS-2 and ADI-R courses",
+        "url": "https://www.hogrefe.com/uk/training/courses/ados-2-and-adi-r-courses"
+      },
+      {
+        "title": "Hogrefe: ADOS-2 product and qualification level",
+        "url": "https://www.hogrefe.com/uk/shop/autism-diagnostic-observation-schedule-2nd-edition.html"
+      },
+      {
+        "title": "Pearson Clinical: ADOS-2 clinical training",
+        "url": "https://www.pearsonclinical.co.uk/training/ados-2-training.html"
+      },
+      {
+        "title": "National Autistic Society: DISCO training",
+        "url": "https://www.autism.org.uk/learn/what-we-do/training/the-disco-training"
+      },
+      {
+        "title": "NHS Employers: Agenda for Change pay scales 2025/26",
+        "url": "https://www.nhsemployers.org/articles/pay-scales-202526"
+      },
+      {
+        "title": "Parliamentary and Health Service Ombudsman: patient choice and ADHD and autism assessment",
+        "url": "https://www.ombudsman.org.uk/publications/improving-access-adhd-and-autism-assessment-and-treatment-commissioning/poor-information-and-understanding-about-patient-choice-affects-access"
+      }
+    ]
+  },
+  {
+    "id": "adhd-assessors",
+    "parent": "professionals",
+    "label": "Guide for professionals",
+    "title": "Becoming an ADHD assessor in the UK",
+    "metaTitle": "How to become an ADHD assessor in the UK: NHS and private practice | ND Resources",
+    "description": "A UK guide for professionals on becoming an ADHD assessor: NICE NG87 assessment, the tools used (DIVA-5, ACE+, Conners 4, QbTest), training and prescribing, and NHS vs private practice jobs compared.",
+    "lede": "How ADHD assessment works in the UK, the tools assessors use, how the skills are learnt, and how working in the NHS compares with private practice.",
+    "checked": "27 November 2026",
+    "books": [
+      "attention-deficit-hyperactivity-disorder",
+      "adult-adhd",
+      "oxford-textbook-of-attention-deficit-hyperactivity-disorder",
+      "adhd-in-adults",
+      "understanding-adhd-in-girls-and-women",
+      "treating-adhd-in-children-and-adolescents"
+    ],
+    "summary": [
+      "ADHD is diagnosed by psychiatrists and paediatricians, and increasingly by trained specialist nurses and psychologists working in teams. Only prescribers can start medication.",
+      "Assessment follows NICE NG87: a full clinical interview, history from childhood, reports from others, and evidence of impairment in more than one setting. A questionnaire alone is never enough.",
+      "Common tools are the DIVA-5, ACE+, Conners 4, CAARS-2 and, for ages 6 to 17, QbTest.",
+      "NHS roles are salaried (about £38,700 to £62,700 for Band 6 to 8a in 2025/26); private and Right to Choose work is more flexible but brings extra rules on regulation and prescribing."
+    ],
+    "sections": [
+      {
+        "id": "how-it-works",
+        "heading": "How ADHD assessment works in the UK",
+        "html": "<p>ADHD is diagnosed through a clinical assessment that looks at a person's attention, activity and impulsivity across their life and in different settings. In the UK, diagnosis follows <a href=\"https://www.nice.org.uk/guidance/ng87\" target=\"_blank\" rel=\"noopener\">NICE NG87</a> (Attention deficit hyperactivity disorder: diagnosis and management), which covers children, young people and adults. Clinicians use the <strong>DSM-5-TR</strong> criteria for ADHD or the <strong>ICD-11</strong> criteria (6A05).</p><h3>Who can diagnose</h3><p>NICE says a diagnosis should only be made by a specialist psychiatrist, a paediatrician, or another appropriately qualified healthcare professional with training and expertise in diagnosing ADHD. In practice that means:</p><ul class=\"checklist\"><li><span><strong>Children:</strong> community paediatricians and child and adolescent psychiatrists, often with specialist ADHD nurses and psychologists in the team.</span></li><li><span><strong>Adults:</strong> psychiatrists in adult ADHD or neurodevelopmental services, increasingly supported by specialist nurses, nurse prescribers, pharmacists and psychologists.</span></li><li><span><strong>Psychologists</strong> often carry out the diagnostic assessment, especially in multidisciplinary and private services, but cannot prescribe. If medication is wanted, a prescriber reviews the case.</span></li></ul><h3>What a full assessment includes</h3><ul class=\"checklist\"><li><span><strong>A clinical interview</strong> about symptoms now and in childhood, often using a structured interview such as the DIVA-5 or ACE+.</span></li><li><span><strong>Developmental and psychiatric history.</strong></span></li><li><span><strong>Reports from others:</strong> parents, partners, teachers or school reports, to show symptoms in more than one setting.</span></li><li><span><strong>Impairment:</strong> NICE asks for symptoms that cause at least moderate psychological, social, educational or occupational impairment.</span></li><li><span><strong>Mental state and physical health,</strong> including blood pressure, heart rate, weight and heart history if medication may follow.</span></li><li><span><strong>Differential diagnosis and co-occurring conditions:</strong> anxiety, depression, trauma, sleep problems, bipolar disorder, substance use, learning difficulties and autism.</span></li><li><span><strong>Feedback and a written report</strong> with recommendations for treatment, school or workplace adjustments.</span></li></ul><p class=\"notice\">As with autism, rating scales and questionnaires are aids, not answers. NICE is clear that ADHD should not be diagnosed from a rating scale or observation alone.</p><h3>Why assessors are in demand</h3><p>NHS England's independent <a href=\"https://www.england.nhs.uk/long-read/plain-english-summary-of-the-adhd-taskforce-report/\" target=\"_blank\" rel=\"noopener\">ADHD Taskforce</a> (final report November 2025) found that NHS services cannot currently meet demand. It reported waits of more than 2 years in many places, and 10 to 15 years in some areas. It recommended treating ADHD more like other common long-term conditions, sharing work between specialists, GPs and nurses, setting out what counts as an ADHD-qualified professional, and bringing all NHS and private ADHD providers under CQC oversight. Expect the rules on who can assess to become clearer and stricter over the next few years.</p>"
+      },
+      {
+        "id": "children-adults",
+        "heading": "Children and adults: what differs",
+        "html": "<div class=\"compare\"><div><h3>Children and young people</h3><ul class=\"checklist\"><li><span>Referred by a GP, school, SENCO or health visitor.</span></li><li><span>Usually led by community paediatrics or CAMHS.</span></li><li><span>Parent and teacher rating scales (such as the Conners 4) are standard.</span></li><li><span>NICE recommends <a href=\"https://www.nice.org.uk/guidance/htg729/chapter/recommendations\" target=\"_blank\" rel=\"noopener\">QbTest</a> as an option for ages 6 to 17, alongside a full clinical assessment.</span></li><li><span>Parent training and school support come before or alongside medication for younger children.</span></li></ul></div><div><h3>Adults</h3><ul class=\"checklist\"><li><span>Referred by a GP, often after a screening questionnaire such as the ASRS.</span></li><li><span>Led by adult ADHD or neurodevelopmental services, usually within mental health trusts.</span></li><li><span>Childhood history comes from the person, family and old school reports where available.</span></li><li><span>Many adults, especially women, were missed as children and have learned to compensate.</span></li><li><span>Medication is usually started by the specialist, then handed to the GP under a shared care agreement.</span></li></ul></div></div>"
+      },
+      {
+        "id": "tools",
+        "heading": "The tools assessors use",
+        "html": "<p>These are the tools most often named in UK reports and job adverts. Most are aids to a clinical interview, not tests that give a yes or no.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"ADHD assessment tools\"><table><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it is</th><th scope=\"col\">Used with</th></tr></thead><tbody><tr><th scope=\"row\">DIVA-5</th><td>Diagnostic Interview for ADHD in adults. A semi-structured interview based on DSM-5 that goes through each symptom in adulthood and childhood, with examples. Widely used in the NHS and private services. Downloaded per use (about €10 each, November 2026) from the <a href=\"https://www.divacenter.eu/\" target=\"_blank\" rel=\"noopener\">DIVA Foundation</a>. Young DIVA-5 covers ages 5 to 17 and DIVA-5 ID covers people with intellectual disability.</td><td>Adults; versions for children</td></tr><tr><th scope=\"row\">ACE and ACE+</th><td>ADHD Child Evaluation (ACE) and its adult version (ACE+), semi-structured interviews developed by Professor Susan Young, freely available to clinicians.</td><td>Children (ACE) and adults (ACE+)</td></tr><tr><th scope=\"row\">ASRS v1.1</th><td>Adult ADHD Self-Report Scale from the World Health Organization. Its 6-question Part A is a common GP screen.</td><td>Adults</td></tr><tr><th scope=\"row\">Conners 4 and CAARS-2</th><td>Rating scales completed by the person, parents, teachers or a partner. Conners 4 covers ages 6 to 18; CAARS-2 covers adults. Sold to qualified professionals.</td><td>Children and adults</td></tr><tr><th scope=\"row\">SNAP-IV, Vanderbilt</th><td>Shorter parent and teacher rating scales, often used for screening and monitoring.</td><td>Children</td></tr><tr><th scope=\"row\">QbTest</th><td>A computer test that measures attention, impulsivity and movement. NICE recommends it as an option for ages 6 to 17, alongside a standard clinical assessment. For adults, NICE says it should be used only in research for now.</td><td>6 to 17 (NHS use)</td></tr><tr><th scope=\"row\">WFIRS, BRIEF-2</th><td>Questionnaires on day-to-day impairment (WFIRS) and executive function (BRIEF-2).</td><td>Children and adults</td></tr><tr><th scope=\"row\">Cognitive tests</th><td>For example WISC-V or WAIS-IV, used where learning difficulties or a fuller profile need checking.</td><td>Varies</td></tr></tbody></table></div><p>For example, <a href=\"https://compasspsy.co.uk/assessments/\" target=\"_blank\" rel=\"noopener\">Compass Psychology</a> describes using the DIVA-5 or Young DIVA-5, with at least two clinicians per assessment and optional cognitive testing.</p>"
+      },
+      {
+        "id": "training",
+        "heading": "How ADHD assessors are trained",
+        "html": "<h3>1. A registered profession</h3><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Professions involved in ADHD assessment\"><table><thead><tr><th scope=\"col\">Profession</th><th scope=\"col\">Regulator</th><th scope=\"col\">Can diagnose?</th><th scope=\"col\">Can prescribe?</th></tr></thead><tbody><tr><th scope=\"row\">Psychiatrist (child or adult)</th><td><a href=\"https://www.gmc-uk.org/\" target=\"_blank\" rel=\"noopener\">GMC</a></td><td>Yes</td><td>Yes</td></tr><tr><th scope=\"row\">Paediatrician</th><td>GMC</td><td>Yes (children)</td><td>Yes</td></tr><tr><th scope=\"row\">GP with a special interest</th><td>GMC</td><td>In some local schemes, with extra training</td><td>Usually continues medication under shared care</td></tr><tr><th scope=\"row\">Specialist ADHD nurse</th><td><a href=\"https://www.nmc.org.uk/\" target=\"_blank\" rel=\"noopener\">NMC</a></td><td>In many services, within a team and with training</td><td>Yes, if a qualified independent prescriber (V300)</td></tr><tr><th scope=\"row\">Pharmacist prescriber</th><td><a href=\"https://www.pharmacyregulation.org/\" target=\"_blank\" rel=\"noopener\">GPhC</a></td><td>Not usually</td><td>Yes, if an independent prescriber; mainly titration and reviews</td></tr><tr><th scope=\"row\">Clinical or counselling psychologist</th><td><a href=\"https://www.hcpc-uk.org/\" target=\"_blank\" rel=\"noopener\">HCPC</a></td><td>Yes in many services, within a team</td><td>No</td></tr><tr><th scope=\"row\">Occupational therapist or SLT</th><td>HCPC</td><td>Contributes within a team</td><td>No</td></tr><tr><th scope=\"row\">Assistant psychologist</th><td>Not regulated</td><td>No; gathers information under supervision</td><td>No</td></tr></tbody></table></div><h3>2. ADHD training</h3><p>There is no single licence to assess ADHD. Employers look for recognised training, supervised practice and, for prescribers, an independent prescribing qualification. Courses listed in November 2026 (prices change, so always check):</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"ADHD training courses\"><table><thead><tr><th scope=\"col\">Course</th><th scope=\"col\">Provider</th><th scope=\"col\">Length</th><th scope=\"col\">Approx. price</th></tr></thead><tbody><tr><th scope=\"row\">Adult ADHD Foundation Course</th><td><a href=\"https://www.rcpsych.ac.uk/events/conferences/detail/2026/11/04/default-calendar/adult-adhd-foundation-course-2026\" target=\"_blank\" rel=\"noopener\">Royal College of Psychiatrists</a></td><td>About 10 hours online (e-learning plus a live day)</td><td>£84 to £238 depending on membership</td></tr><tr><th scope=\"row\">Adult ADHD diagnostic assessment and treatment</th><td><a href=\"https://slam.nhs.uk/adult-adhd-diagnostic-assessments-and-treatment-training-\" target=\"_blank\" rel=\"noopener\">South London and Maudsley (Estia Centre)</a></td><td>2 days online plus optional case discussions</td><td>£1,078 (external)</td></tr><tr><th scope=\"row\">Diagnosis and assessment of adults with ADHD</th><td><a href=\"https://estore.kcl.ac.uk/conferences-and-events/short-courses/ukaan-courses\" target=\"_blank\" rel=\"noopener\">UKAAN (via King's College London)</a></td><td>See provider</td><td>See provider</td></tr><tr><th scope=\"row\">DIVA-5 training videos</th><td><a href=\"https://www.divacenter.eu/\" target=\"_blank\" rel=\"noopener\">DIVA Foundation</a></td><td>Online video series</td><td>See provider</td></tr><tr><th scope=\"row\">Non-medical independent prescribing (V300)</th><td>Universities approved by the NMC, GPhC or HCPC</td><td>About 6 months part-time</td><td>Often funded by NHS employers</td></tr></tbody></table></div><ul class=\"checklist\"><li><span><strong>A certificate is not competence.</strong> The South London and Maudsley course says plainly that finishing it does not qualify anyone to practise independently as an ADHD assessor.</span></li><li><span><strong>Know your limits:</strong> NICE expects people starting medication to have training and expertise in diagnosing and managing ADHD.</span></li><li><span><strong>Watch for new standards:</strong> the ADHD Taskforce asked NHS England and the Department of Health and Social Care to define what an ADHD-qualified professional is.</span></li></ul><h3>3. Supervised practice</h3><p>New assessors usually observe experienced colleagues, then run assessments with a senior clinician reviewing their reports and diagnostic decisions. Prescribers also learn titration, physical health monitoring and shared care before working independently.</p>"
+      },
+      {
+        "id": "nhs-private",
+        "heading": "NHS or private practice: jobs compared",
+        "html": "<p>Most ADHD assessors work in the NHS, in private practice, or both. This table sets out the main differences.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"NHS and private ADHD assessor work compared\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">NHS</th><th scope=\"col\">Private practice and Right to Choose</th></tr></thead><tbody><tr><th scope=\"row\">Where you work</th><td>Community paediatrics, CAMHS, adult ADHD or neurodevelopmental services in mental health trusts, and some GP-led local schemes.</td><td>Private clinics, online providers, and independent providers holding NHS Right to Choose contracts. Some clinicians set up their own practice.</td></tr><tr><th scope=\"row\">Who pays</th><td>NHS-funded; free for patients.</td><td>Patients pay privately, or the NHS pays through Right to Choose (England only).</td></tr><tr><th scope=\"row\">Employment</th><td>Salaried, Agenda for Change or medical pay scales, with pension, training and supervision.</td><td>Employed, sessional or self-employed. Often paid per assessment or per session; rates vary, so ask.</td></tr><tr><th scope=\"row\">Typical pay or fees</th><td>2025/26 Agenda for Change: Band 6 £38,682 to £46,580; Band 7 £47,810 to £54,710; Band 8a £55,690 to £62,682.</td><td>Fees to patients vary widely between providers. For example, Compass Psychology lists ADHD assessments from £1,895 (November 2026).</td></tr><tr><th scope=\"row\">Regulation</th><td>Trust governance, NHS clinical supervision and CQC-registered trusts.</td><td>You must be registered (GMC, NMC, HCPC or GPhC), insured, and usually work for or register a CQC-registered service. Private prescribing of stimulants needs a private controlled drugs prescriber code and FP10PCD forms.</td></tr><tr><th scope=\"row\">Medication</th><td>Specialist starts and adjusts medication, then hands over to the GP under a shared care agreement.</td><td>GPs can decline shared care with private providers, so patients may have to keep paying for prescriptions. Right to Choose providers usually follow NHS shared care rules.</td></tr><tr><th scope=\"row\">Pros</th><td>Stable job, team support, training budgets, complex cases.</td><td>Flexible hours, remote work, often higher earnings per assessment.</td></tr><tr><th scope=\"row\">Watch out for</th><td>Long waiting lists and heavy caseloads.</td><td>Quality concerns in parts of the sector; the Taskforce wants all providers held to the same standards.</td></tr></tbody></table></div><h3>Typical NHS ADHD roles</h3><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Typical NHS ADHD roles and pay bands\"><table><thead><tr><th scope=\"col\">Role</th><th scope=\"col\">Typical band</th><th scope=\"col\">2025/26 pay range (England)</th></tr></thead><tbody><tr><th scope=\"row\">ADHD practitioner or assistant psychologist</th><td>Band 4 to 5</td><td>£27,485 to £37,796</td></tr><tr><th scope=\"row\">Specialist ADHD nurse</th><td>Band 6 to 7</td><td>£38,682 to £54,710</td></tr><tr><th scope=\"row\">ADHD nurse or pharmacist prescriber, clinical psychologist</th><td>Band 7 to 8a</td><td>£47,810 to £62,682</td></tr><tr><th scope=\"row\">Lead nurse, senior psychologist or service lead</th><td>Band 8a to 8c</td><td>£55,690 to £88,682</td></tr><tr><th scope=\"row\">Specialty doctor or consultant psychiatrist or paediatrician</th><td>Medical pay scales</td><td>See NHS Employers</td></tr></tbody></table></div><p class=\"muted\" style=\"font-size:.9rem\">Pay ranges are the 2025/26 Agenda for Change rates from <a href=\"https://www.nhsemployers.org/articles/pay-scales-202526\" target=\"_blank\" rel=\"noopener\">NHS Employers</a>, before London or high-cost area supplements. Bands vary by trust. Treat all figures as approximate and check current rates.</p><h3>Where jobs are advertised</h3><ul class=\"checklist\"><li><span><a href=\"https://www.jobs.nhs.uk/\" target=\"_blank\" rel=\"noopener\">NHS Jobs</a> and <a href=\"https://www.trac.jobs/\" target=\"_blank\" rel=\"noopener\">Trac</a>: search \"ADHD\", \"neurodevelopmental\", \"ADHD nurse\" or \"ADHD prescriber\".</span></li><li><span><a href=\"https://www.bps.org.uk/jobs\" target=\"_blank\" rel=\"noopener\">BPS Appointments</a>, RCPsych and BMJ Careers for psychologists and doctors; nursing job boards for nurses.</span></li><li><span>Careers pages of private and Right to Choose providers, LinkedIn and Indeed.</span></li></ul><h3>A practical route in</h3><ol class=\"steps\"><li><span><strong>Get registered</strong> as a doctor, nurse, pharmacist or psychologist.</span></li><li><span><strong>Work in mental health, CAMHS or paediatrics</strong> to build experience with ADHD and the conditions it is often mixed up with.</span></li><li><span><strong>Shadow ADHD clinics</strong> and learn the DIVA-5 or ACE+ and the main rating scales.</span></li><li><span><strong>Take a recognised course,</strong> such as the RCPsych foundation course or an NHS trust programme.</span></li><li><span><strong>If you are a nurse or pharmacist, add independent prescribing (V300)</strong>: prescribers are in particular demand.</span></li><li><span><strong>Assess under supervision</strong> and keep a log of cases, ages and outcomes.</span></li><li><span><strong>Then apply</strong> for NHS ADHD posts or sessional private work, or, once experienced, set up your own practice with the right insurance and CQC registration.</span></li></ol>"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NICE NG87: Attention deficit hyperactivity disorder, diagnosis and management",
+        "url": "https://www.nice.org.uk/guidance/ng87"
+      },
+      {
+        "title": "NICE HTG729: Digital technologies for assessing ADHD (QbTest)",
+        "url": "https://www.nice.org.uk/guidance/htg729/chapter/recommendations"
+      },
+      {
+        "title": "NHS England: plain English summary of the ADHD Taskforce report",
+        "url": "https://www.england.nhs.uk/long-read/plain-english-summary-of-the-adhd-taskforce-report/"
+      },
+      {
+        "title": "NHS England responds to the ADHD Taskforce final report (6 November 2025)",
+        "url": "https://www.england.nhs.uk/2025/11/nhs-england-responds-to-adhd-taskforce-final-report/"
+      },
+      {
+        "title": "DIVA Foundation: DIVA-5 diagnostic interview",
+        "url": "https://www.divacenter.eu/"
+      },
+      {
+        "title": "Compass Psychology: autism and ADHD assessments",
+        "url": "https://compasspsy.co.uk/assessments/"
+      },
+      {
+        "title": "Royal College of Psychiatrists: Adult ADHD Foundation Course 2026",
+        "url": "https://www.rcpsych.ac.uk/events/conferences/detail/2026/11/04/default-calendar/adult-adhd-foundation-course-2026"
+      },
+      {
+        "title": "South London and Maudsley: adult ADHD diagnostic assessment and treatment training",
+        "url": "https://slam.nhs.uk/adult-adhd-diagnostic-assessments-and-treatment-training-"
+      },
+      {
+        "title": "UKAAN courses (King's College London)",
+        "url": "https://estore.kcl.ac.uk/conferences-and-events/short-courses/ukaan-courses"
+      },
+      {
+        "title": "NHS Employers: Agenda for Change pay scales 2025/26",
+        "url": "https://www.nhsemployers.org/articles/pay-scales-202526"
+      }
     ]
   }
 ]
