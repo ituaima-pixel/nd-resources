@@ -280,8 +280,8 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   }
   function card(p) {
     return '<a class="card" href="#product-' + esc(p.id) + '">' + cover(p) +
-      '<div class="card-body"><span class="label">' + esc((p.audience || []).map(function (x) { return AUD[x] || x; }).join(" / ") || p.type) + '</span><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.subtitle) + '</p>' + (isBook(p) ? '<p style="font-size:.9rem">' + esc(p.author) + '</p>' : "") +
-      '<div class="card-foot"><span class="price">' + esc(money(p)) + '</span>' + (isBook(p) ? "" : '<span class="muted" style="font-size:.85rem">' + esc(p.format) + '</span>') + '</div></div></a>';
+      '<div class="card-body"><span class="label">' + esc((p.audience || []).map(function (x) { return AUD[x] || x; }).join(" / ") || p.type) + '</span><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.subtitle) + '</p>' +
+      (isBook(p) ? "" : '<div class="card-foot"><span class="price">' + esc(money(p)) + '</span><span class="muted" style="font-size:.85rem">' + esc(p.format) + '</span></div>') + '</div></a>';
   }
   function list(items) { return '<ul class="checklist">' + items.map(function (i) { return "<li>" + esc(i) + "</li>"; }).join("") + "</ul>"; }
   function resList(items) {
