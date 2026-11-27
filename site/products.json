@@ -27,7 +27,11 @@
     ],
     "previews": [],
     "isbn": "9781804369487",
-    "topic": "Lived experience"
+    "topic": "Lived experience",
+    "coverUrls": [
+      "https://target.scene7.com/is/image/Target/GUEST_d960316a-f022-4ce7-8c2e-3300d8fa3f0a",
+      "https://covers.openlibrary.org/b/isbn/9781804369487-L.jpg?default=false"
+    ]
   },
   {
     "id": "the-autistic-brain",
@@ -85,7 +89,11 @@
     ],
     "previews": [],
     "isbn": "9781800961418",
-    "topic": "Lived experience"
+    "topic": "Lived experience",
+    "coverUrls": [
+      "https://www.hachette.com.au/content/books/9781800961432.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781800961418-L.jpg?default=false"
+    ]
   },
   {
     "id": "autism-and-asperger-syndrome-the-facts",
@@ -278,7 +286,11 @@
       }
     ],
     "previews": [],
-    "topic": "Assessment & diagnosis"
+    "topic": "Assessment & diagnosis",
+    "coverUrls": [
+      "https://covers.openlibrary.org/b/isbn/9780197516881-L.jpg?default=false",
+      "https://imgv2-1-f.scribdassets.com/img/document/687373509/original/9e8d521aec/1719867858?v=1"
+    ]
   },
   {
     "id": "autism-spectrum-disorders-research-review",
