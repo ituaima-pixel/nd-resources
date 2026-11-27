@@ -19,6 +19,8 @@ def get(url):
 
 
 def cover_for(p):
+    if p.get("openLibraryCoverId"):
+        return get(f"https://covers.openlibrary.org/b/id/{p['openLibraryCoverId']}-L.jpg")
     isbn = p.get("isbn") or next((b.get("isbn") for b in p.get("buy", []) if b.get("isbn")), None)
     if isbn:
         try:
