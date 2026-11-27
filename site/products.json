@@ -2141,9 +2141,7 @@
       }
     ],
     "previews": [],
-    "coverUrls": [
-      "https://medbook.com.pl/946221-large_default/stockleys-drug-interactions-a-source-book-of-interactions-their-mechanisms-clinical-importance-and-management-claire-l-pres.jpg"
-    ]
+    "coverLookup": false
   },
   {
     "id": "independent-prescribing-for-paramedics",
@@ -2172,9 +2170,7 @@
       }
     ],
     "previews": [],
-    "coverUrls": [
-      "https://www.paramedicshop.co.nz/cdn/shop/files/independent-prescribing-for-paramedics-597083.jpg?v=1747179158&width=1500"
-    ]
+    "coverLookup": false
   },
   {
     "id": "the-prescribing-pharmacist",
