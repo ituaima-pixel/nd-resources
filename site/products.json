@@ -525,7 +525,10 @@
       }
     ],
     "previews": [],
-    "coverLookup": false
+    "coverUrls": [
+      "https://static.wixstatic.com/media/b70b2e_520271d12cdb423ba5cc7c5de6d60062~mv2.png/v1/fill/w_1000%2Ch_750%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01/b70b2e_520271d12cdb423ba5cc7c5de6d60062~mv2.png",
+      "https://images.thenile.io/r1000/9781032150222.jpg"
+    ]
   },
   {
     "id": "assessment-of-autism-spectrum-disorder",
@@ -633,7 +636,10 @@
         "url": "https://www.amazon.co.uk/dp/0198739257?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9780198739258.jpg"
+    ]
   },
   {
     "id": "autism-a-new-introduction",
@@ -660,7 +666,11 @@
         "url": "https://www.amazon.co.uk/dp/1138106127?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781138106123.jpg",
+      "https://images.thenile.io/r1000/9781138106123.jpg"
+    ]
   },
   {
     "id": "autism-explaining-the-enigma",
@@ -907,7 +917,10 @@
         "url": "https://www.amazon.co.uk/dp/1032553928?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781032553924.jpg"
+    ]
   },
   {
     "id": "cognitive-behavioral-therapy-for-adults-with-autism-spectrum",
@@ -1016,7 +1029,9 @@
       }
     ],
     "previews": [],
-    "coverLookup": false
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781119960737.jpg"
+    ]
   },
   {
     "id": "mastering-your-adult-adhd",
@@ -1070,7 +1085,10 @@
         "url": "https://www.amazon.co.uk/dp/1462545149?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781462545148.jpg"
+    ]
   },
   {
     "id": "using-intensive-interaction-and-sensory-integration",
@@ -1124,7 +1142,10 @@
         "url": "https://www.amazon.co.uk/dp/1032689323?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781032689326.jpg"
+    ]
   },
   {
     "id": "more-than-words-hanen",
@@ -1287,7 +1308,10 @@
         "url": "https://www.amazon.co.uk/dp/1911186116?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781911186113.jpg"
+    ]
   },
   {
     "id": "collaborative-approaches-to-learning-for-pupils-with-pda",
@@ -1503,7 +1527,10 @@
         "url": "https://www.amazon.co.uk/dp/1805010697?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781805010692.jpg"
+    ]
   },
   {
     "id": "a-guide-to-mental-health-issues-in-girls-and-young-women-on-",
@@ -1530,7 +1557,10 @@
         "url": "https://www.amazon.co.uk/dp/1785920928?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9781785920929.jpg"
+    ]
   },
   {
     "id": "understanding-adhd-in-girls-and-women",

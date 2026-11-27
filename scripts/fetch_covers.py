@@ -19,6 +19,13 @@ def get(url):
 
 
 def cover_for(p):
+    for url in p.get("coverUrls", []):
+        try:
+            data = get(url)
+            if len(data) > 2000 and (data[:2] == b"\xff\xd8" or data[:8] == b"\x89PNG\r\n\x1a\n" or data[8:12] == b"WEBP"):
+                return data
+        except Exception as e:
+            print(f"  {url[:60]}: {e}")
     if p.get("openLibraryCoverId"):
         return get(f"https://covers.openlibrary.org/b/id/{p['openLibraryCoverId']}-L.jpg")
     isbn = p.get("isbn") or next((b.get("isbn") for b in p.get("buy", []) if b.get("isbn")), None)
