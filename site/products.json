@@ -502,8 +502,8 @@
   {
     "id": "is-this-autism-a-guide-for-clinicians-and-everyone-else",
     "kind": "book",
-    "title": "Is This Autism? A Guide for Clinicians and Everyone Else",
-    "subtitle": "",
+    "title": "Is This Autism?",
+    "subtitle": "A Guide for Clinicians and Everyone Else",
     "author": "Donna Henderson, Sarah Wayland, Jamell White",
     "publisher": "Routledge",
     "edition": "2023",
@@ -524,7 +524,8 @@
         "url": "https://www.amazon.co.uk/dp/103215022X?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverLookup": false
   },
   {
     "id": "assessment-of-autism-spectrum-disorder",
@@ -635,7 +636,7 @@
     "previews": []
   },
   {
-    "id": "autism",
+    "id": "autism-a-new-introduction",
     "kind": "book",
     "title": "Autism",
     "subtitle": "A New Introduction to Psychological Theory and Current Debate",
@@ -662,7 +663,7 @@
     "previews": []
   },
   {
-    "id": "autism-9018",
+    "id": "autism-explaining-the-enigma",
     "kind": "book",
     "title": "Autism",
     "subtitle": "Explaining the Enigma (2nd ed.)",
@@ -1014,7 +1015,8 @@
         "url": "https://www.amazon.co.uk/dp/1119960738?tag=ndresources-21"
       }
     ],
-    "previews": []
+    "previews": [],
+    "coverLookup": false
   },
   {
     "id": "mastering-your-adult-adhd",
