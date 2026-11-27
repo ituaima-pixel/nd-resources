@@ -73,6 +73,10 @@ jobs:
           rsync -rvz --checksum \
             -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
             site/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/"
+          # The images folder belongs only to this site, so remove covers that were deleted here
+          rsync -rvz --checksum --delete \
+            -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
+            site/images/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/images/"
 
       - name: Tell browsers to always check for the latest pages
         if: steps.check.outputs.ready == 'true'
