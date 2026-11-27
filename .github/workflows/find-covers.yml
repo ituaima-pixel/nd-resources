@@ -1,0 +1,15 @@
+name: Find cover candidates
+
+on:
+  workflow_dispatch:
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/find_cover_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cover-candidates
+          path: cover-candidates/
