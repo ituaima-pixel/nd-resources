@@ -30,6 +30,11 @@ jobs:
             git push
           fi
 
+      - name: Build a page for every book and section (for search engines)
+        run: |
+          npm install --no-save --no-package-lock --silent playwright-core@1.49.1
+          CHROME_PATH="$(command -v google-chrome || command -v chromium || command -v chromium-browser)" node scripts/build_pages.cjs
+
       - name: Check SiteGround secrets are set
         id: check
         env:
@@ -70,15 +75,15 @@ jobs:
           SG_PATH: ${{ secrets.SG_PATH }}
         run: |
           # Stamp this deploy into cover image links so browsers fetch changed covers
-          sed -i "s/__BUILD__/${GITHUB_SHA::8}/g" site/index.html
+          find public -name '*.html' -exec sed -i "s/__BUILD__/${GITHUB_SHA::8}/g" {} +
           # No --delete: other folders in public_html (like old-wordpress) are left alone
           rsync -rvz --checksum \
             -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
-            site/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/"
+            public/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/"
           # The images folder belongs only to this site, so remove covers that were deleted here
           rsync -rvz --checksum --delete \
             -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
-            site/images/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/images/"
+            public/images/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/images/"
 
       - name: Tell browsers to always check for the latest pages
         if: steps.check.outputs.ready == 'true'
@@ -94,9 +99,13 @@ jobs:
       - name: Check the live site
         if: steps.check.outputs.ready == 'true'
         run: |
-          for f in "" index.html products.json; do
+          for f in "" shop/ books/explaining-audhd/ sitemap.xml robots.txt products.json; do
             echo "== /$f"; curl -sSI "https://neurodivergentresources.co.uk/$f?ci=$GITHUB_RUN_ID" | grep -iE "^(HTTP|cache-control|expires|x-proxy-cache|x-cache)" || true
           done
+          for u in http://neurodivergentresources.co.uk/ https://www.neurodivergentresources.co.uk/ https://neurodivergentresources.co.uk/shop https://neurodivergentresources.co.uk/no-such-page/; do
+            echo "== $u"; curl -sSI "$u" | grep -iE "^(HTTP|location)" || true
+          done
+          echo "== /books/explaining-audhd/ head"; curl -s "https://neurodivergentresources.co.uk/books/explaining-audhd/?ci=$GITHUB_RUN_ID" | grep -oE "<title>[^<]*</title>|<link rel=\"canonical\"[^>]*>" || true
           if curl -s "https://neurodivergentresources.co.uk/?ci=$GITHUB_RUN_ID" | grep -q "ND Resources"; then
             echo "Live page answered with the ND Resources site"
           else
