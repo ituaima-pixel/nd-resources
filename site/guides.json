@@ -204,5 +204,105 @@
         "url": "https://www.nhsemployers.org/articles/pay-scales-202526"
       }
     ]
+  },
+  {
+    "id": "non-medical-prescriber",
+    "parent": "professionals",
+    "label": "Guide for professionals",
+    "title": "Becoming a non-medical prescriber in the UK",
+    "metaTitle": "How to become a non-medical prescriber (V300) in the UK | ND Resources",
+    "description": "A UK guide to becoming a non-medical (independent) prescriber: who can train, NHS-funded vs self-funded routes compared, finding a DPP or practice assessor, and a free step-by-step checklist PDF.",
+    "lede": "Who can train as a prescriber, how the course works, NHS-funded and self-funded routes compared, how to find a prescribing assessor, and a free step-by-step checklist.",
+    "checked": "27 November 2026",
+    "download": {
+      "url": "/downloads/non-medical-prescriber-checklist.pdf",
+      "label": "Download the free checklist (PDF)",
+      "note": "Free, no sign-up"
+    },
+    "books": [],
+    "summary": [
+      "Nurses, midwives, pharmacists, and some allied health professionals (such as physiotherapists, paramedics and podiatrists) can train as independent prescribers after at least a year of registered practice.",
+      "The course usually takes about 6 months part-time, with taught days, about 90 hours of supervised practice and exams.",
+      "NHS-funded places come through your employer's prescribing lead or training hub. Self-funding costs about £1,800 to £2,600 (November 2026).",
+      "You need a Designated Prescribing Practitioner (DPP) or practice assessor, an experienced prescriber who signs off your competence."
+    ],
+    "sections": [
+      {
+        "id": "who",
+        "heading": "What a non-medical prescriber is, and who can train",
+        "html": "<p>A non-medical prescriber is a registered healthcare professional, who is not a doctor or dentist, and is legally allowed to prescribe after completing an approved prescribing programme. Most people now train as <strong>independent prescribers</strong>, which means they can assess, diagnose and prescribe within their own competence. Nurses take a course called the <strong>V300</strong>.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Professions that can train as prescribers\"><table><thead><tr><th scope=\"col\">Profession</th><th scope=\"col\">Regulator</th><th scope=\"col\">Type of prescribing</th></tr></thead><tbody><tr><th scope=\"row\">Nurses and midwives</th><td><a href=\"https://www.nmc.org.uk/\" target=\"_blank\" rel=\"noopener\">NMC</a></td><td>Independent and supplementary (V300). Community nurses may do the more limited V100 or V150.</td></tr><tr><th scope=\"row\">Pharmacists</th><td><a href=\"https://www.pharmacyregulation.org/\" target=\"_blank\" rel=\"noopener\">GPhC</a></td><td>Independent. Pharmacists qualifying from 2026 register as prescribers straight away.</td></tr><tr><th scope=\"row\">Physiotherapists, podiatrists, therapeutic radiographers</th><td><a href=\"https://www.hcpc-uk.org/\" target=\"_blank\" rel=\"noopener\">HCPC</a></td><td>Independent and supplementary</td></tr><tr><th scope=\"row\">Paramedics</th><td>HCPC</td><td>Independent and supplementary, usually in advanced practice roles</td></tr><tr><th scope=\"row\">Dietitians and diagnostic radiographers</th><td>HCPC</td><td>Supplementary only (prescribing within an agreed plan with a doctor)</td></tr><tr><th scope=\"row\">Optometrists</th><td><a href=\"https://optical.org/\" target=\"_blank\" rel=\"noopener\">GOC</a></td><td>Independent, for eye conditions</td></tr></tbody></table></div><p>Non-medical prescribers are a big part of the ADHD and mental health workforce: specialist nurses and pharmacists often adjust ADHD medication and review patients. See our <a href=\"/professionals/adhd-assessors/\">ADHD assessor guide</a>.</p>"
+      },
+      {
+        "id": "course",
+        "heading": "How the training works",
+        "html": "<p>All courses are approved by the regulators and follow the same core design: taught days, supervised learning in practice, and exams.</p><ul class=\"checklist\"><li><span><strong>Length:</strong> usually about 6 months part-time.</span></li><li><span><strong>Level:</strong> Level 6 (degree) or Level 7 (master's), usually 30 to 45 credits.</span></li><li><span><strong>Taught days:</strong> often about 26 days, in person or online.</span></li><li><span><strong>Learning in practice:</strong> commonly about 90 hours (12 days) with your prescribing supervisor.</span></li><li><span><strong>Assessment:</strong> a pharmacology exam, a numeracy test (usually 100% needed), a portfolio of practice, and sign-off by your assessor.</span></li><li><span><strong>Standards:</strong> the <a href=\"https://www.rcpharm.org/professional-standards/a-competency-framework-for-all-prescribers/\" target=\"_blank\" rel=\"noopener\">Competency Framework for all Prescribers</a> and, for nurses, the <a href=\"https://www.nmc.org.uk/standards/standards-for-post-registration/standards-for-prescribers/\" target=\"_blank\" rel=\"noopener\">NMC standards for prescribing programmes</a>.</span></li></ul>"
+      },
+      {
+        "id": "nhs-private",
+        "heading": "NHS-funded or self-funded: routes compared",
+        "html": "<p>You can train with your employer's support and NHS funding, or pay for the course yourself. Both lead to exactly the same qualification.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"NHS-funded and self-funded routes compared\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">NHS-funded</th><th scope=\"col\">Self-funded or privately funded</th></tr></thead><tbody><tr><th scope=\"row\">Who can apply</th><td>Staff in NHS trusts, GP practices and some NHS-contracted services.</td><td>Anyone eligible, including people in private clinics, agencies and self-employment.</td></tr><tr><th scope=\"row\">Who pays the fee</th><td>NHS England (regional workforce teams) or your employer. Primary care places often go through local training hubs.</td><td>You, or your private employer.</td></tr><tr><th scope=\"row\">Course fee</th><td>Usually nothing to you.</td><td>About £1,800 to £2,600 (November 2026). For example: Leeds Beckett £2,000, Sheffield Hallam £1,825.</td></tr><tr><th scope=\"row\">How to apply</th><td>Through your trust or practice Non-Medical Prescribing lead, who often has limited places and set deadlines.</td><td>Directly to the university, often still needing a sign-off from the clinical setting where you will learn.</td></tr><tr><th scope=\"row\">Study time</th><td>Protected study days are often agreed with your employer.</td><td>You may need to use annual leave or unpaid time.</td></tr><tr><th scope=\"row\">Finding a DPP</th><td>Usually arranged inside your team or practice.</td><td>You need to find your own DPP or practice assessor, and a setting that will host your supervised hours.</td></tr><tr><th scope=\"row\">After qualifying</th><td>You prescribe under your employer's policies, and your role may be re-banded.</td><td>You need your own indemnity cover, governance and, for some medicines, a private prescriber code.</td></tr><tr><th scope=\"row\">Watch out for</th><td>Some funding comes with a commitment to stay with your employer for a set time.</td><td>Universities may turn down self-funded applicants who do not have a suitable clinical role or DPP.</td></tr></tbody></table></div><p class=\"muted\" style=\"font-size:.9rem\">Fees are taken from university pages in November 2026 and change each year. Check with the course before you apply.</p><h3>Courses near Leeds</h3><ul class=\"checklist\"><li><span><a href=\"https://www.leedsbeckett.ac.uk/courses/cpd-courses/health/non-medical-prescribing---nmc-registration/\" target=\"_blank\" rel=\"noopener\">Leeds Beckett University: Non-Medical Prescribing for nurses and midwives</a> (6 months, 26 taught days plus 90 hours in practice, £2,000; NHS funding available).</span></li><li><span><a href=\"https://www.leedsbeckett.ac.uk/courses/cpd-courses/health/non-medical-prescribing---hcpc-registration/\" target=\"_blank\" rel=\"noopener\">Leeds Beckett University: Non-Medical Prescribing for HCPC professions</a> (same format and fee).</span></li><li><span><a href=\"https://www.shu.ac.uk/study-here/options/health-and-social-care/short-courses-and-modules/nonmedical-prescribing-v300-level-7\" target=\"_blank\" rel=\"noopener\">Sheffield Hallam University: Non-Medical Prescribing V300, Level 7</a> (30 credits, £1,825; DPP needs at least 3 years of prescribing).</span></li><li><span>Others include the University of Leeds, University of Bradford and University of Huddersfield. Check each university's current page.</span></li></ul>"
+      },
+      {
+        "id": "dpp",
+        "heading": "Finding your prescribing assessor (DPP)",
+        "html": "<p>Every trainee needs an experienced prescriber to supervise and sign them off. The names vary by regulator:</p><ul class=\"checklist\"><li><span><strong>Designated Prescribing Practitioner (DPP):</strong> the term used by the GPhC and HCPC, and now widely by universities for all professions.</span></li><li><span><strong>Practice assessor and practice supervisor:</strong> the NMC terms for nurses and midwives. The assessor signs off your competence; the supervisor supports you day to day.</span></li></ul><p>Since the Royal College of Pharmacy (formerly the Royal Pharmaceutical Society) published its <a href=\"https://www.rcpharm.org/education/designated-prescribing-practitioners/\" target=\"_blank\" rel=\"noopener\">DPP competency framework</a>, your DPP does not have to be a doctor. They can be any experienced prescriber, for example a GP, a consultant, or an experienced nurse or pharmacist prescriber. Universities usually expect:</p><ul class=\"checklist\"><li><span>active prescribing for at least 3 years (some universities ask for less);</span></li><li><span>experience in the same area you will prescribe in;</span></li><li><span>meeting the DPP competencies, often shown through a self-assessment;</span></li><li><span>time to supervise you and to assess you fairly.</span></li></ul><h3>Where to find a DPP</h3><ul class=\"checklist\"><li><span><strong>Your own team:</strong> a consultant, GP or senior prescriber you already work with.</span></li><li><span><strong>Your NMP lead:</strong> trusts and practices keep lists of people willing to supervise.</span></li><li><span><strong>Local training hubs:</strong> primary care training hubs can link you to GP practices that host trainee prescribers.</span></li><li><span><strong>GP practices:</strong> training practices often support trainee prescribers as well as GP trainees.</span></li><li><span><strong>Professional networks:</strong> ADHD, mental health or specialist nurse networks, and contacts from courses.</span></li></ul><div class=\"aside\" style=\"margin-top:.5rem\"><span class=\"label\">Assessor contact in Leeds</span><h3 style=\"margin:0\">Dr Philip Xiu, Alwoodley Medical Centre</h3><p>Dr Xiu is a GP at <a href=\"https://www.alwoodleymedicalcentre.co.uk/about-us/meet-the-team/general-practitioner/dr-phil-xiu\" target=\"_blank\" rel=\"noopener\">Alwoodley Medical Centre</a> in Leeds (LS17) and is approved by the GMC as a GP trainer (<a href=\"https://www.gmc-uk.org/registrants/7140388\" target=\"_blank\" rel=\"noopener\">GMC register</a>). He has agreed to be listed here as a possible DPP or practice assessor who can sign off trainee prescribers.</p><p>To ask about supervision, contact the practice through its <a href=\"https://www.alwoodleymedicalcentre.co.uk/contact-us\" target=\"_blank\" rel=\"noopener\">contact page</a> or on 0113 393 0119, and mention that you are looking for a DPP or practice assessor for a non-medical prescribing course. Places depend on his availability, and your university must approve any DPP.</p><p class=\"muted\" style=\"font-size:.85rem\">ND Resources lists this contact to help readers. It is not an endorsement of any course or provider, and we have no business link with the practice.</p></div>"
+      },
+      {
+        "id": "checklist",
+        "heading": "Step-by-step checklist",
+        "html": "<p>Use this checklist to plan each stage. You can also <a href=\"/downloads/non-medical-prescriber-checklist.pdf\" download>download it as a free PDF</a> to print or fill in. No sign-up is needed.</p><div class=\"compare\"><div><h3>1. Before you apply</h3><ul class=\"checklist\"><li><span>Check your profession can prescribe independently (see the professions table in the guide) and that you are on the NMC, HCPC or GPhC register.</span></li><li><span>Have at least 1 year of post-registration experience in the area you will prescribe in (check your course: some ask for more).</span></li><li><span>Check you have the academic level the course needs (usually Level 6 study for a Level 6 course; a degree or 120 Level 6 credits for Level 7).</span></li><li><span>Decide your scope of practice: the conditions and medicines you will prescribe for, for example ADHD or mental health.</span></li><li><span>Get written support from your line manager or, if self-employed, a clinical setting that will host your learning.</span></li><li><span>Have an enhanced DBS check from the last 3 years, or the DBS update service.</span></li></ul></div><div><h3>2. Find your supervisors</h3><ul class=\"checklist\"><li><span>Find a Designated Prescribing Practitioner (DPP) or practice assessor: an experienced prescriber, usually with at least 3 years of prescribing, who meets the DPP competency framework.</span></li><li><span>Find a practice supervisor (NMC courses), who can be the same or a different person.</span></li><li><span>Complete the DPP competency self-assessment together and agree how you will meet the required supervised hours.</span></li><li><span>Arrange the placement or learning-environment audit your university asks for.</span></li></ul></div><div><h3>3. Funding and application</h3><ul class=\"checklist\"><li><span>NHS route: ask your trust or practice Non-Medical Prescribing lead, or your local primary care training hub, about a funded place.</span></li><li><span>Self-funded route: compare course fees, start dates and attendance, and budget for fees plus time off work.</span></li><li><span>Get your NMP lead or employer to approve the application, then apply to the university by its deadline.</span></li></ul></div><div><h3>4. During the course</h3><ul class=\"checklist\"><li><span>Attend taught days and pass the pharmacology and numeracy exams (numeracy usually needs 100%).</span></li><li><span>Complete your supervised practice hours (often about 90 hours) and keep a log.</span></li><li><span>Build your portfolio against the Competency Framework for all Prescribers.</span></li><li><span>Get your DPP or practice assessor to sign off your competence at the end.</span></li></ul></div><div><h3>5. After you qualify</h3><ul class=\"checklist\"><li><span>Your university tells your regulator, and your prescribing qualification is added to the register. Check it appears before you prescribe.</span></li><li><span>Register as a prescriber with your employer and follow its prescribing policy.</span></li><li><span>Write down your scope of practice and keep within it.</span></li><li><span>For private work, get indemnity cover that includes prescribing; for controlled drugs, apply for a private prescriber code if needed.</span></li><li><span>Keep up CPD and audit your prescribing each year.</span></li></ul></div></div>"
+      },
+      {
+        "id": "jobs",
+        "heading": "Jobs and pay after you qualify",
+        "html": "<div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Typical NHS prescriber pay bands\"><table><thead><tr><th scope=\"col\">Role</th><th scope=\"col\">Typical band</th><th scope=\"col\">2025/26 pay range (England)</th></tr></thead><tbody><tr><th scope=\"row\">Specialist nurse or AHP, not yet prescribing</th><td>Band 6</td><td>£38,682 to £46,580</td></tr><tr><th scope=\"row\">Non-medical prescriber, clinical nurse or pharmacist specialist</th><td>Band 7</td><td>£47,810 to £54,710</td></tr><tr><th scope=\"row\">Advanced clinical practitioner or lead prescriber</th><td>Band 8a</td><td>£55,690 to £62,682</td></tr></tbody></table></div><p class=\"muted\" style=\"font-size:.9rem\">2025/26 Agenda for Change rates from <a href=\"https://www.nhsemployers.org/articles/pay-scales-202526\" target=\"_blank\" rel=\"noopener\">NHS Employers</a>. Prescribing does not guarantee a higher band; it depends on the post. Private and sessional prescriber rates vary widely.</p><p>Jobs that often ask for a prescribing qualification include ADHD and mental health nurse prescribers, advanced clinical practitioners, GP practice pharmacists, and specialist nurses in long-term conditions. Search <a href=\"https://www.jobs.nhs.uk/\" target=\"_blank\" rel=\"noopener\">NHS Jobs</a> or <a href=\"https://www.trac.jobs/\" target=\"_blank\" rel=\"noopener\">Trac</a> for \"non-medical prescriber\", \"NMP\" or \"V300\".</p>"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NMC: standards for prescribers",
+        "url": "https://www.nmc.org.uk/standards/standards-for-post-registration/standards-for-prescribers/"
+      },
+      {
+        "title": "Royal College of Pharmacy: Competency Framework for all Prescribers",
+        "url": "https://www.rcpharm.org/professional-standards/a-competency-framework-for-all-prescribers/"
+      },
+      {
+        "title": "Royal College of Pharmacy: Designated Prescribing Practitioner competency framework",
+        "url": "https://www.rcpharm.org/education/designated-prescribing-practitioners/"
+      },
+      {
+        "title": "HCPC: standards for prescribing",
+        "url": "https://www.hcpc-uk.org/standards/standards-relevant-to-education-and-training/standards-for-prescribing/"
+      },
+      {
+        "title": "Leeds Beckett University: Non-Medical Prescribing (NMC registrants)",
+        "url": "https://www.leedsbeckett.ac.uk/courses/cpd-courses/health/non-medical-prescribing---nmc-registration/"
+      },
+      {
+        "title": "Leeds Beckett University: Non-Medical Prescribing (HCPC registrants)",
+        "url": "https://www.leedsbeckett.ac.uk/courses/cpd-courses/health/non-medical-prescribing---hcpc-registration/"
+      },
+      {
+        "title": "Sheffield Hallam University: Non-Medical Prescribing V300, Level 7",
+        "url": "https://www.shu.ac.uk/study-here/options/health-and-social-care/short-courses-and-modules/nonmedical-prescribing-v300-level-7"
+      },
+      {
+        "title": "De Montfort University: Independent/Supplementary Prescribing V300",
+        "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/independent-supplementary-prescribing-v300/independent-supplementary-prescribing-v300-level-7.aspx"
+      },
+      {
+        "title": "Alwoodley Medical Centre: Dr Philip Xiu",
+        "url": "https://www.alwoodleymedicalcentre.co.uk/about-us/meet-the-team/general-practitioner/dr-phil-xiu"
+      },
+      {
+        "title": "GMC register: Philip Xiu",
+        "url": "https://www.gmc-uk.org/registrants/7140388"
+      },
+      {
+        "title": "NHS Employers: Agenda for Change pay scales 2025/26",
+        "url": "https://www.nhsemployers.org/articles/pay-scales-202526"
+      }
+    ]
   }
 ]
