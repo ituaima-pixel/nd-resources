@@ -1882,8 +1882,7 @@
     ],
     "previews": [],
     "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9780198839095.jpg",
-      "https://covers.openlibrary.org/b/isbn/9780198839095-L.jpg?default=false"
+      "https://images.thenile.io/r1000/9780198839095.jpg"
     ]
   },
   {
@@ -2111,7 +2110,9 @@
       }
     ],
     "previews": [],
-    "coverLookup": false
+    "coverUrls": [
+      "https://www.nobelkitabevi.com.tr/54170-thickbox_default/oxford-handbook-of-clinical-pharmacy-4-edition.jpg"
+    ]
   },
   {
     "id": "stockley-s-drug-interactions",
@@ -2140,7 +2141,9 @@
       }
     ],
     "previews": [],
-    "coverLookup": false
+    "coverUrls": [
+      "https://medbook.com.pl/946221-large_default/stockleys-drug-interactions-a-source-book-of-interactions-their-mechanisms-clinical-importance-and-management-claire-l-pres.jpg"
+    ]
   },
   {
     "id": "independent-prescribing-for-paramedics",
@@ -2170,8 +2173,7 @@
     ],
     "previews": [],
     "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9781801611770.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781801611770-L.jpg?default=false"
+      "https://www.paramedicshop.co.nz/cdn/shop/files/independent-prescribing-for-paramedics-597083.jpg?v=1747179158&width=1500"
     ]
   },
   {
@@ -2202,8 +2204,7 @@
     ],
     "previews": [],
     "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9781910451038.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781910451038-L.jpg?default=false"
+      "https://www.mkupdate.co.uk/resource/img/uploads/bdf9b5e5858d2bea928b48af1660b67d-0x600.jpg"
     ]
   },
   {
@@ -2494,8 +2495,7 @@
     ],
     "previews": [],
     "coverUrls": [
-      "https://images-us.bookshop.org/ingram/9781032397412.jpg",
-      "https://covers.openlibrary.org/b/isbn/9781032397412-L.jpg?default=false"
+      "https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/a7/22/14/a722144b-0644-1c08-f7b3-f151d317cfc4/9781003835301.jpg/1200x1200wz.jpg"
     ]
   },
   {
