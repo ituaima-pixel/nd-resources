@@ -115,6 +115,9 @@ section + section { margin-top: 3.5rem; }
 /* Products */
 .shop-head { display: grid; gap: 1rem; margin-bottom: 1.5rem; }
 .filters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.topic-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.topic-row label { font-family: var(--font-display); font-size: .9rem; }
+.topic-row select { font: inherit; font-size: .95rem; padding: .4rem .6rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); max-width: 100%; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1.25rem; }
 .card { display: grid; grid-template-rows: auto 1fr; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--ink); }
 .card:hover { border-color: var(--accent); }
@@ -244,7 +247,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
 
 <script>
 (function () {
-  var products = [], resources = null, site = { retailers: {} }, filter = "all";
+  var products = [], resources = null, site = { retailers: {} }, filter = "all", topic = "all";
   var view = document.getElementById("view");
   document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -311,12 +314,17 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '<section class="promise" aria-label="How this site is designed"><div><h3>Plain language</h3><p class="muted">Short sentences, literal words and no jargon.</p></div><div><h3>Easy on the senses</h3><p class="muted">No pop-ups, autoplay or flashing. Change text size and colours in Comfort settings.</p></div><div><h3>Instant downloads</h3><p class="muted">Pay once and get your file by email straight away.</p></div></section>';
     },
     shop: function () {
-      var shown = filter === "all" ? products : productsFor(filter);
+      var base = filter === "all" ? products : productsFor(filter);
+      var topics = base.map(function (p) { return p.topic; }).filter(function (t, i, a) { return t && a.indexOf(t) === i; }).sort();
+      if (topics.indexOf(topic) < 0) topic = "all";
+      var shown = topic === "all" ? base : base.filter(function (p) { return p.topic === topic; });
       return '<div class="shop-head"><h1>Shop</h1><p class="muted prose">Books we recommend about autism and ADHD. Book links take you to Amazon UK to buy.</p>' + exampleNotice() +
         '<div class="filters" role="group" aria-label="Show books for">' +
         [["all", "Everything"], ["parents", "Parents and carers"], ["adults", "Autistic and ADHD adults"], ["children", "For children"], ["professionals", "Professionals"]].filter(function (f) { return f[0] === "all" || productsFor(f[0]).length; }).map(function (f) {
           return '<button class="seg" id="filter-' + f[0] + '" data-filter="' + f[0] + '" aria-pressed="' + (filter === f[0]) + '">' + f[1] + '</button>';
-        }).join("") + '</div></div><div class="grid">' + shown.map(card).join("") + '</div>' +
+        }).join("") + '</div>' +
+        (topics.length > 1 ? '<div class="topic-row"><label for="topic-filter">Topic</label><select id="topic-filter"><option value="all">All topics</option>' + topics.map(function (t) { return '<option' + (t === topic ? ' selected' : '') + '>' + esc(t) + '</option>'; }).join("") + '</select><span class="muted" style="font-size:.9rem">' + shown.length + ' book' + (shown.length === 1 ? '' : 's') + '</span></div>' : "") +
+        '</div><div class="grid">' + shown.map(card).join("") + '</div>' +
         (shown.length ? "" : '<div class="notice prose"><p><strong>Our first downloads are coming soon.</strong> In the meantime, the free resources <a href="#families">for you and your family</a> and <a href="#professionals">for professionals</a> are ready to use.</p></div>');
     },
     families: function () {
@@ -347,7 +355,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     product: function (id) {
       var p = products.filter(function (x) { return x.id === id; })[0];
       if (!p) return '<h1>Product not found</h1><p><a href="#shop">Back to the shop</a></p>';
-      var facts = [["Type", p.type], ["Format", p.format], ["Pages", p.pages], ["Author", p.author], ["Publisher", p.publisher], ["For", (p.audience || []).map(function (a) { return AUD[a] || a; }).join(", ")]]
+      var facts = [["Type", p.type], ["Format", p.format], ["Pages", p.pages], ["Author", p.author], ["Publisher", p.publisher], ["Edition", p.edition], ["Topic", p.topic], ["Best for", p.bestFor], ["For", (p.audience || []).map(function (a) { return AUD[a] || a; }).join(", ")]]
         .filter(function (f) { return f[1]; }).map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
       var prev = (p.previews || []).map(function (i) { return '<figure style="margin:0"><img src="' + esc(i.src) + '" alt="' + esc(i.alt) + '" style="border-radius:var(--radius);border:1px solid var(--line)"></figure>'; }).join("");
       return '<p class="crumbs"><a href="#shop">Shop</a> <span class="muted">/ ' + esc(p.title) + '</span></p>' + (p.example ? '<p class="notice" style="margin-bottom:1.5rem">This is an example product to show the layout.</p>' : "") +
@@ -360,7 +368,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '<div class="buy"><span class="price">' + esc(money(p)) + '</span>' +
           (p.checkoutUrl ? '<a class="btn" href="' + esc(p.checkoutUrl) + '" target="_blank" rel="noopener">Buy and download</a>' : '<button class="btn" id="buy-btn">Buy and download</button>') +
           '<p class="muted" style="font-size:.9rem">Instant download. The file is emailed to you after payment.</p><dl class="facts">' + facts + '</dl></div>') +
-        '<div class="prose"><p>' + esc(p.summary) + '</p>' + (p.description || []).map(function (d) { return "<p>" + esc(d) + "</p>"; }).join("") + '</div>' +
+        '<div class="prose"><p>' + esc(p.summary) + '</p>' + (p.note ? '<p class="notice">' + esc(p.note) + '</p>' : "") + (p.description || []).map(function (d) { return "<p>" + esc(d) + "</p>"; }).join("") + '</div>' +
         (p.includes && p.includes.length ? '<div style="display:grid;gap:.75rem"><h2>What is inside</h2>' + list(p.includes) + '</div>' : "") +
         (p.goodFor && p.goodFor.length ? '<div style="display:grid;gap:.75rem"><h2>Useful for</h2>' + list(p.goodFor) + '</div>' : "") +
         '</div></div>';
@@ -382,6 +390,9 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     if (keepScroll !== true) window.scrollTo(0, 0);
   }
 
+  view.addEventListener("change", function (e) {
+    if (e.target.id === "topic-filter") { topic = e.target.value; route(true); var t = document.getElementById("topic-filter"); if (t) t.focus(); }
+  });
   view.addEventListener("click", function (e) {
     var f = e.target.closest("[data-filter]");
     if (f) { filter = f.dataset.filter; route(true); var nb = document.getElementById("filter-" + filter); if (nb) nb.focus(); return; }

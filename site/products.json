@@ -26,7 +26,8 @@
       }
     ],
     "previews": [],
-    "isbn": "9781804369487"
+    "isbn": "9781804369487",
+    "topic": "Lived experience"
   },
   {
     "id": "the-autistic-brain",
@@ -54,7 +55,8 @@
       }
     ],
     "previews": [],
-    "isbn": "9781846044496"
+    "isbn": "9781846044496",
+    "topic": "Lived experience"
   },
   {
     "id": "girl-unmasked",
@@ -82,7 +84,8 @@
       }
     ],
     "previews": [],
-    "isbn": "9781800961418"
+    "isbn": "9781800961418",
+    "topic": "Lived experience"
   },
   {
     "id": "autism-and-asperger-syndrome-the-facts",
@@ -109,7 +112,8 @@
         "query": "Autism and Asperger Syndrome Simon Baron-Cohen"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "General guides"
   },
   {
     "id": "living-with-ptsd-on-the-autism-spectrum",
@@ -136,7 +140,8 @@
         "query": "Living with PTSD on the Autism Spectrum Lisa Morgan"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Mental health & trauma"
   },
   {
     "id": "connecting-and-communicating-with-your-autistic-child",
@@ -163,7 +168,8 @@
         "query": "Connecting and Communicating with Your Autistic Child Act for Autism"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Speech, language & communication"
   },
   {
     "id": "sensory-perceptual-issues-in-autism",
@@ -190,7 +196,8 @@
         "isbn": "9781849056731"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Sensory & occupational therapy"
   },
   {
     "id": "defining-autism",
@@ -216,7 +223,8 @@
         "query": "Defining Autism Emily L. Casanova"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Theory & research"
   },
   {
     "id": "diagnosing-and-caring-for-the-child-with-asd",
@@ -242,7 +250,8 @@
         "isbn": "9783030265304"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Assessment & diagnosis"
   },
   {
     "id": "differential-diagnosis-of-asd",
@@ -268,7 +277,8 @@
         "query": "Differential Diagnosis of Autism Spectrum Disorder Stavropoulos McPartland"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Assessment & diagnosis"
   },
   {
     "id": "autism-spectrum-disorders-research-review",
@@ -295,7 +305,8 @@
       }
     ],
     "previews": [],
-    "coverLookup": false
+    "coverLookup": false,
+    "topic": "Theory & research"
   },
   {
     "id": "trauma-autism-and-neurodevelopmental-disorders",
@@ -321,7 +332,8 @@
         "query": "Trauma Autism and Neurodevelopmental Disorders Fogler Phelps"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Mental health & trauma"
   },
   {
     "id": "early-start-denver-model",
@@ -348,7 +360,8 @@
         "query": "Early Start Denver Model for Young Children with Autism Sally J. Rogers"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Therapy & intervention"
   },
   {
     "id": "autplay-therapy-handbook",
@@ -374,7 +387,8 @@
         "query": "The AutPlay Therapy Handbook Robert Jason Grant"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Therapy & intervention"
   },
   {
     "id": "play-based-interventions-for-asd",
@@ -400,7 +414,8 @@
         "query": "Play-Based Interventions for Autism Spectrum Disorder and Other Developmental Disabilities Robert Jason Grant"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Therapy & intervention"
   },
   {
     "id": "practical-social-skills-for-asd",
@@ -426,7 +441,8 @@
         "query": "Practical Social Skills for Autism Spectrum Disorders Kathleen Koenig"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Therapy & intervention"
   },
   {
     "id": "autism-and-enablement",
@@ -453,7 +469,8 @@
         "query": "Autism and Enablement Matt Bushell"
       }
     ],
-    "previews": []
+    "previews": [],
+    "topic": "Sensory & occupational therapy"
   },
   {
     "id": "handbook-childhood-psychopathology-treatment",
@@ -477,6 +494,1093 @@
       {
         "retailer": "amazon",
         "query": "Handbook of Childhood Psychopathology and Developmental Disabilities Treatment Johnny L. Matson (ed.)"
+      }
+    ],
+    "previews": [],
+    "topic": "Therapy & intervention"
+  },
+  {
+    "id": "is-this-autism-a-guide-for-clinicians-and-everyone-else",
+    "kind": "book",
+    "title": "Is This Autism? A Guide for Clinicians and Everyone Else",
+    "subtitle": "",
+    "author": "Donna Henderson, Sarah Wayland, Jamell White",
+    "publisher": "Routledge",
+    "edition": "2023",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Assessment & diagnosis",
+    "bestFor": "Clinicians",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Neurodiversity-affirming guide to recognising autism that is often missed, especially in adults, women and people of colour.",
+    "isbn": "9781032150222",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/103215022X?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "assessment-of-autism-spectrum-disorder",
+    "kind": "book",
+    "title": "Assessment of Autism Spectrum Disorder",
+    "subtitle": "(2nd ed.)",
+    "author": "Sam Goldstein, Sally Ozonoff (eds)",
+    "publisher": "Guilford Press",
+    "edition": "2020 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Assessment & diagnosis",
+    "bestFor": "Psychologists, clinicians",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Evidence-based reference on screening, diagnostic tools and differential diagnosis across the lifespan.",
+    "isbn": "9781462545964",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462545963?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "attention-deficit-hyperactivity-disorder",
+    "kind": "book",
+    "title": "Attention-Deficit Hyperactivity Disorder",
+    "subtitle": "A Handbook for Diagnosis and Treatment (4th ed.)",
+    "author": "Russell A. Barkley (ed.)",
+    "publisher": "Guilford Press",
+    "edition": "2018 (4th ed. pbk)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Assessment & diagnosis",
+    "bestFor": "Clinicians, psychiatrists",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "The standard clinical handbook on ADHD: theory, assessment and treatment from childhood to adulthood.",
+    "isbn": "9781462538874",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462538878?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "adult-adhd",
+    "kind": "book",
+    "title": "Adult ADHD",
+    "subtitle": "Diagnostic Assessment and Treatment (4th ed.)",
+    "author": "J. J. Sandra Kooij",
+    "publisher": "Springer",
+    "edition": "2022 (4th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Assessment & diagnosis",
+    "bestFor": "Psychiatrists, clinicians",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "European clinical guide to diagnosing and treating ADHD in adults, including comorbidities and medication.",
+    "isbn": "9783030828141",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/303082814X?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "oxford-textbook-of-attention-deficit-hyperactivity-disorder",
+    "kind": "book",
+    "title": "Oxford Textbook of Attention Deficit Hyperactivity Disorder",
+    "subtitle": "",
+    "author": "Tobias Banaschewski, David Coghill, Alessandro Zuddas (eds)",
+    "publisher": "Oxford University Press",
+    "edition": "2018",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Assessment & diagnosis",
+    "bestFor": "Psychiatrists, researchers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Comprehensive academic textbook covering the science, assessment and management of ADHD.",
+    "isbn": "9780198739258",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0198739257?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism",
+    "kind": "book",
+    "title": "Autism",
+    "subtitle": "A New Introduction to Psychological Theory and Current Debate",
+    "author": "Sue Fletcher-Watson, Francesca Happé",
+    "publisher": "Routledge",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "Psychologists, students",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Up-to-date overview of psychological theories of autism, written with autistic perspectives in mind.",
+    "isbn": "9781138106123",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1138106127?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism-9018",
+    "kind": "book",
+    "title": "Autism",
+    "subtitle": "Explaining the Enigma (2nd ed.)",
+    "author": "Uta Frith",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2003 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "Psychologists, students",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Classic introduction to the cognitive psychology of autism by a leading UK researcher.",
+    "isbn": "9780631229018",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0631229019?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "the-autistic-spectrum",
+    "kind": "book",
+    "title": "The Autistic Spectrum",
+    "subtitle": "A Guide for Parents and Professionals",
+    "author": "Lorna Wing",
+    "publisher": "Robinson",
+    "edition": "2003 (updated ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "Professionals and parents",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Foundational UK text from the clinician who introduced the idea of the autistic spectrum.",
+    "isbn": "9781841196749",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1841196746?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "a-mismatch-of-salience",
+    "kind": "book",
+    "title": "A Mismatch of Salience",
+    "subtitle": "Explorations of the Nature of Autism from Theory to Practice",
+    "author": "Damian Milton",
+    "publisher": "Pavilion",
+    "edition": "2017",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "All professionals",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Essays from the autistic researcher behind the 'double empathy problem', linking theory to practice.",
+    "isbn": "9781911028765",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1911028766?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "the-neurodiversity-reader",
+    "kind": "book",
+    "title": "The Neurodiversity Reader",
+    "subtitle": "Exploring Concepts, Lived Experience and Implications for Practice",
+    "author": "Damian Milton (ed.)",
+    "publisher": "Pavilion",
+    "edition": "2020",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "All professionals",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Collection on the neurodiversity paradigm and what it means for services and practice.",
+    "isbn": "9781912755394",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1912755394?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "adhd-in-adults",
+    "kind": "book",
+    "title": "ADHD in Adults",
+    "subtitle": "What the Science Says",
+    "author": "Russell A. Barkley, Kevin R. Murphy, Mariellen Fischer",
+    "publisher": "Guilford Press",
+    "edition": "2010",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "Clinicians, researchers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Research findings on how ADHD presents and affects adults, from two major longitudinal studies.",
+    "isbn": "9781609180751",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1609180755?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "a-new-understanding-of-adhd-in-children-and-adults",
+    "kind": "book",
+    "title": "A New Understanding of ADHD in Children and Adults",
+    "subtitle": "Executive Function Impairments",
+    "author": "Thomas E. Brown",
+    "publisher": "Routledge",
+    "edition": "2013",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Theory & research",
+    "bestFor": "Clinicians, educators",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Explains ADHD as a problem of executive function, with clinical examples and treatment implications.",
+    "isbn": "9780415814256",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0415814251?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "the-complete-guide-to-asperger-s-syndrome",
+    "kind": "book",
+    "title": "The Complete Guide to Asperger's Syndrome",
+    "subtitle": "",
+    "author": "Tony Attwood",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2008",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "topic": "General guides",
+    "bestFor": "Clinicians, teachers, parents",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Widely used reference covering diagnosis, social understanding, emotions, sensory issues and support. Uses older terminology.",
+    "isbn": "9781843106692",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1843106698?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "note": "This book uses the older term Asperger's syndrome, which is now part of the autism diagnosis."
+  },
+  {
+    "id": "uniquely-human",
+    "kind": "book",
+    "title": "Uniquely Human",
+    "subtitle": "A Different Way of Seeing Autism (Revised and Expanded)",
+    "author": "Barry M. Prizant, Tom Fields-Meyer",
+    "publisher": "Souvenir Press",
+    "edition": "2022 (revised ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "topic": "General guides",
+    "bestFor": "SLTs, teachers, parents",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Respectful, strengths-based way of understanding autistic behaviour from a leading SLT and SCERTS co-author.",
+    "isbn": "9781800811249",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1800811241?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "neurodiversity-affirming-psychotherapy",
+    "kind": "book",
+    "title": "Neurodiversity-Affirming Psychotherapy",
+    "subtitle": "Clinical Pathways to Autistic Mental Health",
+    "author": "Ruth M. Strunz",
+    "publisher": "Routledge",
+    "edition": "2024",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Therapists, psychologists",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Practical framework for adapting psychotherapy to support autistic clients' mental health.",
+    "isbn": "9781032553924",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1032553928?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "cognitive-behavioral-therapy-for-adults-with-autism-spectrum",
+    "kind": "book",
+    "title": "Cognitive-Behavioral Therapy for Adults with Autism Spectrum Disorder",
+    "subtitle": "(2nd ed.)",
+    "author": "Valerie L. Gaus",
+    "publisher": "Guilford Press",
+    "edition": "2019 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Therapists, psychologists",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Guide to adapting CBT for autistic adults with anxiety, depression and other difficulties. Hardback.",
+    "isbn": "9781462537686",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462537685?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "exploring-feelings",
+    "kind": "book",
+    "title": "Exploring Feelings",
+    "subtitle": "Anxiety – Cognitive Behaviour Therapy to Manage Anxiety",
+    "author": "Tony Attwood",
+    "publisher": "Future Horizons",
+    "edition": "2001",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Therapists, school staff",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Structured CBT programme for helping autistic children understand and manage anxiety.",
+    "isbn": "9781932565225",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1932565221?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "cognitive-behavioral-therapy-for-adult-adhd",
+    "kind": "book",
+    "title": "Cognitive-Behavioral Therapy for Adult ADHD",
+    "subtitle": "Targeting Executive Dysfunction",
+    "author": "Mary V. Solanto",
+    "publisher": "Guilford Press",
+    "edition": "2013",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Therapists, psychologists",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Session-by-session group CBT programme for adults with ADHD, with handouts.",
+    "isbn": "9781462509638",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462509630?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "cognitive-behavioural-therapy-for-adhd-in-adolescents-and-ad",
+    "kind": "book",
+    "title": "Cognitive-Behavioural Therapy for ADHD in Adolescents and Adults",
+    "subtitle": "(2nd ed.)",
+    "author": "Susan Young, Jessica Bramham",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2012 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Therapists, psychologists",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "UK-authored psychological guide to the Young-Bramham CBT programme for ADHD.",
+    "isbn": "9781119960737",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1119960738?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "mastering-your-adult-adhd",
+    "kind": "book",
+    "title": "Mastering Your Adult ADHD",
+    "subtitle": "Therapist Guide (2nd ed.)",
+    "author": "Steven A. Safren, Susan E. Sprich et al.",
+    "publisher": "Oxford University Press",
+    "edition": "2017 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Therapists",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Therapist manual for an evidence-based CBT programme for adults with ADHD (a client workbook is sold separately).",
+    "isbn": "9780190235581",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0190235586?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "treating-adhd-in-children-and-adolescents",
+    "kind": "book",
+    "title": "Treating ADHD in Children and Adolescents",
+    "subtitle": "What Every Clinician Needs to Know",
+    "author": "Russell A. Barkley",
+    "publisher": "Guilford Press",
+    "edition": "2022",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Clinicians",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Concise, practical guide to evidence-based treatment of ADHD in young people.",
+    "isbn": "9781462545148",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462545149?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "using-intensive-interaction-and-sensory-integration",
+    "kind": "book",
+    "title": "Using Intensive Interaction and Sensory Integration",
+    "subtitle": "",
+    "author": "Phoebe Caldwell, Jane Horwood",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2008",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Therapy & intervention",
+    "bestFor": "Support staff, SLTs, OTs",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Practical handbook for connecting with autistic people who have little or no speech.",
+    "isbn": "9781843106265",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1843106264?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "neurodiversity-affirming-practice-for-speech-and-language-th",
+    "kind": "book",
+    "title": "Neurodiversity-Affirming Practice for Speech and Language Therapists",
+    "subtitle": "",
+    "author": "Ruth Jones",
+    "publisher": "Routledge",
+    "edition": "2025",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Speech, language & communication",
+    "bestFor": "SLTs",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "New UK guide to curious, compassionate, neurodiversity-affirming SLT practice.",
+    "isbn": "9781032689326",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1032689323?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "more-than-words-hanen",
+    "kind": "book",
+    "title": "More Than Words (Hanen)",
+    "subtitle": "",
+    "author": "Fern Sussman",
+    "publisher": "Hanen Centre",
+    "edition": "2012",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "topic": "Speech, language & communication",
+    "bestFor": "SLTs, parents",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "The Hanen guide to building interaction and communication with young autistic children, widely used by SLTs.",
+    "isbn": "9780921145417",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0921145411?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "the-new-social-story-book",
+    "kind": "book",
+    "title": "The New Social Story Book",
+    "subtitle": "(Revised and Expanded 15th Anniversary ed.)",
+    "author": "Carol Gray",
+    "publisher": "Future Horizons",
+    "edition": "2015",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Speech, language & communication",
+    "bestFor": "Teachers, SLTs",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Over 150 Social Stories from the creator of the approach, with guidance on writing your own.",
+    "isbn": "9781941765166",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1941765165?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "the-incredible-5-point-scale",
+    "kind": "book",
+    "title": "The Incredible 5-Point Scale",
+    "subtitle": "(2nd ed.)",
+    "author": "Kari Dunn Buron, Mitzi Curtis",
+    "publisher": "Kari Dunn Buron",
+    "edition": "2021",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Speech, language & communication",
+    "bestFor": "Teachers, SLTs, OTs",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Visual scale for helping pupils understand social situations and regulate emotions.",
+    "isbn": "9781737671541",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1737671549?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "sensory-integration",
+    "kind": "book",
+    "title": "Sensory Integration",
+    "subtitle": "Theory and Practice (3rd ed.)",
+    "author": "Anita C. Bundy, Shelly J. Lane (eds)",
+    "publisher": "F.A. Davis",
+    "edition": "2019 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Sensory & occupational therapy",
+    "bestFor": "OTs",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Core OT textbook on sensory integration theory, assessment and intervention. Hardback.",
+    "isbn": "9780803646063",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0803646062?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "interoception",
+    "kind": "book",
+    "title": "Interoception",
+    "subtitle": "The Eighth Sensory System",
+    "author": "Kelly Mahler",
+    "publisher": "AAPC Publishing",
+    "edition": "2015",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Sensory & occupational therapy",
+    "bestFor": "OTs, teachers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Explains interoception and practical ways to support body awareness and emotional regulation.",
+    "isbn": "9781942197140",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1942197144?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "sensory-being-for-sensory-beings",
+    "kind": "book",
+    "title": "Sensory-Being for Sensory Beings",
+    "subtitle": "Creating Entrancing Sensory Experiences",
+    "author": "Joanna Grace",
+    "publisher": "Routledge",
+    "edition": "2017",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Sensory & occupational therapy",
+    "bestFor": "Teachers, SEND staff",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Ideas for meaningful sensory experiences for people with complex needs.",
+    "isbn": "9781911186113",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1911186116?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "collaborative-approaches-to-learning-for-pupils-with-pda",
+    "kind": "book",
+    "title": "Collaborative Approaches to Learning for Pupils with PDA",
+    "subtitle": "",
+    "author": "Ruth Fidler, Phil Christie",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2018",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "Teachers, SENCOs",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Practical strategies for supporting pupils with a Pathological Demand Avoidance profile in school.",
+    "isbn": "9781785920172",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1785920170?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism-in-the-early-years",
+    "kind": "book",
+    "title": "Autism in the Early Years",
+    "subtitle": "A Practical Guide",
+    "author": "Val Cumine, Julia Dunlop, Gill Stevenson",
+    "publisher": "Routledge",
+    "edition": "2009 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "Early years practitioners",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "UK practical guide to supporting autistic children in nursery and early years settings.",
+    "isbn": "9780415483735",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0415483735?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "lost-at-school",
+    "kind": "book",
+    "title": "Lost at School",
+    "subtitle": "",
+    "author": "Ross W. Greene",
+    "publisher": "Scribner",
+    "edition": "2014",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "Teachers, school leaders",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "The Collaborative & Proactive Solutions approach to behavioural challenges in school.",
+    "isbn": "9781501101496",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1501101498?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "managing-adhd-in-school",
+    "kind": "book",
+    "title": "Managing ADHD in School",
+    "subtitle": "The Best Evidence-Based Methods for Teachers",
+    "author": "Russell A. Barkley",
+    "publisher": "PESI",
+    "edition": "2016",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "Teachers, SENCOs",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Short, practical classroom strategies for pupils with ADHD.",
+    "isbn": "9781559570435",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1559570431?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "how-to-teach-and-manage-children-with-adhd",
+    "kind": "book",
+    "title": "How to Teach and Manage Children with ADHD",
+    "subtitle": "",
+    "author": "Fintan O'Regan",
+    "publisher": "LDA",
+    "edition": "2002",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "Teachers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "UK classroom guide to ADHD from a former head of a specialist school. Older title.",
+    "isbn": "9781855033481",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1855033488?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "executive-skills-in-children-and-adolescents",
+    "kind": "book",
+    "title": "Executive Skills in Children and Adolescents",
+    "subtitle": "(3rd ed.)",
+    "author": "Peg Dawson, Richard Guare",
+    "publisher": "Guilford Press",
+    "edition": "2018 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "School psychologists, teachers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Practical guide to assessing and building executive function skills in school.",
+    "isbn": "9781462535316",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462535313?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "autism-identity-and-me",
+    "kind": "book",
+    "title": "Autism, Identity and Me",
+    "subtitle": "A Practical Workbook and Professional Guide",
+    "author": "Rebecca Duffus",
+    "publisher": "Routledge",
+    "edition": "2023",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Education & SEND",
+    "bestFor": "Teachers, therapists",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Workbook and professional guide for helping autistic young people aged 10+ build a positive identity.",
+    "isbn": "9781032261027",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1032261021?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "women-and-girls-on-the-autism-spectrum",
+    "kind": "book",
+    "title": "Women and Girls on the Autism Spectrum",
+    "subtitle": "(2nd ed.)",
+    "author": "Sarah Hendrickx",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2024 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Girls, women & mental health",
+    "bestFor": "All professionals",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Key UK text on how autism presents in women and girls across the lifespan.",
+    "isbn": "9781805010692",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1805010697?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "a-guide-to-mental-health-issues-in-girls-and-young-women-on-",
+    "kind": "book",
+    "title": "A Guide to Mental Health Issues in Girls and Young Women on the Autism Spectrum",
+    "subtitle": "",
+    "author": "Judy Eaton",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2017",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Girls, women & mental health",
+    "bestFor": "Clinicians, CAMHS staff",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "UK clinical psychologist's guide to diagnosis, intervention and family support.",
+    "isbn": "9781785920929",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1785920928?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "understanding-adhd-in-girls-and-women",
+    "kind": "book",
+    "title": "Understanding ADHD in Girls and Women",
+    "subtitle": "",
+    "author": "Joanne Steer (ed.)",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2021",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals"
+    ],
+    "topic": "Girls, women & mental health",
+    "bestFor": "Clinicians, educators",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "UK collection on recognising and supporting ADHD in girls and women.",
+    "isbn": "9781787754003",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787754006?tag=ndresources-21"
+      }
+    ],
+    "previews": []
+  },
+  {
+    "id": "understanding-pathological-demand-avoidance-syndrome-in-chil",
+    "kind": "book",
+    "title": "Understanding Pathological Demand Avoidance Syndrome in Children",
+    "subtitle": "",
+    "author": "Phil Christie, Margaret Duncan, Ruth Fidler, Zara Healy",
+    "publisher": "Jessica Kingsley Publishers",
+    "edition": "2011",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "parents"
+    ],
+    "topic": "PDA",
+    "bestFor": "Professionals and parents",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "The core guide to the PDA profile from the team at the NAS Elizabeth Newson Centre.",
+    "isbn": "9781849050746",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1849050740?tag=ndresources-21"
       }
     ],
     "previews": []
