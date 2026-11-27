@@ -1628,5 +1628,1044 @@
       }
     ],
     "previews": []
+  },
+  {
+    "id": "british-national-formulary-bnf-92",
+    "kind": "book",
+    "title": "British National Formulary (BNF) 92",
+    "subtitle": "",
+    "author": "Joint Formulary Committee",
+    "publisher": "Pharmaceutical Press",
+    "edition": "Sept 2026 (BNF 92)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Formularies & reference",
+    "bestFor": "All UK prescribers and V300 students",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "The UK's standard drug reference, updated every six months; the edition prescribing courses expect you to use.",
+    "isbn": "9780857114990",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0857114999?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780857114990.jpg",
+      "https://books.google.com/books/content?id=hxV50gEACAAJ&printsec=frontcover&img=1&zoom=1",
+      "https://covers.openlibrary.org/b/isbn/9780857114990-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "bnf-for-children-bnfc-2026-2027",
+    "kind": "book",
+    "title": "BNF for Children (BNFC) 2026–2027",
+    "subtitle": "",
+    "author": "Paediatric Formulary Committee",
+    "publisher": "Pharmaceutical Press",
+    "edition": "Sept 2026",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Formularies & reference",
+    "bestFor": "Prescribers working with children and young people",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "UK paediatric formulary covering dosing, licensing and safety for under-18s, including ADHD medicines.",
+    "isbn": "9780857114976",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0857114972?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780857114976.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780857114976-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-textbook-of-non-medical-prescribing",
+    "kind": "book",
+    "title": "The Textbook of Non-Medical Prescribing",
+    "subtitle": "",
+    "author": "Dilyse Nuttall, Jane Rutt-Howard (eds)",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2019 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Non-medical prescribing course texts",
+    "bestFor": "Nurses, pharmacists and AHPs on a V300/IP course",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Core UK course textbook covering law, ethics, pharmacology, consultation and decision-making for non-medical prescribers.",
+    "isbn": "9781119520474",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1119520479?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1119520479.jpg",
+      "https://images-us.bookshop.org/ingram/9781119520474.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781119520474-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "independent-and-supplementary-prescribing",
+    "kind": "book",
+    "title": "Independent and Supplementary Prescribing",
+    "subtitle": "An Essential Guide",
+    "author": "Molly Courtenay (ed.)",
+    "publisher": "Cambridge University Press",
+    "edition": "2022 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Non-medical prescribing course texts",
+    "bestFor": "Nurses, pharmacists and AHPs training to prescribe",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Established guide to the principles and practice of independent and supplementary prescribing in the UK.",
+    "isbn": "9781108928519",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/110892851X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781108928519.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781108928519-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "independent-and-supplementary-prescribing-at-a-glance",
+    "kind": "book",
+    "title": "Independent and Supplementary Prescribing At a Glance",
+    "subtitle": "",
+    "author": "Barry Hill, Aby Mitchell et al.",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2022 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Non-medical prescribing course texts",
+    "bestFor": "Students wanting a quick visual revision guide",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Two-page illustrated spreads summarising each part of the prescribing course for fast revision.",
+    "isbn": "9781119837916",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/111983791X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/111983791X.jpg",
+      "https://images-us.bookshop.org/ingram/9781119837916.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781119837916-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-new-prescriber",
+    "kind": "book",
+    "title": "The New Prescriber",
+    "subtitle": "An Integrated Approach to Medical and Non-medical Prescribing",
+    "author": "Joanne Lymn, Alison Mostyn et al.",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2024 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Non-medical prescribing course texts",
+    "bestFor": "New prescribers from any profession",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Practical, case-based introduction linking pharmacology to safe everyday prescribing decisions.",
+    "isbn": "9781119833154",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1119833159?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1119833159.jpg",
+      "https://images-us.bookshop.org/ingram/9781119833154.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781119833154-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "non-medical-prescribing",
+    "kind": "book",
+    "title": "Non-Medical Prescribing",
+    "subtitle": "A Course Companion",
+    "author": "Alison Pooler (ed.)",
+    "publisher": "Routledge",
+    "edition": "2020 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Non-medical prescribing course texts",
+    "bestFor": "V300 students",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Written to follow the prescribing course: competency framework, assessment, accountability and reflective practice.",
+    "isbn": "9780367281342",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0367281341?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780367281342.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780367281342-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "oxford-handbook-of-prescribing-for-nurses-and-allied-health",
+    "kind": "book",
+    "title": "Oxford Handbook of Prescribing for Nurses and Allied Health Professionals",
+    "subtitle": "",
+    "author": "Nicola Carey, Penny Franklin et al.",
+    "publisher": "OUP Oxford",
+    "edition": "2025 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Non-medical prescribing course texts",
+    "bestFor": "Practising nurse and AHP prescribers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Pocket handbook for day-to-day prescribing across common conditions, updated for current UK practice.",
+    "isbn": "9780198839095",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/019883909X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780198839095.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780198839095-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-unofficial-guide-to-prescribing",
+    "kind": "book",
+    "title": "The Unofficial Guide to Prescribing",
+    "subtitle": "",
+    "author": "Ali Al-Hadithi, Simon Maxwell et al.",
+    "publisher": "Elsevier",
+    "edition": "2025 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Prescribing skills & safety",
+    "bestFor": "Students preparing for prescribing exams",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Clear, exam-focused guide to writing safe prescriptions, calculations and common prescribing scenarios.",
+    "isbn": "9780443113451",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0443113459?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780443113451.jpg",
+      "https://images-us.bookshop.org/ingram/9780443113451.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780443113451-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "prescribing-at-a-glance",
+    "kind": "book",
+    "title": "Prescribing at a Glance",
+    "subtitle": "",
+    "author": "Sarah Ross",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2014 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Prescribing skills & safety",
+    "bestFor": "Students and new prescribers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Illustrated overview of the prescribing process, from history-taking to review and avoiding errors.",
+    "isbn": "9781118257319",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1118257316?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1118257316.jpg",
+      "https://images-us.bookshop.org/ingram/9781118257319.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781118257319-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "prescribing-scenarios-at-a-glance",
+    "kind": "book",
+    "title": "Prescribing Scenarios at a Glance",
+    "subtitle": "",
+    "author": "Emma Baker, Daniel Burrage et al.",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2014 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Prescribing skills & safety",
+    "bestFor": "Students practising for assessments",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Worked clinical scenarios that build prescribing judgement and safety.",
+    "isbn": "9781118570869",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1118570863?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1118570863.jpg",
+      "https://images-us.bookshop.org/ingram/9781118570869.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781118570869-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-top-100-drugs",
+    "kind": "book",
+    "title": "The Top 100 Drugs",
+    "subtitle": "Clinical Pharmacology and Practical Prescribing",
+    "author": "Andrew Hitchings, Dagan Lonsdale et al.",
+    "publisher": "Elsevier",
+    "edition": "2022 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Pharmacology for prescribers",
+    "bestFor": "Students learning the most-used medicines",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "One page per commonly prescribed drug: mechanism, uses, cautions, interactions and monitoring.",
+    "isbn": "9780323834452",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0323834450?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780323834452.jpg",
+      "https://images-us.bookshop.org/ingram/9780323834452.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780323834452-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "trounce-s-clinical-pharmacology-for-nurses-and-allied-health",
+    "kind": "book",
+    "title": "Trounce's Clinical Pharmacology for Nurses and Allied Health Professionals",
+    "subtitle": "",
+    "author": "Clive Page, Ruma Anand et al.",
+    "publisher": "Elsevier",
+    "edition": "2021 (19th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Pharmacology for prescribers",
+    "bestFor": "Nurses and AHPs building pharmacology knowledge",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Long-running UK pharmacology text explaining how drugs work and how to use them safely.",
+    "isbn": "9780702067051",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0702067059?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780702067051.jpg",
+      "https://images-us.bookshop.org/ingram/9780702067051.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780702067051-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "lecture-notes",
+    "kind": "book",
+    "title": "Lecture Notes",
+    "subtitle": "Clinical Pharmacology and Therapeutics",
+    "author": "Gerard McKay, Matthew Walters et al.",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2021 (10th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Pharmacology for prescribers",
+    "bestFor": "Students wanting a concise pharmacology review",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Compact guide to clinical pharmacology and therapeutics by body system.",
+    "isbn": "9781119599951",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1119599954?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1119599954.jpg",
+      "https://images-us.bookshop.org/ingram/9781119599951.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781119599951-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "oxford-handbook-of-clinical-pharmacy",
+    "kind": "book",
+    "title": "Oxford Handbook of Clinical Pharmacy",
+    "subtitle": "",
+    "author": "Nicola Stoner, Marc Mitchell et al.",
+    "publisher": "OUP Oxford",
+    "edition": "2026 (4th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Pharmacology for prescribers",
+    "bestFor": "Pharmacist prescribers and ward clinicians",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Pocket reference on medicines use, monitoring, interactions and clinical pharmacy practice.",
+    "isbn": "9780192855169",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0192855166?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780192855169.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780192855169-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "stockley-s-drug-interactions",
+    "kind": "book",
+    "title": "Stockley's Drug Interactions",
+    "subtitle": "",
+    "author": "Claire L. Preston (ed.)",
+    "publisher": "Pharmaceutical Press",
+    "edition": "2019 (12th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Formularies & reference",
+    "bestFor": "Prescribers and pharmacists checking interactions",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "The definitive reference on drug interactions, their mechanisms and how to manage them.",
+    "isbn": "9780857113474",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/085711347X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780857113474.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780857113474-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "independent-prescribing-for-paramedics",
+    "kind": "book",
+    "title": "Independent Prescribing for Paramedics",
+    "subtitle": "",
+    "author": "Amanda Blaber, Andy Timlett (eds)",
+    "publisher": "Class Professional Publishing",
+    "edition": "2026 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Profession-specific prescribing",
+    "bestFor": "Paramedics training to prescribe",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "UK guide to independent prescribing written specifically for paramedics.",
+    "isbn": "9781801611770",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1801611777?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781801611770.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781801611770-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-prescribing-pharmacist",
+    "kind": "book",
+    "title": "The Prescribing Pharmacist",
+    "subtitle": "",
+    "author": "Barry Strickland-Hodge, Mary-Claire Kennedy",
+    "publisher": "M&K Publishing",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Profession-specific prescribing",
+    "bestFor": "Pharmacists on the independent prescribing course",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Practical guide to the move from dispensing to prescribing, including consultation and clinical skills.",
+    "isbn": "9781910451038",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1910451037?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781910451038.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781910451038-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-maudsley-prescribing-guidelines-in-psychiatry",
+    "kind": "book",
+    "title": "The Maudsley Prescribing Guidelines in Psychiatry",
+    "subtitle": "",
+    "author": "David Taylor, Thomas Barnes, Allan Young",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2025 (15th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Mental health and ADHD prescribers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "The UK standard for evidence-based psychiatric prescribing, including ADHD, autism and children.",
+    "isbn": "9781394238767",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1394238762?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1394238762.jpg",
+      "https://images-us.bookshop.org/ingram/9781394238767.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781394238767-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-maudsley-deprescribing-guidelines",
+    "kind": "book",
+    "title": "The Maudsley Deprescribing Guidelines",
+    "subtitle": "",
+    "author": "Mark Horowitz, David Taylor",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2024 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Prescribers reviewing or stopping psychiatric medicines",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Step-by-step tapering guidance for antidepressants, benzodiazepines, gabapentinoids and Z-drugs.",
+    "isbn": "9781119822981",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/111982298X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/111982298X.jpg",
+      "https://images-us.bookshop.org/ingram/9781119822981.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781119822981-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-maudsley-prescribing-guidelines-for-mental-health-condit",
+    "kind": "book",
+    "title": "The Maudsley Prescribing Guidelines for Mental Health Conditions in Physical Illness",
+    "subtitle": "",
+    "author": "Siobhan Gee, David Taylor",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2024 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Prescribers treating people with physical health conditions",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "How to prescribe psychiatric medicines safely alongside heart, kidney, liver and other conditions.",
+    "isbn": "9781394192403",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1394192401?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1394192401.jpg",
+      "https://images-us.bookshop.org/ingram/9781394192403.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781394192403-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-maudsley-practice-guidelines-for-physical-health-conditi",
+    "kind": "book",
+    "title": "The Maudsley Practice Guidelines for Physical Health Conditions in Psychiatry",
+    "subtitle": "",
+    "author": "David Taylor, Fiona Gaughran, Toby Pillinger",
+    "publisher": "Wiley-Blackwell",
+    "edition": "2020 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Mental health prescribers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Managing physical health problems in people with mental illness, including monitoring and side effects.",
+    "isbn": "9781119554202",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1119554209?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://application.wiley-vch.de/books/tis/cover_big/1119554209.jpg",
+      "https://images-us.bookshop.org/ingram/9781119554202.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781119554202-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "prescriber-s-guide",
+    "kind": "book",
+    "title": "Prescriber's Guide",
+    "subtitle": "Stahl's Essential Psychopharmacology",
+    "author": "Stephen M. Stahl",
+    "publisher": "Cambridge University Press",
+    "edition": "2024 (8th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Psychiatric and ADHD prescribers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Drug-by-drug quick reference for psychotropics, including ADHD stimulants and non-stimulants.",
+    "isbn": "9781009464758",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1009464752?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781009464758.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781009464758-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "prescriber-s-guide-children-and-adolescents",
+    "kind": "book",
+    "title": "Prescriber's Guide – Children and Adolescents",
+    "subtitle": "Stahl's Essential Psychopharmacology",
+    "author": "Stephen M. Stahl, Jeffrey Strawn",
+    "publisher": "Cambridge University Press",
+    "edition": "2024 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Prescribers working with young people, including ADHD",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Paediatric psychotropic prescribing reference covering ADHD, anxiety, mood and more.",
+    "isbn": "9781009267502",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1009267507?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781009267502.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781009267502-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "stahl-s-essential-psychopharmacology",
+    "kind": "book",
+    "title": "Stahl's Essential Psychopharmacology",
+    "subtitle": "",
+    "author": "Stephen M. Stahl",
+    "publisher": "Cambridge University Press",
+    "edition": "2021 (5th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Prescribers wanting to understand how psychiatric drugs work",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Illustrated textbook explaining the neuroscience behind psychiatric medicines.",
+    "isbn": "9781108971638",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1108971636?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781108971638.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781108971638-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "cambridge-prescriber-s-guide-in-psychiatry",
+    "kind": "book",
+    "title": "Cambridge Prescriber's Guide in Psychiatry",
+    "subtitle": "",
+    "author": "Sepehr Hafizi, Peter B. Jones et al. (eds)",
+    "publisher": "Cambridge University Press",
+    "edition": "2023 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "UK mental health prescribers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "UK-focused quick reference for psychotropic prescribing, aligned with BNF and NICE.",
+    "isbn": "9781108986588",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1108986587?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781108986588.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781108986588-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "pocket-prescriber-psychiatry",
+    "kind": "book",
+    "title": "Pocket Prescriber Psychiatry",
+    "subtitle": "",
+    "author": "Matt Butler, Timothy Nicholson et al.",
+    "publisher": "CRC Press",
+    "edition": "2024 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Mental health & ADHD prescribing",
+    "bestFor": "Mental health prescribers needing a pocket guide",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Concise ward and clinic guide to prescribing in psychiatry.",
+    "isbn": "9781032397412",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1032397411?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781032397412.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781032397412-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "prescribing-medicines-for-children",
+    "kind": "book",
+    "title": "Prescribing Medicines for Children",
+    "subtitle": "",
+    "author": "Mike Sharland et al. (eds)",
+    "publisher": "Pharmaceutical Press",
+    "edition": "2019 (1st ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Formularies & reference",
+    "bestFor": "Prescribers working with children",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Explains the science and practice behind safe paediatric prescribing, complementing the BNFC.",
+    "isbn": "9780857111357",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0857111353?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780857111357.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780857111357-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "skills-for-communicating-with-patients",
+    "kind": "book",
+    "title": "Skills for Communicating with Patients",
+    "subtitle": "",
+    "author": "Jonathan Silverman, Suzanne Kurtz, Juliet Draper",
+    "publisher": "CRC Press",
+    "edition": "2013 (3rd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Consultation & assessment skills",
+    "bestFor": "All prescribers learning consultation skills",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "The Calgary-Cambridge consultation model used on most UK prescribing courses.",
+    "isbn": "9781846193651",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1846193656?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781846193651.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781846193651-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-inner-consultation",
+    "kind": "book",
+    "title": "The Inner Consultation",
+    "subtitle": "",
+    "author": "Roger Neighbour",
+    "publisher": "Routledge",
+    "edition": "2015 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Consultation & assessment skills",
+    "bestFor": "Prescribers developing their consultation style",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Classic five-checkpoint model for structured, patient-centred consultations.",
+    "isbn": "9781857756791",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1857756797?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781857756791.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781857756791-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "macleod-s-clinical-examination",
+    "kind": "book",
+    "title": "Macleod's Clinical Examination",
+    "subtitle": "",
+    "author": "Anna Dover, J. Alastair Innes et al.",
+    "publisher": "Elsevier",
+    "edition": "2023 (15th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Consultation & assessment skills",
+    "bestFor": "Prescribers building history-taking and examination skills",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Standard UK guide to history-taking and physical examination.",
+    "isbn": "9780323847704",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0323847706?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780323847704.jpg",
+      "https://images-us.bookshop.org/ingram/9780323847704.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780323847704-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-minor-illness-manual",
+    "kind": "book",
+    "title": "The Minor Illness Manual",
+    "subtitle": "",
+    "author": "Gina Johnson, Ian Hill-Smith et al.",
+    "publisher": "CRC Press",
+    "edition": "2024 (6th ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "prescribing"
+    ],
+    "topic": "Consultation & assessment skills",
+    "bestFor": "Primary care and community prescribers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Practical guide to assessing and treating common minor illnesses, including when to refer.",
+    "isbn": "9781032546940",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1032546948?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781032546940.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781032546940-L.jpg?default=false"
+    ]
   }
 ]
