@@ -145,6 +145,7 @@ section + section { margin-top: 3.5rem; }
 .buy .price { font-size: calc(1.6rem * var(--step)); }
 .btn { display: inline-flex; justify-content: center; align-items: center; gap: .5rem; font: inherit; font-family: var(--font-display); font-weight: 500; background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 8px; padding: .8rem 1.2rem; text-decoration: none; cursor: pointer; }
 .btn:hover { filter: brightness(1.08); }
+.btn.btn-alt { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
 .facts { display: grid; grid-template-columns: auto 1fr; gap: .35rem 1rem; margin: 0; font-size: .95rem; }
 .facts dt { color: var(--muted); }
 .facts dd { margin: 0; }
@@ -261,6 +262,32 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     }
     return "";
   }
+  // Extra retailers (e.g. Awin): shown on every book once enabled in site.json
+  function liveRetailer(k) {
+    var r = (site.retailers || {})[k] || {};
+    return k !== "amazon" && r.enabled === true && r.search && (r.network !== "awin" || (r.awinmid && site.awin && site.awin.publisherId)) ? r : null;
+  }
+  function retailerUrl(k, p) {
+    var r = liveRetailer(k); if (!r) return "";
+    var q = p.isbn || [p.title, p.author].filter(Boolean).join(" ");
+    var dest = r.search.replace("{q}", encodeURIComponent(q));
+    if (r.network !== "awin") return dest;
+    return "https://www.awin1.com/cread.php?awinmid=" + encodeURIComponent(r.awinmid) + "&awinaffid=" + encodeURIComponent(site.awin.publisherId) + "&ued=" + encodeURIComponent(dest);
+  }
+  function buyLinks(p) {
+    var links = (p.buy || []).map(function (b) { return { href: buyUrl(b), label: buyLabel(b) }; });
+    var have = (p.buy || []).map(function (b) { return b.retailer; });
+    Object.keys(site.retailers || {}).forEach(function (k) {
+      if (have.indexOf(k) > -1) return;
+      var u = retailerUrl(k, p); if (u) links.push({ href: u, label: site.retailers[k].label || ("Buy from " + k) });
+    });
+    return links;
+  }
+  function buyDisclosure(links) {
+    var amazon = ((site.retailers || {}).amazon || {}).disclosure || "";
+    var others = links.some(function (l) { return l.href.indexOf("amazon.") < 0 && l.href.indexOf("link.amazon") < 0 && l.href.indexOf("amzn.") < 0; });
+    return (others && site.affiliateDisclosure ? site.affiliateDisclosure + " " : "") + amazon;
+  }
   function buyLabel(b) { var r = (site.retailers || {})[b.retailer] || {}; return r.label || ("Buy from " + b.retailer); }
   function isBook(p) { return p.kind === "book"; }
   function money(p) {
@@ -363,9 +390,9 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '<div class="product"><div class="detail-stack">' + cover(p, true) + (prev ? '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem">' + prev + '</div>' : "") + '</div>' +
         '<div class="detail-stack"><div style="display:grid;gap:.5rem"><span class="label">' + esc(p.type) + '</span><h1>' + esc(p.title) + '</h1><p class="muted" style="font-size:1.1em">' + esc(p.subtitle) + '</p>' +
         '<ul class="tags">' + (p.tags || []).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + '</ul></div>' +
-        (isBook(p) ? '<div class="buy">' + (p.buy || []).map(function (b) {
-            return '<a class="btn" href="' + esc(buyUrl(b)) + '" target="_blank" rel="sponsored noopener">' + esc(buyLabel(b)) + '</a>';
-          }).join("") + '<p class="muted" style="font-size:.9rem">Opens the retailer in a new tab. ' + esc(((site.retailers || {}).amazon || {}).disclosure || "") + '</p><dl class="facts">' + facts + '</dl></div>' :
+        (isBook(p) ? '<div class="buy">' + buyLinks(p).map(function (l, i) {
+            return '<a class="btn' + (i ? ' btn-alt' : '') + '" href="' + esc(l.href) + '" target="_blank" rel="sponsored noopener">' + esc(l.label) + '</a>';
+          }).join("") + '<p class="muted" style="font-size:.9rem">Opens the retailer in a new tab. ' + esc(buyDisclosure(buyLinks(p))) + '</p><dl class="facts">' + facts + '</dl></div>' :
         '<div class="buy"><span class="price">' + esc(money(p)) + '</span>' +
           (p.checkoutUrl ? '<a class="btn" href="' + esc(p.checkoutUrl) + '" target="_blank" rel="noopener">Buy and download</a>' : '<button class="btn" id="buy-btn">Buy and download</button>') +
           '<p class="muted" style="font-size:.9rem">Instant download. The file is emailed to you after payment.</p><dl class="facts">' + facts + '</dl></div>') +

@@ -5,6 +5,32 @@
       "label": "Buy on Amazon",
       "tag": "ndresources-21",
       "disclosure": "As an Amazon Associate I earn from qualifying purchases."
+    },
+    "bookshop": {
+      "label": "Buy from Bookshop.org",
+      "network": "awin",
+      "awinmid": "",
+      "enabled": false,
+      "search": "https://uk.bookshop.org/search?keywords={q}"
+    },
+    "waterstones": {
+      "label": "Buy from Waterstones",
+      "network": "awin",
+      "awinmid": "",
+      "enabled": false,
+      "search": "https://www.waterstones.com/books/search/term/{q}"
+    },
+    "blackwells": {
+      "label": "Buy from Blackwell's",
+      "network": "awin",
+      "awinmid": "",
+      "enabled": false,
+      "search": "https://blackwells.co.uk/bookshop/search/?keyword={q}"
     }
-  }
+  },
+  "awin": {
+    "publisherId": "3169527",
+    "note": "Awin account One Medic LTD. A retailer button appears on every book once that retailer has enabled:true and its awinmid (advertiser ID from the Awin dashboard) is filled in."
+  },
+  "affiliateDisclosure": "Some links on this page are affiliate links. If you buy through them, ND Resources may earn a small commission at no extra cost to you."
 }

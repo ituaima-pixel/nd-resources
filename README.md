@@ -20,3 +20,12 @@ Settings → Secrets and variables → Actions → New repository secret:
 | `SG_KEY_PASSPHRASE` | The password you chose when creating the key |
 
 Optional: `SG_PATH` if the site is not in `www/neurodivergentresources.co.uk/public_html`.
+
+## Extra retailers (Awin and others)
+
+`site/site.json` holds the Awin publisher ID (3169527) and a list of extra retailers. Each one is switched off (`"enabled": false`). To switch one on once its advertiser has approved the account:
+
+1. Fill in `awinmid` with the advertiser ID from the Awin dashboard.
+2. Set `"enabled": true`.
+
+Every book then gets an extra "Buy from ..." button. The button is an Awin deep link to that retailer's search for the book's ISBN, or for its title and author if it has no ISBN. The wider affiliate disclosure (`affiliateDisclosure`) shows automatically next to it. A retailer that is not on Awin can use `"network": "direct"` with its affiliate ID inside the `search` URL.
