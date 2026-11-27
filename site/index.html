@@ -185,20 +185,20 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
 </head>
 <body>
 
-<a class="skip" href="#home" id="skip">Skip to content</a>
+<a class="skip" href="#content" id="skip">Skip to content</a>
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#home" aria-label="ND Resources, home">
+    <a class="brand" href="/" aria-label="ND Resources, home">
       <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="13" fill="var(--accent)"/><path d="M7 17c3-6 11-6 14 0" stroke="var(--accent-ink)" stroke-width="2.2" fill="none" stroke-linecap="round"/><circle cx="14" cy="10" r="2.2" fill="var(--accent-ink)"/></svg>
       <span id="site-name">ND Resources</span>
     </a>
     <nav class="main" aria-label="Main">
       <ul>
-        <li><a href="#shop" data-nav="shop">Shop</a></li>
-        <li><a href="#families" data-nav="families">For you and your family</a></li>
-        <li><a href="#professionals" data-nav="professionals">For professionals</a></li>
-        <li><a href="#about" data-nav="about">About</a></li>
+        <li><a href="/shop/" data-nav="shop">Shop</a></li>
+        <li><a href="/families/" data-nav="families">For you and your family</a></li>
+        <li><a href="/professionals/" data-nav="professionals">For professionals</a></li>
+        <li><a href="/about/" data-nav="about">About</a></li>
       </ul>
     </nav>
     <button class="comfort-btn" id="comfort-toggle" aria-expanded="false" aria-controls="comfort">Comfort settings</button>
@@ -229,10 +229,10 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   <div class="wrap">
     <p>&copy; <span id="year"></span> ND Resources. Digital downloads for personal and professional use. As an Amazon Associate I earn from qualifying purchases.</p>
     <ul>
-      <li><a href="#shop">Shop</a></li>
-      <li><a href="#families">For you and your family</a></li>
-      <li><a href="#professionals">For professionals</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="/shop/">Shop</a></li>
+      <li><a href="/families/">For you and your family</a></li>
+      <li><a href="/professionals/">For professionals</a></li>
+      <li><a href="/about/">About</a></li>
     </ul>
   </div>
 </footer>
@@ -273,14 +273,14 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   var FAMILY_AUD = ["parents", "adults", "children", "families"];
 
   function cover(p, big) {
-    var src = p.cover || (isBook(p) ? "images/" + p.id + ".jpg?v=" + BUILD : "");
+    var src = p.cover || (isBook(p) ? "/images/" + p.id + ".jpg?v=" + BUILD : "");
     var plain = '<svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-5 70 C 25 50, 45 85, 105 55 M-5 82 C 30 62, 55 95, 105 68 M-5 94 C 35 76, 60 104, 105 80" stroke="#fff" stroke-width="1.2" fill="none"/></svg><span class="ct">' + esc(p.title) + '</span>';
     var img = src ? '<img class="book-img" src="' + esc(src) + '" alt="Cover of ' + esc(p.title) + '" loading="lazy" onerror="this.remove()">' : "";
     return '<div class="cover ' + esc(p.coverColor || "teal") + '">' + plain + img + (p.example ? '<span class="ex">Example</span>' : "") + '</div>';
   }
   var BUILD = "__BUILD__";
   function card(p) {
-    return '<a class="card" href="#product-' + esc(p.id) + '">' + cover(p) +
+    return '<a class="card" href="/books/' + esc(p.id) + '/">' + cover(p) +
       '<div class="card-body"><span class="label">' + esc((p.audience || []).map(function (x) { return AUD[x] || x; }).join(" / ") || p.type) + '</span><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.subtitle) + '</p>' +
       (isBook(p) ? "" : '<div class="card-foot"><span class="price">' + esc(money(p)) + '</span><span class="muted" style="font-size:.85rem">' + esc(p.format) + '</span></div>') + '</div></a>';
   }
@@ -311,7 +311,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
           door("families", "For you and your family", "For people who are autistic or have ADHD, and the people close to them.", "See resources", '<circle cx="14" cy="13" r="5" fill="none" stroke="var(--accent)" stroke-width="2.5"/><circle cx="28" cy="16" r="4" fill="none" stroke="var(--accent)" stroke-width="2.5"/><path d="M5 34c1-7 5-10 9-10s8 3 9 10M22 34c1-5 3-8 6-8s5 3 6 8" fill="none" stroke="var(--accent)" stroke-width="2.5"/>') +
           door("professionals", "For professionals", "Guidance and tools for teachers, clinicians and support workers.", "See resources", '<rect x="7" y="6" width="26" height="30" rx="3" fill="none" stroke="var(--accent)" stroke-width="2.5"/><path d="M13 15h14M13 21h14M13 27h9" stroke="var(--accent)" stroke-width="2.5"/>') +
         '</div></section>' +
-        (feat ? '<section aria-labelledby="feat-h"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:1rem"><h2 id="feat-h">From the shop</h2><a href="#shop">See everything</a></div><div class="grid">' + products.slice(0, 3).map(card).join("") + '</div></section>' : "") +
+        (feat ? '<section aria-labelledby="feat-h"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:1rem"><h2 id="feat-h">From the shop</h2><a href="/shop/">See everything</a></div><div class="grid">' + products.slice(0, 3).map(card).join("") + '</div></section>' : "") +
         '<section class="promise" aria-label="How this site is designed"><div><h3>Plain language</h3><p class="muted">Short sentences, literal words and no jargon.</p></div><div><h3>Easy on the senses</h3><p class="muted">No pop-ups, autoplay or flashing. Change text size and colours in Comfort settings.</p></div><div><h3>Instant downloads</h3><p class="muted">Pay once and get your file by email straight away.</p></div></section>';
     },
     shop: function () {
@@ -326,7 +326,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         }).join("") + '</div>' +
         (topics.length > 1 ? '<div class="topic-row"><label for="topic-filter">Topic</label><select id="topic-filter"><option value="all">All topics</option>' + topics.map(function (t) { return '<option' + (t === topic ? ' selected' : '') + '>' + esc(t) + '</option>'; }).join("") + '</select><span class="muted" style="font-size:.9rem">' + shown.length + ' book' + (shown.length === 1 ? '' : 's') + '</span></div>' : "") +
         '</div><div class="grid">' + shown.map(card).join("") + '</div>' +
-        (shown.length ? "" : '<div class="notice prose"><p><strong>Our first downloads are coming soon.</strong> In the meantime, the free resources <a href="#families">for you and your family</a> and <a href="#professionals">for professionals</a> are ready to use.</p></div>');
+        (shown.length ? "" : '<div class="notice prose"><p><strong>Our first downloads are coming soon.</strong> In the meantime, the free resources <a href="/families/">for you and your family</a> and <a href="/professionals/">for professionals</a> are ready to use.</p></div>');
     },
     families: function () {
       var r = resources ? resources.families : [];
@@ -334,7 +334,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       return '<div class="res-intro"><span class="label">Resources</span><h1>For you and your family</h1><p class="prose muted">Whether you have just been diagnosed, are waiting for an assessment, or are supporting someone you love, these are good places to start. All links are free and open in a new tab.</p></div>' +
         '<div class="two-col"><div>' + r.map(function (g) { return '<section class="res-group"><h2>' + esc(g.heading) + '</h2>' + resList(g.items) + disclose(g) + '</section>'; }).join("") + '</div>' +
         '<aside class="aside" aria-label="Help now and downloads"><div class="urgent"><h3>Need help now?</h3><p>In an emergency call 999. For emotional support any time, call Samaritans free on <strong>116 123</strong>.</p></div>' +
-        (prods.length ? '<h3>Books for families</h3>' + prods.map(function (p) { return '<a href="#product-' + esc(p.id) + '">' + esc(p.title) + '</a>'; }).join("<br>") + '<a href="#shop">Visit the shop</a>' : "") + '</aside></div>';
+        (prods.length ? '<h3>Books for families</h3>' + prods.map(function (p) { return '<a href="/books/' + esc(p.id) + '/">' + esc(p.title) + '</a>'; }).join("<br>") + '<a href="/shop/">Visit the shop</a>' : "") + '</aside></div>';
     },
     professionals: function () {
       var r = resources ? resources.professionals : [];
@@ -343,7 +343,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       return '<div class="res-intro"><span class="label">Resources</span><h1>For professionals</h1><p class="prose muted">For teachers, SENCOs, clinicians, therapists and support workers. Guidance is UK-focused.</p></div>' +
         '<section><h2 style="margin-bottom:1rem">Six habits of neuro-affirming practice</h2><ul class="principles">' + pr.map(function (p) { return '<li><h3>' + esc(p.title) + '</h3><p class="muted">' + esc(p.text) + '</p></li>'; }).join("") + '</ul></section>' +
         '<section><div class="two-col"><div>' + r.map(function (g) { return '<div class="res-group"><h2>' + esc(g.heading) + '</h2>' + resList(g.items) + disclose(g) + '</div>'; }).join("") + '</div>' +
-        '<aside class="aside" aria-label="Books for professionals"><h3>Books for professionals</h3>' + (prods.length ? prods.map(function (p) { return '<a href="#product-' + esc(p.id) + '">' + esc(p.title) + '</a>'; }).join("<br>") : '<p class="muted">Coming soon.</p>') + '<p class="muted" style="font-size:.9rem">Ask about licences for whole schools or services.</p></aside></div></section>';
+        '<aside class="aside" aria-label="Books for professionals"><h3>Books for professionals</h3>' + (prods.length ? prods.map(function (p) { return '<a href="/books/' + esc(p.id) + '/">' + esc(p.title) + '</a>'; }).join("<br>") : '<p class="muted">Coming soon.</p>') + '<p class="muted" style="font-size:.9rem">Ask about licences for whole schools or services.</p></aside></div></section>';
     },
     about: function () {
       return '<div class="prose"><span class="label">About</span><h1>About these resources</h1>' +
@@ -355,11 +355,11 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     },
     product: function (id) {
       var p = products.filter(function (x) { return x.id === id; })[0];
-      if (!p) return '<h1>Product not found</h1><p><a href="#shop">Back to the shop</a></p>';
+      if (!p) return '<h1>Product not found</h1><p><a href="/shop/">Back to the shop</a></p>';
       var facts = [["Type", p.type], ["Format", p.format], ["Pages", p.pages], ["Author", p.author], ["Publisher", p.publisher], ["Edition", p.edition], ["Topic", p.topic], ["Best for", p.bestFor], ["For", (p.audience || []).map(function (a) { return AUD[a] || a; }).join(", ")]]
         .filter(function (f) { return f[1]; }).map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
       var prev = (p.previews || []).map(function (i) { return '<figure style="margin:0"><img src="' + esc(i.src) + '" alt="' + esc(i.alt) + '" style="border-radius:var(--radius);border:1px solid var(--line)"></figure>'; }).join("");
-      return '<p class="crumbs"><a href="#shop">Shop</a> <span class="muted">/ ' + esc(p.title) + '</span></p>' + (p.example ? '<p class="notice" style="margin-bottom:1.5rem">This is an example product to show the layout.</p>' : "") +
+      return '<p class="crumbs"><a href="/">Home</a> <span class="muted">/</span> <a href="/shop/">Shop</a> <span class="muted">/ ' + esc(p.title) + '</span></p>' + (p.example ? '<p class="notice" style="margin-bottom:1.5rem">This is an example product to show the layout.</p>' : "") +
         '<div class="product"><div class="detail-stack">' + cover(p, true) + (prev ? '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem">' + prev + '</div>' : "") + '</div>' +
         '<div class="detail-stack"><div style="display:grid;gap:.5rem"><span class="label">' + esc(p.type) + '</span><h1>' + esc(p.title) + '</h1><p class="muted" style="font-size:1.1em">' + esc(p.subtitle) + '</p>' +
         '<ul class="tags">' + (p.tags || []).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + '</ul></div>' +
@@ -376,20 +376,37 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     }
   };
   function door(href, title, text, go, icon) {
-    return '<a class="door" href="#' + href + '"><svg class="door-icon" viewBox="0 0 40 40" aria-hidden="true">' + icon + '</svg><h3>' + title + '</h3><p class="muted">' + text + '</p><span class="go">' + go + ' &rarr;</span></a>';
+    return '<a class="door" href="/' + href + '/"><svg class="door-icon" viewBox="0 0 40 40" aria-hidden="true">' + icon + '</svg><h3>' + title + '</h3><p class="muted">' + text + '</p><span class="go">' + go + ' &rarr;</span></a>';
   }
 
-  function route(keepScroll) {
-    var h = (location.hash || "#home").slice(1), html, nav = h;
-    if (h.indexOf("product-") === 0) { html = pages.product(h.slice(8)); nav = "shop"; }
-    else if (pages[h] && h !== "product") html = pages[h]();
-    else { html = pages.home(); nav = "home"; }
-    view.innerHTML = html;
-    document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.dataset.nav === nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
-    var titles = { home: "", shop: "Shop", families: "For you and your family", professionals: "For professionals", about: "About" };
-    document.title = (titles[nav] ? titles[nav] + " · " : "") + "ND Resources";
-    if (keepScroll !== true) window.scrollTo(0, 0);
+  // Each section and book has its own address (/shop/, /books/<id>/). The build script saves a ready-made copy of every page.
+  var prerendered = view.hasAttribute("data-prerendered"), firstRoute = true;
+  function current() {
+    var parts = location.pathname.replace(/index\.html$/, "").split("/").filter(Boolean);
+    if (parts[0] === "books" && parts[1]) return { page: "product", id: decodeURIComponent(parts[1]), nav: "shop" };
+    if (parts.length === 1 && pages[parts[0]] && parts[0] !== "product" && parts[0] !== "home") return { page: parts[0], nav: parts[0] };
+    return { page: "home", nav: "home" };
   }
+  function route(keepScroll) {
+    var c = current();
+    var fresh = !(firstRoute && prerendered);
+    firstRoute = false;
+    if (fresh) view.innerHTML = c.page === "product" ? pages.product(c.id) : pages[c.page]();
+    document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.dataset.nav === c.nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+    if (!prerendered) {
+      var titles = { home: "", shop: "Shop", families: "For you and your family", professionals: "For professionals", about: "About" };
+      document.title = (titles[c.nav] ? titles[c.nav] + " · " : "") + "ND Resources";
+    }
+    if (keepScroll !== true && fresh) window.scrollTo(0, 0);
+    document.documentElement.setAttribute("data-rendered", "1");
+  }
+  // Old links like /#shop or /#product-<id> move to the new addresses
+  (function () {
+    var h = location.hash.slice(1);
+    if (!h || h === "content") return;
+    var to = h.indexOf("product-") === 0 ? "/books/" + h.slice(8) + "/" : (h === "home" ? "/" : (["shop", "families", "professionals", "about"].indexOf(h) > -1 ? "/" + h + "/" : ""));
+    if (to) location.replace(to);
+  })();
 
   view.addEventListener("change", function (e) {
     if (e.target.id === "topic-filter") { topic = e.target.value; route(true); var t = document.getElementById("topic-filter"); if (t) t.focus(); }
@@ -427,13 +444,12 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   applyPrefs();
 
   document.getElementById("skip").addEventListener("click", function (e) { e.preventDefault(); document.getElementById("content").focus(); });
-  view.innerHTML = '<p class="muted">Loading…</p>';
+  if (!prerendered) view.innerHTML = '<p class="muted">Loading…</p>';
   Promise.all([
-    fetch("products.json?v=" + Date.now(), { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return []; }),
-    fetch("site.json?v=" + Date.now(), { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { retailers: {} }; }),
-    fetch("resources.json?v=" + Date.now(), { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { families: [], professionals: [], principles: [] }; })
+    fetch("/products.json?v=" + Date.now(), { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return []; }),
+    fetch("/site.json?v=" + Date.now(), { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { retailers: {} }; }),
+    fetch("/resources.json?v=" + Date.now(), { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { families: [], professionals: [], principles: [] }; })
   ]).then(function (res) { products = res[0]; site = res[1]; resources = res[2]; route(); });
-  window.addEventListener("hashchange", function () { route(); });
 })();
 </script>
 
