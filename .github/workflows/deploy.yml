@@ -3,7 +3,7 @@ name: Deploy to SiteGround
 on:
   push:
     branches: [main]
-    paths: ["site/**", ".github/workflows/deploy.yml"]
+    paths: ["site/**", "deploy/**", ".github/workflows/deploy.yml"]
   workflow_dispatch:
 
 concurrency:
@@ -59,6 +59,25 @@ jobs:
           rsync -rvz --checksum \
             -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
             site/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/"
+
+      - name: Tell browsers to always check for the latest pages
+        if: steps.check.outputs.ready == 'true'
+        env:
+          SG_HOST: ${{ secrets.SG_HOST }}
+          SG_USER: ${{ secrets.SG_USER }}
+          SG_PORT: ${{ secrets.SG_PORT }}
+          SG_PATH: ${{ secrets.SG_PATH }}
+        run: |
+          P="${SG_PATH:-www/neurodivergentresources.co.uk/public_html}"
+          ssh -p "${SG_PORT:-18765}" -i ~/.ssh/sg_key "$SG_USER@$SG_HOST" "cd $P && touch .htaccess && if grep -q 'BEGIN ND-RESOURCES-CACHE' .htaccess; then echo 'Cache rules already present'; else cat >> .htaccess && echo 'Cache rules added'; fi" < deploy/htaccess-cache.txt
+
+      - name: Check the live site
+        if: steps.check.outputs.ready == 'true'
+        run: |
+          for f in "" index.html products.json; do
+            echo "== /$f"; curl -sSI "https://neurodivergentresources.co.uk/$f?ci=$GITHUB_RUN_ID" | grep -iE "^(HTTP|cache-control|expires|x-proxy-cache|x-cache)" || true
+          done
+          curl -s "https://neurodivergentresources.co.uk/?ci=$GITHUB_RUN_ID" | grep -c "Parents and carers" && echo "Live page has the new shop"
 
       - name: Remove key
         if: always()

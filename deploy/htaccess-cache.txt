@@ -1,0 +1,9 @@
+
+# BEGIN ND-RESOURCES-CACHE
+<IfModule mod_headers.c>
+<FilesMatch "\.(html|json)$">
+Header set Cache-Control "no-cache, must-revalidate"
+Header unset Expires
+</FilesMatch>
+</IfModule>
+# END ND-RESOURCES-CACHE
