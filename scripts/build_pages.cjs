@@ -2,7 +2,8 @@
 //
 // The site is still one page (site/index.html) that draws itself from products.json,
 // resources.json and site.json. This script opens that page in a headless browser for
-// every address (home, /shop/, /families/, /professionals/, /about/ and /books/<id>/),
+// every address (home, /shop/, /families/, /professionals/, /about/, guides such as
+// /professionals/<guide-id>/ from guides.json, and /books/<id>/),
 // saves the finished page as its own HTML file, and adds the details search engines
 // read: a unique title and description, a canonical link, social sharing tags and
 // schema.org data. It also writes sitemap.xml and robots.txt.
@@ -26,6 +27,7 @@ try { ({ chromium } = require("playwright-core")); } catch (e) { ({ chromium } =
 
 const readJson = (f) => JSON.parse(fs.readFileSync(path.join(SRC, f), "utf8"));
 const products = readJson("products.json");
+const guides = fs.existsSync(path.join(SRC, "guides.json")) ? readJson("guides.json") : [];
 const template = fs.readFileSync(path.join(SRC, "index.html"), "utf8");
 
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -67,6 +69,12 @@ const pages = [
     description: "Who ND Resources is for, how the site is designed to be accessible and easy on the senses, and how book recommendations and links work.",
     ld: [crumbs([["Home", "/"], ["About", "/about/"]])],
   },
+  ...guides.map((g) => {
+    const url = `/${g.parent}/${encodeURIComponent(g.id)}/`;
+    const parentName = g.parent === "professionals" ? "For professionals" : "For you and your family";
+    const article = { "@context": "https://schema.org", "@type": "Article", headline: g.title, description: g.description, url: ORIGIN + url, inLanguage: "en-GB", publisher: { "@id": ORIGIN + "/#org" }, isPartOf: { "@id": ORIGIN + "/#site" }, citation: (g.sources || []).map((s) => s.url) };
+    return { url, title: g.metaTitle || `${g.title} | ${SITE_NAME}`, description: clip(g.description), ld: [article, crumbs([["Home", "/"], [parentName, `/${g.parent}/`], [g.title, url]])] };
+  }),
   ...products.map((p) => {
     const url = `/books/${encodeURIComponent(p.id)}/`;
     const by = p.author ? ` by ${p.author}` : "";
