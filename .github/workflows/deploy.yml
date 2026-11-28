@@ -86,7 +86,7 @@ jobs:
             -e "ssh -p ${SG_PORT:-18765} -i ~/.ssh/sg_key" \
             public/images/ "$SG_USER@$SG_HOST:${SG_PATH:-www/neurodivergentresources.co.uk/public_html}/images/"
 
-      - name: Tell browsers to always check for the latest pages
+      - name: Update site rules (fresh pages, one www-free address)
         if: steps.check.outputs.ready == 'true'
         env:
           SG_HOST: ${{ secrets.SG_HOST }}
@@ -95,7 +95,16 @@ jobs:
           SG_PATH: ${{ secrets.SG_PATH }}
         run: |
           P="${SG_PATH:-www/neurodivergentresources.co.uk/public_html}"
-          ssh -p "${SG_PORT:-18765}" -i ~/.ssh/sg_key "$SG_USER@$SG_HOST" "cd $P && touch .htaccess && if grep -q 'BEGIN ND-RESOURCES-CACHE' .htaccess; then echo 'Cache rules already present'; else cat >> .htaccess && echo 'Cache rules added'; fi" < deploy/htaccess-cache.txt
+          ssh -p "${SG_PORT:-18765}" -i ~/.ssh/sg_key "$SG_USER@$SG_HOST" "cd $P && touch .htaccess && cp .htaccess .htaccess.before-deploy && sed -i '/^# BEGIN ND-RESOURCES-CACHE/,/^# END ND-RESOURCES-CACHE/d' .htaccess && cat >> .htaccess && echo 'Site rules updated'" < deploy/htaccess-cache.txt
+          # If the site stops answering after the rules change, put the previous .htaccess back
+          sleep 3
+          code=$(curl -s -o /dev/null -w '%{http_code}' "https://neurodivergentresources.co.uk/?ci=$GITHUB_RUN_ID" || echo 000)
+          echo "Home page answered $code"
+          if [ "$code" = "500" ]; then
+            ssh -p "${SG_PORT:-18765}" -i ~/.ssh/sg_key "$SG_USER@$SG_HOST" "cd $P && cp .htaccess.before-deploy .htaccess"
+            echo "::error::The new .htaccess rules caused a server error, so the previous rules were restored"
+            exit 1
+          fi
 
       - name: Check the live site
         if: steps.check.outputs.ready == 'true'
