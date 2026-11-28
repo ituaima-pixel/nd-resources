@@ -32,7 +32,7 @@ const template = fs.readFileSync(path.join(SRC, "index.html"), "utf8");
 
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const clip = (s, n = 158) => { s = String(s || "").replace(/\s+/g, " ").trim(); if (s.length <= n) return s; const cut = s.slice(0, n - 1); return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,.;:]$/, "") + "…"; };
-const AUD = { parents: "parents and carers", adults: "autistic and ADHD adults", children: "children", professionals: "professionals", prescribing: "prescribers", ocd: "people affected by OCD", families: "individuals and families" };
+const AUD = { parents: "parents and carers", adults: "autistic and ADHD adults", children: "children", professionals: "professionals", prescribing: "prescribers", ocd: "people affected by OCD", tics: "people with tics and Tourette syndrome", families: "individuals and families" };
 const jsonLd = (o) => '<script type="application/ld+json">' + JSON.stringify(o).replace(/</g, "\\u003c") + "</script>";
 const crumbs = (items) => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: items.map(([name, url], i) => ({ "@type": "ListItem", position: i + 1, name, item: ORIGIN + url })) });
 function authors(a) {

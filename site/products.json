@@ -3752,5 +3752,501 @@
       "https://images-us.bookshop.org/ingram/9781462542031.jpg",
       "https://covers.openlibrary.org/b/isbn/9781462542031-L.jpg?default=false"
     ]
+  },
+  {
+    "id": "adhd-tics-me",
+    "kind": "book",
+    "title": "ADHD, Tics & Me!",
+    "subtitle": "A Story to Explain ADHD and Tic Disorders/Tourette Syndrome",
+    "author": "Susan Ozer, Inyang Takon",
+    "publisher": "Jessica Kingsley",
+    "edition": "2021",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "tics"
+    ],
+    "topic": "Tics with autism, ADHD and OCD",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Picture-book story explaining ADHD and tics together, by a UK paediatrician. Rare book covering both.",
+    "isbn": "9781787758919",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787758915?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/products/9781787758919-original.jpg?v=1770371742",
+      "https://images-us.bookshop.org/ingram/9781787758919.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781787758919-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-tourette-syndrome-and-ocd-checklist",
+    "kind": "book",
+    "title": "The Tourette Syndrome and OCD Checklist",
+    "subtitle": "A Practical Reference for Parents and Teachers",
+    "author": "Susan Conners",
+    "publisher": "Jossey-Bass",
+    "edition": "2011",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "professionals",
+      "tics"
+    ],
+    "topic": "Tics with autism, ADHD and OCD",
+    "bestFor": "Parents, teachers, clinicians",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Quick-reference lists on tics, OCD, ADHD and related problems at home and school.",
+    "isbn": "9780470623336",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0470623330?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://media.s-bol.com/736O2kRzZXEA/550x830.jpg",
+      "https://images-us.bookshop.org/ingram/9780470623336.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780470623336-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "challenging-kids-challenged-teachers",
+    "kind": "book",
+    "title": "Challenging Kids, Challenged Teachers",
+    "subtitle": "Teaching Students with Tourette's, Bipolar Disorder, Executive Dysfunction, OCD, ADHD, and More",
+    "author": "Leslie E. Packer, Sheryl K. Pruitt",
+    "publisher": "Woodbine House",
+    "edition": "2010",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "tics"
+    ],
+    "topic": "Tics with autism, ADHD and OCD",
+    "bestFor": "Teachers and SENCOs",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Classroom strategies for pupils with tics plus ADHD, OCD and executive function difficulties.",
+    "isbn": "9781890627829",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1890627828?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781890627829.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781890627829-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "tic-disorders",
+    "kind": "book",
+    "title": "Tic Disorders",
+    "subtitle": "A Guide for Parents and Professionals",
+    "author": "Uttom Chowdhury, Tara Murphy",
+    "publisher": "Jessica Kingsley",
+    "edition": "2017",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "professionals",
+      "tics"
+    ],
+    "topic": "Tics with autism, ADHD and OCD",
+    "bestFor": "Parents, teachers, clinicians",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "UK Great Ormond Street authors. Covers co-occurring ADHD, OCD and autism, school and treatment.",
+    "isbn": "9781849050616",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1849050619?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://us.jkp.com/cdn/shop/products/9781849050616-original.jpg?v=1769587729",
+      "https://images-us.bookshop.org/ingram/9781849050616.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781849050616-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "tourette-syndrome-martino-leckman",
+    "kind": "book",
+    "title": "Tourette Syndrome",
+    "subtitle": "(2nd ed.)",
+    "author": "Davide Martino, James F. Leckman (eds)",
+    "publisher": "Oxford University Press",
+    "edition": "2022 (2nd ed., hardback)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "tics"
+    ],
+    "topic": "Tics with autism, ADHD and OCD",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "The main academic reference, with chapters on co-occurring ADHD, OCD and autism.",
+    "isbn": "9780197543214",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0197543219?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images.thenile.io/r1000/9780197543214.jpg",
+      "https://images-us.bookshop.org/ingram/9780197543214.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780197543214-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "can-i-tell-you-about-tourette-syndrome",
+    "kind": "book",
+    "title": "Can I tell you about Tourette Syndrome?",
+    "subtitle": "A guide for friends, family and professionals",
+    "author": "Mal Leicester",
+    "publisher": "Jessica Kingsley",
+    "edition": "2013",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "tics"
+    ],
+    "topic": "Tics: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Short illustrated explainer told by a child with Tourette's, age 7+. Same series as Can I tell you about OCD?",
+    "isbn": "9781849054072",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/184905407X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://cdn.ecommercedns.uk/files/3/255153/8/40044478/978-1-84905-407-2.jpg",
+      "https://images-us.bookshop.org/ingram/9781849054072.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781849054072-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "why-do-you-do-that",
+    "kind": "book",
+    "title": "Why Do You Do That?",
+    "subtitle": "A Book about Tourette Syndrome for Children and Young People",
+    "author": "Uttom Chowdhury, Mary Robertson",
+    "publisher": "Jessica Kingsley",
+    "edition": "2006",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "tics"
+    ],
+    "topic": "Tics: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Simple explanation for children, by two UK Tourette specialists.",
+    "isbn": "9781843103950",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1843103958?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://us.jkp.com/cdn/shop/products/9781843103950-original.jpg?v=1770369128",
+      "https://images-us.bookshop.org/ingram/9781843103950.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781843103950-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-tourettes-survival-kit",
+    "kind": "book",
+    "title": "The Tourettes Survival Kit",
+    "subtitle": "Tools for Young Adults with Tics",
+    "author": "Tara Murphy, Damon Millar",
+    "publisher": "Jessica Kingsley",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "tics"
+    ],
+    "topic": "Tics: books for children and teens",
+    "bestFor": "Teenagers and young adults",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Practical self-help for teens and young adults, from a Great Ormond Street psychologist and a young man with Tourette's.",
+    "isbn": "9781785923593",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1785923595?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/products/9781785923593-original.jpg?v=1770794772",
+      "https://images-us.bookshop.org/ingram/9781785923593.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781785923593-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "a-parent-s-guide-to-tics-and-tourette-s-disorder",
+    "kind": "book",
+    "title": "A Parent's Guide to Tics and Tourette's Disorder",
+    "subtitle": "",
+    "author": "Nigel S. Bamford",
+    "publisher": "Johns Hopkins University Press",
+    "edition": "2025",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "tics"
+    ],
+    "topic": "Tics: guides for parents and adults",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Newest parent guide, covering diagnosis, behavioural therapy, medicine and co-occurring conditions.",
+    "isbn": "9781421449555",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1421449552?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://www.press.jhu.edu/sites/default/files/covers/9781421449548.jpg",
+      "https://images-us.bookshop.org/ingram/9781421449555.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781421449555-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "managing-tourette-syndrome-parent-workbook",
+    "kind": "book",
+    "title": "Managing Tourette Syndrome",
+    "subtitle": "A Behavioral Intervention for Children and Adults, Parent Workbook (2nd ed.)",
+    "author": "Douglas W. Woods et al.",
+    "publisher": "Oxford University Press",
+    "edition": "2025 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "tics"
+    ],
+    "topic": "Tics: therapy guides",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Parent workbook for CBIT, the main evidence-based behavioural therapy for tics.",
+    "isbn": "9780199363360",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0199363366?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://media1.jpc.de/image/w2400/front/0/9780199363360.jpg",
+      "https://images-us.bookshop.org/ingram/9780199363360.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780199363360-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "managing-tourette-syndrome-therapist-guide",
+    "kind": "book",
+    "title": "Managing Tourette Syndrome",
+    "subtitle": "A Behavioral Intervention for Children and Adults, Therapist Guide (2nd ed.)",
+    "author": "Douglas W. Woods, John C. Piacentini, Alan L. Peterson et al.",
+    "publisher": "Oxford University Press",
+    "edition": "2025 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "tics"
+    ],
+    "topic": "Tics: therapy guides",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "The official CBIT therapist manual, newly updated.",
+    "isbn": "9780199363346",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/019936334X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images.cdn.europe-west1.gcp.commercetools.com/b0c1af64-23c6-499f-8892-0976d37c1c31/default-hlLWrQ-g.jpg",
+      "https://images-us.bookshop.org/ingram/9780199363346.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780199363346-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "tourette-syndrome-the-facts",
+    "kind": "book",
+    "title": "Tourette Syndrome",
+    "subtitle": "The Facts (2nd ed.)",
+    "author": "Mary Robertson, Andrea Cavanna",
+    "publisher": "Oxford University Press",
+    "edition": "2008 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "parents",
+      "tics"
+    ],
+    "topic": "Tics: guides for parents and adults",
+    "bestFor": "Adults and parents",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Plain-English overview by a leading UK Tourette expert. Older but still the standard short guide.",
+    "isbn": "9780199298198",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/019929819X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images.bwbcovers.com/019/Tourette-Syndrome-Robertson-Mary-M-9780199298198.jpg",
+      "https://images-us.bookshop.org/ingram/9780199298198.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780199298198-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "i-swear",
+    "kind": "book",
+    "title": "I Swear",
+    "subtitle": "My Life with Tourette's",
+    "author": "John Davidson",
+    "publisher": "Penguin",
+    "edition": "2025",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "tics"
+    ],
+    "topic": "Tourette's: lived experience",
+    "bestFor": "Adults with tics, and anyone curious",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Memoir by the Scottish campaigner, now a major film. Very topical.",
+    "isbn": "9781804997703",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1804997706?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://cdn.penguin.co.uk/dam-assets/books/9781529962611/9781529962611-jacket-large.jpg",
+      "https://images-us.bookshop.org/ingram/9781804997703.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781804997703-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "welcome-to-biscuit-land",
+    "kind": "book",
+    "title": "Welcome to Biscuit Land",
+    "subtitle": "A Year in the Life of Touretteshero",
+    "author": "Jess Thom",
+    "publisher": "Souvenir Press",
+    "edition": "2012",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "tics"
+    ],
+    "topic": "Tourette's: lived experience",
+    "bestFor": "Adults with tics, and anyone curious",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Funny, warm diary by the UK artist behind Touretteshero.",
+    "isbn": "9780285641273",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0285641271?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780285641273.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780285641273-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "front-of-the-class",
+    "kind": "book",
+    "title": "Front of the Class",
+    "subtitle": "How Tourette Syndrome Made Me the Teacher I Never Had",
+    "author": "Brad Cohen, Lisa Wysocky",
+    "publisher": "St. Martin's Griffin",
+    "edition": "2008",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "tics"
+    ],
+    "topic": "Tourette's: lived experience",
+    "bestFor": "Adults with tics, and anyone curious",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Teacher's memoir about growing up with Tourette's and being misunderstood at school.",
+    "isbn": "9780312571399",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0312571399?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780312571399.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780312571399-L.jpg?default=false",
+      "https://i.ebayimg.com/images/g/KYQAAeSwp~dnxMba/s-l1600.jpg"
+    ]
   }
 ]

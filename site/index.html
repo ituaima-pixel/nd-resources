@@ -368,7 +368,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
     try { return new Intl.NumberFormat("en-GB", { style: "currency", currency: p.currency || "GBP" }).format(p.price); }
     catch (e) { return p.price + " " + (p.currency || ""); }
   }
-  var AUD = { parents: "Parents and carers", adults: "Adults", children: "For children", professionals: "Professionals", prescribing: "Prescribing medication", ocd: "OCD", families: "Individuals and families" };
+  var AUD = { parents: "Parents and carers", adults: "Adults", children: "For children", professionals: "Professionals", prescribing: "Prescribing medication", ocd: "OCD", tics: "Tics and Tourette", families: "Individuals and families" };
   var FAMILY_AUD = ["parents", "adults", "children", "families"];
 
   function cover(p, big) {
@@ -418,9 +418,9 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       var topics = base.map(function (p) { return p.topic; }).filter(function (t, i, a) { return t && a.indexOf(t) === i; }).sort();
       if (topics.indexOf(topic) < 0) topic = "all";
       var shown = topic === "all" ? base : base.filter(function (p) { return p.topic === topic; });
-      return '<div class="shop-head"><h1>Shop</h1><p class="muted prose">Books we recommend about autism, ADHD and OCD. Book links take you to Amazon UK to buy.</p>' + exampleNotice() +
+      return '<div class="shop-head"><h1>Shop</h1><p class="muted prose">Books we recommend about autism, ADHD, OCD and Tourette syndrome. Book links take you to Amazon UK to buy.</p>' + exampleNotice() +
         '<div class="filters" role="group" aria-label="Show books for">' +
-        [["all", "Everything"], ["parents", "Parents and carers"], ["adults", "Autistic and ADHD adults"], ["children", "For children"], ["professionals", "Professionals"], ["prescribing", "Prescribing medication"], ["ocd", "OCD"]].filter(function (f) { return f[0] === "all" || productsFor(f[0]).length; }).map(function (f) {
+        [["all", "Everything"], ["parents", "Parents and carers"], ["adults", "Autistic and ADHD adults"], ["children", "For children"], ["professionals", "Professionals"], ["prescribing", "Prescribing medication"], ["ocd", "OCD"], ["tics", "Tics and Tourette"]].filter(function (f) { return f[0] === "all" || productsFor(f[0]).length; }).map(function (f) {
           return '<button class="seg" id="filter-' + f[0] + '" data-filter="' + f[0] + '" aria-pressed="' + (filter === f[0]) + '">' + f[1] + '</button>';
         }).join("") + '</div>' +
         (topics.length > 1 ? '<div class="topic-row"><label for="topic-filter">Topic</label><select id="topic-filter"><option value="all">All topics</option>' + topics.map(function (t) { return '<option' + (t === topic ? ' selected' : '') + '>' + esc(t) + '</option>'; }).join("") + '</select><span class="muted" style="font-size:.9rem">' + shown.length + ' book' + (shown.length === 1 ? '' : 's') + '</span></div>' : "") +

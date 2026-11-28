@@ -812,7 +812,61 @@
         "title": "Anderson, S. Tourette’s and autism (SEN Magazine, shared by Tourettes Action)",
         "url": "https://www.tourettes-action.org.uk/storage/downloads/1610981978_Tourette's-&-Autism-article.pdf"
       }
-    ]
+    ],
+    "booksHeading": "Recommended books on tics and Tourette syndrome",
+    "booksIntro": "Books about tics alongside autism, ADHD and OCD, plus trusted guides for clinicians, families and young people. Open a book to see details and buy it on Amazon UK.",
+    "bookGroups": [
+      {
+        "heading": "Tics alongside autism, ADHD and OCD",
+        "note": "Books that cover tics together with the conditions that most often come with them.",
+        "ids": [
+          "adhd-tics-me",
+          "the-tourette-syndrome-and-ocd-checklist",
+          "challenging-kids-challenged-teachers",
+          "tic-disorders",
+          "tourette-syndrome-martino-leckman"
+        ]
+      },
+      {
+        "heading": "Behavioural therapy for tics (CBIT)",
+        "note": "The official CBIT manual for therapists and the matching workbook for parents.",
+        "ids": [
+          "managing-tourette-syndrome-parent-workbook",
+          "managing-tourette-syndrome-therapist-guide"
+        ]
+      },
+      {
+        "heading": "Books for children and teens",
+        "note": "Stories and self-help that explain tics to young people.",
+        "ids": [
+          "can-i-tell-you-about-tourette-syndrome",
+          "why-do-you-do-that",
+          "the-tourettes-survival-kit"
+        ]
+      },
+      {
+        "heading": "Guides for parents and adults",
+        "note": "Plain-English guides to tics and Tourette syndrome.",
+        "ids": [
+          "a-parent-s-guide-to-tics-and-tourette-s-disorder",
+          "tourette-syndrome-the-facts"
+        ]
+      },
+      {
+        "heading": "Lived experience",
+        "note": "Memoirs by people with Tourette syndrome.",
+        "ids": [
+          "i-swear",
+          "welcome-to-biscuit-land",
+          "front-of-the-class"
+        ]
+      }
+    ],
+    "shopLink": {
+      "url": "/shop/?for=tics",
+      "label": "See all tics and Tourette books in the shop"
+    },
+    "carousel": true
   },
   {
     "id": "ados-2-and-online-observations",
