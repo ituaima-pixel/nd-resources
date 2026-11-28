@@ -39,8 +39,26 @@ function authors(a) {
   return String(a || "").split(/\s*(?:,|;|&|\band\b)\s*/).map((x) => x.trim()).filter((x) => x && !/^(et al\.?|ed\.?|eds\.?)$/i.test(x)).map((name) => ({ "@type": "Person", name }));
 }
 
+// "27 November 2026" -> "2026-11-27" (the date a guide was last checked)
+function isoDate(d) { const t = Date.parse(d + " UTC"); return isNaN(t) ? undefined : new Date(t).toISOString().slice(0, 10); }
+// Google shows about 60 characters of a title: use the first version that fits, else the shortest
+function fitTitle(options) {
+  options = options.filter(Boolean).map((t) => t.replace(/ \| ND Resources \| ND Resources$/, " | ND Resources"));
+  return options.find((t) => t.length <= 65) || options.reduce((a, b) => (b.length < a.length ? b : a));
+}
 const books = products.filter((p) => p.kind === "book");
 const ORG = { "@type": "Organization", "@id": ORIGIN + "/#org", name: SITE_NAME, url: ORIGIN + "/" };
+
+// Shop categories, each with its own page at /shop/<id>/ (the ids match the shop filters and "audience" in products.json)
+const SHOP_CATS = [
+  { id: "parents", name: "Books for parents and carers", title: "Autism and ADHD books for parents and carers | ND Resources", description: "{n} recommended books for parents and carers of autistic and ADHD children: understanding your child, school, anxiety, PDA and everyday life. UK links." },
+  { id: "adults", name: "Books for autistic and ADHD adults", title: "Books for autistic and ADHD adults | ND Resources", description: "{n} recommended books for autistic and ADHD adults, including AuDHD, late diagnosis, women and girls, and lived experience. Plain-language summaries." },
+  { id: "children", name: "Books for neurodivergent children", title: "Books for autistic and ADHD children | ND Resources", description: "{n} recommended books written for autistic and ADHD children and teens, including feelings, anxiety, OCD and tics. Plain-language summaries for parents." },
+  { id: "professionals", name: "Autism and ADHD books for professionals", title: "Autism and ADHD books for professionals | ND Resources", description: "{n} recommended books for clinicians, teachers, SENCOs and therapists on autism and ADHD assessment, diagnosis, therapy, education and neuro-affirming practice." },
+  { id: "prescribing", name: "Books on prescribing medication", title: "Non-medical prescribing and ADHD medication books | ND Resources", description: "{n} recommended books for non-medical prescribers (V300) and clinicians: pharmacology, formularies, consultation skills and mental health and ADHD prescribing." },
+  { id: "ocd", name: "OCD books", title: "Best OCD books for adults, children, parents and clinicians", description: "{n} recommended books on OCD: self-help and memoirs, books for children and teens, guides for parents, clinician manuals, and OCD with autism." },
+  { id: "tics", name: "Tics and Tourette syndrome books", title: "Tics and Tourette syndrome books | ND Resources", description: "{n} recommended books on tics and Tourette syndrome: books for children and teens, guides for parents, therapy manuals and lived experience, including with autism and ADHD." },
+];
 
 // Every page: address, title, description, extra schema.org data
 const pages = [
@@ -50,17 +68,25 @@ const pages = [
     ld: [{ "@context": "https://schema.org", "@graph": [ORG, { "@type": "WebSite", "@id": ORIGIN + "/#site", name: SITE_NAME, url: ORIGIN + "/", inLanguage: "en-GB", publisher: { "@id": ORIGIN + "/#org" } }] }],
   },
   {
-    url: "/shop/", title: "Autism and ADHD books for families and professionals | ND Resources",
-    description: `${books.length} recommended books about autism, ADHD, AuDHD and PDA for parents and carers, autistic and ADHD adults, children and professionals, with plain-language summaries.`,
+    url: "/shop/", title: "Autism, ADHD, OCD and Tourette books | ND Resources",
+    description: `${books.length} recommended books about autism, ADHD, OCD and Tourette syndrome for parents, neurodivergent adults, children and professionals.`,
     ld: [crumbs([["Home", "/"], ["Shop", "/shop/"]]), { "@context": "https://schema.org", "@type": "ItemList", name: "Recommended books about autism and ADHD", itemListElement: books.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${ORIGIN}/books/${p.id}/`, name: p.title })) }],
   },
+  ...SHOP_CATS.filter((c) => books.some((p) => (p.audience || []).includes(c.id))).map((c) => {
+    const list = books.filter((p) => (p.audience || []).includes(c.id));
+    const url = `/shop/${c.id}/`;
+    return {
+      url, title: c.title, description: clip(c.description.replace("{n}", list.length)),
+      ld: [crumbs([["Home", "/"], ["Shop", "/shop/"], [c.name, url]]), { "@context": "https://schema.org", "@type": "ItemList", name: c.name, itemListElement: list.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${ORIGIN}/books/${p.id}/`, name: p.title })) }],
+    };
+  }),
   {
     url: "/families/", title: "Autism and ADHD help for individuals and families | ND Resources",
     description: "Free, trusted UK links for autistic and ADHD people and their families: after a diagnosis, waiting for an assessment, school support and where to get help now.",
     ld: [crumbs([["Home", "/"], ["For you and your family", "/families/"]])],
   },
   {
-    url: "/professionals/", title: "Neuro-affirming autism and ADHD resources for professionals | ND Resources",
+    url: "/professionals/", title: "Autism and ADHD resources for UK professionals | ND Resources",
     description: "UK-focused guidance, neuro-affirming practice principles and recommended books for teachers, SENCOs, clinicians, therapists and support workers.",
     ld: [crumbs([["Home", "/"], ["For professionals", "/professionals/"]])],
   },
@@ -73,16 +99,18 @@ const pages = [
     const hub = g.hub ? guides.find((x) => x.id === g.hub && x.parent === g.parent) : null;
     const url = `/${g.parent}/${hub ? encodeURIComponent(hub.id) + "/" : ""}${encodeURIComponent(g.id)}/`;
     const parentName = g.parent === "professionals" ? "For professionals" : "For you and your family";
-    const article = { "@context": "https://schema.org", "@type": "Article", headline: g.title, description: g.description, url: ORIGIN + url, inLanguage: "en-GB", publisher: { "@id": ORIGIN + "/#org" }, isPartOf: { "@id": ORIGIN + "/#site" }, citation: (g.sources || []).map((s) => s.url), image: g.image ? ORIGIN + g.image : undefined };
-    return { url, title: g.metaTitle || `${g.title} | ${SITE_NAME}`, description: clip(g.description), ld: [article, crumbs([["Home", "/"], [parentName, `/${g.parent}/`], ...(hub ? [[hub.title, `/${g.parent}/${hub.id}/`]] : []), [g.title, url]])] };
+    const article = { "@context": "https://schema.org", "@type": "Article", headline: g.title, description: g.description, url: ORIGIN + url, inLanguage: "en-GB", publisher: { "@id": ORIGIN + "/#org" }, isPartOf: { "@id": ORIGIN + "/#site" }, citation: (g.sources || []).map((s) => s.url), dateModified: isoDate(g.checked), author: { "@id": ORIGIN + "/#org" }, image: g.image ? ORIGIN + g.image : undefined };
+    return { url, title: g.metaTitle ? fitTitle([`${g.metaTitle} | ${SITE_NAME}`, g.metaTitle.replace(/ \| ND Resources$/, "")]) : `${g.title} | ${SITE_NAME}`, description: clip(g.description), ld: [article, crumbs([["Home", "/"], [parentName, `/${g.parent}/`], ...(hub ? [[hub.title, `/${g.parent}/${hub.id}/`]] : []), [g.title, url]])] };
   }),
   ...products.map((p) => {
     const url = `/books/${encodeURIComponent(p.id)}/`;
     const by = p.author ? ` by ${p.author}` : "";
-    let title = `${p.title}${by} | ${SITE_NAME}`;
-    if (title.length > 70) title = `${p.title} | ${SITE_NAME}`;
+    const author1 = p.author ? String(p.author).split(/\s*(?:,|;|&|\band\b)\s*/)[0].replace(/\s*\(eds?\.?\)$/i, "") : "";
+    const title = fitTitle([`${p.title}${by} | ${SITE_NAME}`, author1 ? `${p.title} by ${author1} | ${SITE_NAME}` : "", `${p.title} | ${SITE_NAME}`, p.title]);
     const forWho = (p.audience || []).map((a) => AUD[a] || a);
-    const description = clip(p.summary || `${p.title}${by}${p.subtitle ? ": " + p.subtitle : ""}.`) ;
+    let description = p.summary || `${p.title}${by}${p.subtitle ? ": " + p.subtitle : ""}.`;
+    if (description.length < 110) description = description.replace(/\s*$/, "") + (/[.!?]$/.test(description.trim()) ? "" : ".") + (by && !description.includes(author1) ? ` A book${by}` : " A book") + (forWho.length ? ` recommended for ${forWho.join(", ")}.` : ".");
+    description = clip(description);
     const image = p.kind === "book" && fs.existsSync(path.join(SRC, "images", p.id + ".jpg")) ? `${ORIGIN}/images/${p.id}.jpg` : null;
     const book = {
       "@context": "https://schema.org", "@type": p.kind === "book" ? "Book" : "CreativeWork",

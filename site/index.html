@@ -418,7 +418,8 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
       var topics = base.map(function (p) { return p.topic; }).filter(function (t, i, a) { return t && a.indexOf(t) === i; }).sort();
       if (topics.indexOf(topic) < 0) topic = "all";
       var shown = topic === "all" ? base : base.filter(function (p) { return p.topic === topic; });
-      return '<div class="shop-head"><h1>Shop</h1><p class="muted prose">Books we recommend about autism, ADHD, OCD and Tourette syndrome. Book links take you to Amazon UK to buy.</p>' + exampleNotice() +
+      var CAT_H1 = { parents: "Books for parents and carers", adults: "Books for autistic and ADHD adults", children: "Books for neurodivergent children", professionals: "Autism and ADHD books for professionals", prescribing: "Books on prescribing medication", ocd: "OCD books", tics: "Tics and Tourette syndrome books" };
+      return '<div class="shop-head"><h1>' + esc(CAT_H1[filter] || "Shop") + '</h1><p class="muted prose">Books we recommend about autism, ADHD, OCD and Tourette syndrome. Book links take you to Amazon UK to buy.</p>' + exampleNotice() +
         '<div class="filters" role="group" aria-label="Show books for">' +
         [["all", "Everything"], ["parents", "Parents and carers"], ["adults", "Autistic and ADHD adults"], ["children", "For children"], ["professionals", "Professionals"], ["prescribing", "Prescribing medication"], ["ocd", "OCD"], ["tics", "Tics and Tourette"]].filter(function (f) { return f[0] === "all" || productsFor(f[0]).length; }).map(function (f) {
           return '<button class="seg" id="filter-' + f[0] + '" data-filter="' + f[0] + '" aria-pressed="' + (filter === f[0]) + '">' + f[1] + '</button>';
@@ -529,6 +530,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   var prerendered = view.hasAttribute("data-prerendered"), firstRoute = true;
   function current() {
     var parts = location.pathname.replace(/index\.html$/, "").split("/").filter(Boolean);
+    if (parts[0] === "shop" && parts.length === 2) return { page: "shop", filter: decodeURIComponent(parts[1]), nav: "shop" };
     if (parts[0] === "books" && parts[1]) return { page: "product", id: decodeURIComponent(parts[1]), nav: "shop" };
     if (parts.length === 3 && (parts[0] === "professionals" || parts[0] === "families")) return { page: "guide", id: decodeURIComponent(parts[2]), hub: decodeURIComponent(parts[1]), parent: parts[0], nav: parts[0] };
     if (parts.length === 2 && (parts[0] === "professionals" || parts[0] === "families")) return { page: "guide", id: decodeURIComponent(parts[1]), parent: parts[0], nav: parts[0] };
@@ -537,7 +539,8 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   }
   function route(keepScroll) {
     var c = current();
-    var fresh = !(firstRoute && prerendered) || (c.page === "shop" && filter !== "all");
+    if (firstRoute && c.filter) filter = c.filter;
+    var fresh = !(firstRoute && prerendered) || (c.page === "shop" && filter !== (c.filter || "all"));
     firstRoute = false;
     if (fresh) view.innerHTML = c.page === "product" ? pages.product(c.id) : c.page === "guide" ? pages.guide(c.id, c.parent, c.hub) : pages[c.page]();
     document.querySelectorAll("[data-nav]").forEach(function (a) { if (a.dataset.nav === c.nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
@@ -562,7 +565,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   });
   view.addEventListener("click", function (e) {
     var f = e.target.closest("[data-filter]");
-    if (f) { filter = f.dataset.filter; route(true); var nb = document.getElementById("filter-" + filter); if (nb) nb.focus(); return; }
+    if (f) { filter = f.dataset.filter; try { history.replaceState(null, "", filter === "all" ? "/shop/" : "/shop/" + filter + "/"); } catch (err) {} route(true); var nb = document.getElementById("filter-" + filter); if (nb) nb.focus(); return; }
     if (e.target.closest("#buy-btn")) openModal();
     var rb = e.target.closest("[data-rail]");
     if (rb) { var tr = rb.parentNode.querySelector(".rail-track"); tr.scrollBy({ left: Number(rb.dataset.rail) * tr.clientWidth, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" }); }
