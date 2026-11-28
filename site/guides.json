@@ -368,7 +368,7 @@
       }
     ],
     "shopLink": {
-      "url": "/shop/?for=prescribing",
+      "url": "/shop/prescribing/",
       "label": "See all prescribing books in the shop"
     },
     "carousel": true
@@ -733,7 +733,7 @@
       }
     ],
     "shopLink": {
-      "url": "/shop/?for=ocd",
+      "url": "/shop/ocd/",
       "label": "See all OCD books in the shop"
     },
     "carousel": true
@@ -863,7 +863,7 @@
       }
     ],
     "shopLink": {
-      "url": "/shop/?for=tics",
+      "url": "/shop/tics/",
       "label": "See all tics and Tourette books in the shop"
     },
     "carousel": true

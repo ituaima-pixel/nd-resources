@@ -34,6 +34,7 @@ jobs:
         run: |
           npm install --no-save --no-package-lock --silent playwright-core@1.49.1
           CHROME_PATH="$(command -v google-chrome || command -v chromium || command -v chromium-browser)" node scripts/build_pages.cjs
+          python3 -m pip install --quiet --user --break-system-packages pillow && python3 scripts/optimise_images.py public/images || echo "::warning::Cover images were not shrunk"
 
       - name: Check SiteGround secrets are set
         id: check
