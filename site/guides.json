@@ -401,16 +401,16 @@
     "parent": "professionals",
     "label": "Section for professionals",
     "title": "Screening tools",
-    "metaTitle": "Free screening tools for autism, ADHD and OCD | ND Resources",
-    "description": "Where UK professionals can download autism, ADHD and OCD screening tools from their official sources, plus the Coventry Grid, with notes on how to use them well.",
-    "lede": "Autism, ADHD and OCD screening tools in one place, with links to each official download and notes on using them well.",
+    "metaTitle": "Free screening tools for autism and ADHD | ND Resources",
+    "description": "Where UK professionals can download autism and ADHD screening tools from their official sources, plus the Coventry Grid, with notes on how to use them well.",
+    "lede": "Autism and ADHD screening tools in one place, with links to each official download and notes on using them well.",
     "checked": "28 November 2026",
     "checkedNote": "Links and terms checked on this date. Tools are linked to their official source, not copied here.",
     "go": "Open the screening tools",
     "summary": [
       "A screening tool tells you whether a full assessment is worth doing. It never gives a diagnosis, and a low score never rules a condition out.",
       "We link to each tool’s official source instead of hosting copies, because most tools are copyrighted and their authors update them.",
-      "Screen for more than one thing: autism, ADHD, OCD, anxiety and trauma often overlap or look alike.",
+      "Screen for more than one thing: autism, ADHD, anxiety, OCD and trauma often overlap or look alike.",
       "Women and others who mask are often missed by screening questionnaires, so give weight to their history and own account."
     ],
     "books": [],
@@ -418,7 +418,7 @@
       {
         "id": "using",
         "heading": "Using screening tools well",
-        "html": "<ul><li><strong>Screen, then assess.</strong> A score above the cut-off means a full assessment may be needed. A score below it does not mean the person is not autistic or does not have ADHD, especially if their history suggests otherwise.</li><li><strong>Use the right version.</strong> Check age, language and learning disability. NICE suggests the AQ-10 only for adults without a moderate or severe learning disability.</li><li><strong>Look wider.</strong> Repetitive behaviour, inattention and social difficulty can come from autism, ADHD, OCD, anxiety or trauma. Ask about all of them.</li><li><strong>Use the official copy.</strong> Download from the source linked below, keep the credit line, and do not change the wording.</li><li><strong>Explain the result.</strong> Tell the person what the score means, and what it does not mean.</li></ul>"
+        "html": "<ul><li><strong>Screen, then assess.</strong> A score above the cut-off means a full assessment may be needed. A score below it does not mean the person is not autistic or does not have ADHD, especially if their history suggests otherwise.</li><li><strong>Use the right version.</strong> Check age, language and learning disability. NICE suggests the AQ-10 only for adults without a moderate or severe learning disability.</li><li><strong>Look wider.</strong> Repetitive behaviour, inattention and social difficulty can come from autism, ADHD, anxiety, OCD or trauma. Ask about all of them. For OCD, see <a href=\"/professionals/ocd-and-neurodivergence/\">OCD and neurodivergence</a>.</li><li><strong>Use the official copy.</strong> Download from the source linked below, keep the credit line, and do not change the wording.</li><li><strong>Explain the result.</strong> Tell the person what the score means, and what it does not mean.</li></ul>"
       },
       {
         "id": "autism",
@@ -429,11 +429,6 @@
         "id": "adhd",
         "heading": "ADHD",
         "html": "<p>ADHD screens ask about attention, restlessness and impulsivity now, and how long these have been present. NICE NG87 says a rating scale should support a full assessment, not replace it.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"ADHD screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">ASRS v1.1 (Part A)</th><td>Adult ADHD. Six questions; often used by GPs before referral.</td><td>18 and over</td><td>The person</td><td>Free with no permission needed. The authors ask you to link to their site rather than share copies.</td><td><a href=\"https://www.hcp.med.harvard.edu/ncs/asrs.php\" target=\"_blank\" rel=\"noopener\">Harvard ASRS page</a></td></tr><tr><th scope=\"row\">NICHQ Vanderbilt</th><td>ADHD symptoms, with screening questions for oppositional behaviour, conduct problems, anxiety and low mood. Follow-up forms for monitoring.</td><td>6 to 12</td><td>Parent and teacher</td><td>Free to use.</td><td><a href=\"https://nichq.org/wp-content/uploads/2024/09/NICHQ-Vanderbilt-Assessment-Scales.pdf\" target=\"_blank\" rel=\"noopener\">NICHQ forms (PDF)</a></td></tr><tr><th scope=\"row\">SNAP-IV</th><td>ADHD and oppositional symptoms, rated 0 to 3.</td><td>Children and young people</td><td>Parent and teacher</td><td>Copyright Dr James Swanson. Many NHS services hold copies reprinted with permission, so ask your service for its copy.</td><td>Ask your service</td></tr><tr><th scope=\"row\">DIVA-5</th><td>Not a screen: a full diagnostic interview for adult ADHD, used after a positive screen. Young DIVA-5 covers ages 5 to 17.</td><td>Adults (and 5 to 17)</td><td>Clinician with the person</td><td>Paid per use (about €10 each, November 2026).</td><td><a href=\"https://www.divacenter.eu/\" target=\"_blank\" rel=\"noopener\">DIVA Foundation</a></td></tr></tbody></table></div>"
-      },
-      {
-        "id": "ocd",
-        "heading": "OCD",
-        "html": "<p><strong>Obsessive-compulsive disorder (OCD)</strong> involves obsessions (unwanted, distressing thoughts, images or urges) and compulsions (things a person feels they must do to ease that distress or prevent harm). It is usually diagnosed when it takes up more than an hour a day or causes clear distress or problems in daily life.</p><h3>OCD and autism</h3><p>OCD is more common in autistic people, and the two can look alike. A useful question is how the behaviour feels to the person:</p><ul><li><strong>Autistic routines, interests and repetitive movements</strong> are often calming, enjoyable or a way to manage a busy world. The person usually does not want to stop them.</li><li><strong>OCD compulsions</strong> are usually driven by fear or doubt, feel unwanted, and bring only short relief.</li></ul><p>DSM-5 says OCD should not be diagnosed when repetitive behaviour is better explained by autism, but a person can have both. When anxiety about routines grows, or rituals start to take over, consider an OCD assessment.</p><h3>Treatment in the UK</h3><p>NICE CG31 recommends cognitive behavioural therapy with exposure and response prevention (ERP), and medication for some people. For autistic people, ERP often works better when it is adapted, with clear structure, literal language and visual supports.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"OCD screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">NICE OCD questions</th><td>Six short questions about washing, checking, unwanted thoughts, slowness, order and distress, to ask people at higher risk.</td><td>Adults and young people</td><td>Professional asks the person</td><td>Free (part of NICE CG31).</td><td><a href=\"https://www.nice.org.uk/guidance/cg31/chapter/1-Guidance\" target=\"_blank\" rel=\"noopener\">NICE CG31</a></td></tr><tr><th scope=\"row\">OCI-R</th><td>OCD symptoms across six areas, including checking, washing, ordering and obsessing. 18 items.</td><td>Adults</td><td>The person</td><td>Published in the research paper. Check terms before reusing it.</td><td><a href=\"https://pubmed.ncbi.nlm.nih.gov/12501574/\" target=\"_blank\" rel=\"noopener\">Foa et al. (2002)</a></td></tr><tr><th scope=\"row\">Y-BOCS and CY-BOCS</th><td>How severe OCD is, used to plan and track treatment. CY-BOCS is the version for children.</td><td>Adults; 6 to 17 for CY-BOCS</td><td>Clinician</td><td>Copyrighted. Used by specialist services, so ask your service for its copy.</td><td>Ask your service</td></tr></tbody></table></div>"
       },
       {
         "id": "coventry-grid",
@@ -468,22 +463,6 @@
         "url": "https://www.nice.org.uk/guidance/ng87"
       },
       {
-        "title": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder",
-        "url": "https://www.nice.org.uk/guidance/cg31/chapter/1-Guidance"
-      },
-      {
-        "title": "OCD-UK: Diagnosing OCD",
-        "url": "https://www.ocduk.org/diagnosing-ocd"
-      },
-      {
-        "title": "South West London and St George’s NHS Trust: OCD, a professionals’ guide",
-        "url": "https://swlstg.nhs.uk/ocd-guide"
-      },
-      {
-        "title": "Foa et al. (2002). The Obsessive-Compulsive Inventory: development and validation of a short version. Psychological Assessment, 14(4), 485–495",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/12501574/"
-      },
-      {
         "title": "Ritvo et al. (2011). The Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R). Journal of Autism and Developmental Disorders",
         "url": "https://doi.org/10.1007/s10803-010-1133-5"
       },
@@ -502,6 +481,85 @@
       {
         "title": "Hannon, Hull, Lai, Magiati and Mandy. The use and misuse of the CAT-Q in autism research and clinical practice (UCL)",
         "url": "https://discovery.ucl.ac.uk/10225147/"
+      }
+    ]
+  },
+  {
+    "id": "ocd-and-neurodivergence",
+    "parent": "professionals",
+    "label": "Guide for professionals",
+    "title": "OCD and neurodivergence",
+    "metaTitle": "OCD with autism and ADHD: co-occurrence and differential diagnosis | ND Resources",
+    "description": "A UK guide for professionals on OCD in autistic people and people with ADHD: how often they co-occur, how to tell them apart, screening tools and adapting treatment.",
+    "lede": "How OCD co-occurs with autism and ADHD, how to tell them apart, which screening tools to use, and how to adapt treatment.",
+    "checked": "28 November 2026",
+    "summary": [
+      "OCD is more common in autistic people and in people with ADHD than in the general population, and the conditions can look alike.",
+      "In children and young people, a 2024 meta-analysis found OCD in about 1 in 9 autistic young people, and autism in about 1 in 10 young people with OCD.",
+      "The key question for autism is how the behaviour feels: autistic routines are usually wanted and calming, OCD compulsions are usually unwanted and driven by fear.",
+      "OCD can look like ADHD, because intrusive thoughts and rituals use up attention. Consider both, and treat both when both are present."
+    ],
+    "books": [],
+    "sections": [
+      {
+        "id": "what",
+        "heading": "What OCD is",
+        "html": "<p><strong>Obsessive-compulsive disorder (OCD)</strong> involves obsessions (unwanted, distressing thoughts, images or urges) and compulsions (things a person feels they must do, physically or in their head, to ease that distress or prevent harm). It is usually diagnosed when it takes up more than an hour a day or causes clear distress or problems in daily life.</p><p>OCD is not a personality trait or a liking for tidiness. Common themes include contamination, harm, checking, symmetry and “just right” feelings, and unwanted taboo thoughts. Many people hide their rituals, so ask directly.</p>"
+      },
+      {
+        "id": "autism",
+        "heading": "OCD and autism",
+        "html": "<p>OCD and autism often occur together. A 2024 systematic review and meta-analysis of children and young people (Aymerich et al.) found OCD in about 11.6% of autistic young people and autism in about 9.5% of young people with OCD. Young people with both had more difficulties overall and responded less well to standard CBT.</p><p>Autistic repetitive behaviour is usually <strong>ego-syntonic</strong>: it fits with what the person wants. OCD compulsions are usually <strong>ego-dystonic</strong>: the person experiences them as unwanted. This can be hard to judge in young children and in people who find it hard to describe their inner experience, so gather information from several sources over time.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Autism or OCD\"><table class=\"wide\"><thead><tr><th scope=\"col\">Question to explore</th><th scope=\"col\">More like autism</th><th scope=\"col\">More like OCD</th></tr></thead><tbody><tr><th scope=\"row\">How does it feel?</th><td>Calming, enjoyable or comforting. The person usually wants to keep doing it.</td><td>Unwanted and distressing. The person often wishes they could stop.</td></tr><tr><th scope=\"row\">What drives it?</th><td>Predictability, sensory need, interest or regulation.</td><td>Fear, doubt or a feeling that something bad will happen, or a sense of things not being “just right”.</td></tr><tr><th scope=\"row\">Is there an obsession behind it?</th><td>Usually no feared thought; the behaviour is the point.</td><td>Usually yes: an intrusive thought, image or urge comes first.</td></tr><tr><th scope=\"row\">When did it start?</th><td>Present since early childhood, part of how the person has always been.</td><td>Often starts or changes later, sometimes quite suddenly.</td></tr><tr><th scope=\"row\">What happens if it is stopped?</th><td>Distress from change or loss of routine.</td><td>Rising anxiety about the feared outcome, with brief relief once the ritual is done.</td></tr><tr><th scope=\"row\">Content</th><td>Special interests, sameness, lining up or ordering for its own sake.</td><td>Contamination, harm, checking, symmetry, unwanted taboo thoughts, reassurance seeking.</td></tr></tbody></table></div><p>DSM-5 says OCD should not be diagnosed when repetitive behaviour is better explained by autism, but a person can have both. Watch for change: rituals that grow, become more distressing or start to take over are a reason to assess for OCD.</p>"
+      },
+      {
+        "id": "adhd",
+        "heading": "OCD and ADHD",
+        "html": "<p>OCD and ADHD also co-occur, although reported rates vary widely between studies because of how they were done. A 2019 review (Cabarkapa et al.) reported co-occurring ADHD in about 11.8% of people with OCD, and higher estimates in children. A 2015 review (Abramovitch et al.) warned that ADHD-like symptoms caused by OCD may be misdiagnosed as ADHD.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"ADHD or OCD\"><table class=\"wide\"><thead><tr><th scope=\"col\">What you see</th><th scope=\"col\">Can come from ADHD</th><th scope=\"col\">Can come from OCD</th></tr></thead><tbody><tr><th scope=\"row\">Poor concentration</th><td>Attention drifts to whatever is most interesting.</td><td>Attention is pulled inward by intrusive thoughts or mental rituals.</td></tr><tr><th scope=\"row\">Slow to finish tasks</th><td>Distraction, starting late, losing track of time.</td><td>Checking, repeating or redoing until it feels right.</td></tr><tr><th scope=\"row\">Forgetting or losing things</th><td>Working memory and organisation difficulties.</td><td>Doubt about memory, leading to repeated checking.</td></tr><tr><th scope=\"row\">Acting without thinking</th><td>Impulsivity: acting quickly, then regretting it.</td><td>Compulsions are deliberate and planned to prevent harm, not impulsive.</td></tr><tr><th scope=\"row\">Restlessness</th><td>Physical restlessness and need to move.</td><td>Restlessness from anxiety, or tics if there is also a tic disorder.</td></tr></tbody></table></div><p>Ask what is going on in the person’s head when they lose focus. Someone with OCD can often describe a specific worry or ritual; someone with ADHD more often describes drifting to something else. Consider undiagnosed ADHD when OCD does not respond to treatment, and the other way round.</p>"
+      },
+      {
+        "id": "tics",
+        "heading": "Tics and Tourette’s",
+        "html": "<p>OCD, ADHD and tic disorders often run together. Some repetitive movements are tics (sudden, quick and hard to hold back), and some are compulsions (done to ease a fear or a “not right” feeling). Ask what the person feels just before the movement.</p>"
+      },
+      {
+        "id": "screening",
+        "heading": "Screening tools for OCD",
+        "html": "<p>NICE CG31 says professionals should routinely consider OCD in people at higher risk, such as those with depression, anxiety, alcohol or drug misuse, body dysmorphic disorder or an eating disorder. A positive screen means a full assessment, not a diagnosis. More tools are on the <a href=\"/professionals/screening-tools/\">Screening tools</a> page.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"OCD screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">NICE OCD questions</th><td>Six short questions about washing, checking, unwanted thoughts, slowness, order and distress, to ask people at higher risk.</td><td>Adults and young people</td><td>Professional asks the person</td><td>Free (part of NICE CG31).</td><td><a href=\"https://www.nice.org.uk/guidance/cg31/chapter/1-Guidance\" target=\"_blank\" rel=\"noopener\">NICE CG31</a></td></tr><tr><th scope=\"row\">OCI-R</th><td>OCD symptoms across six areas, including checking, washing, ordering and obsessing. 18 items.</td><td>Adults</td><td>The person</td><td>Published in the research paper. Check terms before reusing it.</td><td><a href=\"https://pubmed.ncbi.nlm.nih.gov/12501574/\" target=\"_blank\" rel=\"noopener\">Foa et al. (2002)</a></td></tr><tr><th scope=\"row\">Y-BOCS and CY-BOCS</th><td>How severe OCD is, used to plan and track treatment. CY-BOCS is the version for children.</td><td>Adults; 6 to 17 for CY-BOCS</td><td>Clinician</td><td>Copyrighted. Used by specialist services, so ask your service for its copy.</td><td>Ask your service</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "treatment",
+        "heading": "Treatment and adjustments",
+        "html": "<ul><li><strong>Talking therapy.</strong> NICE CG31 recommends cognitive behavioural therapy with exposure and response prevention (ERP). For autistic people, it often works better with clear structure, literal language, visual supports, more time and family involvement.</li><li><strong>Separate autism from OCD in the plan.</strong> Do not target autistic routines and interests that the person values. Focus ERP on the behaviours driven by fear.</li><li><strong>Medication.</strong> SSRIs are used for OCD. For people with ADHD, some reports suggest stimulants can worsen OCD symptoms, although the evidence is limited. Start or change one medicine at a time so that effects are clear, and monitor both conditions.</li><li><strong>Treat both.</strong> Untreated ADHD can reduce the benefit of OCD treatment. Treating both together is linked to better outcomes.</li></ul>"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder",
+        "url": "https://www.nice.org.uk/guidance/cg31/chapter/1-Guidance"
+      },
+      {
+        "title": "Aymerich et al. (2024). Prevalence and correlates of the concurrence of autism spectrum disorder and obsessive compulsive disorder in children and adolescents: a systematic review and meta-analysis. Brain Sciences, 14(4), 379",
+        "url": "https://doi.org/10.3390/brainsci14040379"
+      },
+      {
+        "title": "Abramovitch, Dar, Mittelman and Wilhelm (2015). Comorbidity between ADHD and OCD across the lifespan: a systematic and critical review. Harvard Review of Psychiatry, 23(4), 245–262",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26052877/"
+      },
+      {
+        "title": "Cabarkapa, King, Dowling and Ng (2019). Co-morbid OCD and ADHD: neurobiological commonalities and treatment implications. Frontiers in Psychiatry, 10, 557",
+        "url": "https://doi.org/10.3389/fpsyt.2019.00557"
+      },
+      {
+        "title": "Foa et al. (2002). The Obsessive-Compulsive Inventory: development and validation of a short version. Psychological Assessment, 14(4), 485–495",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12501574/"
+      },
+      {
+        "title": "OCD-UK: Diagnosing OCD",
+        "url": "https://www.ocduk.org/diagnosing-ocd"
+      },
+      {
+        "title": "South West London and St George’s NHS Trust: OCD, a professionals’ guide",
+        "url": "https://swlstg.nhs.uk/ocd-guide"
       }
     ]
   },
