@@ -739,6 +739,82 @@
     "carousel": true
   },
   {
+    "id": "tics-and-neurodivergence",
+    "parent": "professionals",
+    "group": "co-occurring",
+    "label": "Guide for professionals",
+    "title": "Tics, Tourette syndrome and neurodivergence",
+    "metaTitle": "Tics and Tourette syndrome with autism, ADHD and OCD: a guide for professionals | ND Resources",
+    "description": "A UK guide for professionals on tics and Tourette syndrome alongside autism, ADHD, OCD and anxiety: how often they co-occur, how to tell tics from stims and compulsions, assessment tools and support.",
+    "lede": "How tics and Tourette syndrome overlap with autism, ADHD, OCD and anxiety, how to tell tics from stims and compulsions, and what helps.",
+    "checked": "28 November 2026",
+    "summary": [
+      "Tourette syndrome affects about 1 in 100 school children in the UK. Most people with it also have at least one other condition, most often ADHD or OCD.",
+      "Tics, autistic stims and OCD compulsions can look alike. Ask what comes before the movement, how it feels and how it has changed over time.",
+      "Psychoeducation is the first step for everyone. When more help is needed, behavioural therapy (CBIT or habit reversal, or ERP) is the first-line treatment.",
+      "Reduce pressure and stress, and never punish or draw attention to tics."
+    ],
+    "books": [],
+    "sections": [
+      {
+        "id": "what",
+        "heading": "What tics and Tourette syndrome are",
+        "html": "<p><strong>Tics</strong> are sudden, quick, repeated movements or sounds that a person does not fully control. <strong>Motor tics</strong> include blinking, grimacing, shoulder shrugging or jumping. <strong>Vocal tics</strong> include sniffing, throat clearing, words or phrases. Swearing tics (coprolalia) are uncommon.</p><p><strong>Tourette syndrome</strong> is diagnosed when a person has had both motor and vocal tics, starting before age 18 and lasting at least a year. Tics usually start around age 6, are often most noticeable around age 10, and for many people ease in adulthood. Shorter or single-type tic disorders are also common.</p><p>Many people feel an uncomfortable urge before a tic, like the feeling before a sneeze, which eases once the tic happens. Tics often get worse with stress, excitement or tiredness, and better when the person is focused on something absorbing.</p>"
+      },
+      {
+        "id": "co-occurring",
+        "heading": "How often tics co-occur with other conditions",
+        "html": "<p>Tourettes Action notes that Tourette syndrome affects about one school child in every hundred. In a large study of people with Tourette syndrome (Hirschtritt et al., 2015), <strong>85.7%</strong> had at least one other psychiatric condition during their lifetime. About <strong>54%</strong> had ADHD and about <strong>66%</strong> had obsessive-compulsive symptoms or OCD. Most of these conditions began between ages 4 and 10.</p><ul><li><strong>ADHD</strong> is often the condition that causes the most difficulty at school, more than the tics themselves.</li><li><strong>OCD</strong> linked to tics often involves “just right” feelings, touching, symmetry and evening up, more than fear of contamination. See <a href=\"/professionals/ocd-and-neurodivergence/\">OCD and neurodivergence</a>.</li><li><strong>Autism.</strong> Tics are more common in autistic young people than in the general population. Some researchers report Tourette syndrome in about 6% to 8% of autistic children and young people, with higher rates of tic disorders in clinic samples.</li><li><strong>Anxiety</strong> and low mood are common and can make tics worse. See <a href=\"/professionals/anxiety-and-neurodivergence/\">Anxiety and neurodivergence</a>.</li></ul>"
+      },
+      {
+        "id": "differential",
+        "heading": "Tics, stims or compulsions?",
+        "html": "<p>Telling these apart matters, because they need different support. A person can have more than one. A small video study (Termine et al., 2021) found possible tics in two-thirds of autistic children whose movements had been described as stereotypies, so it is worth looking again.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Tics, stims and compulsions\"><table class=\"wide\"><thead><tr><th scope=\"col\">Question to explore</th><th scope=\"col\">Tic</th><th scope=\"col\">Stim (stereotypy)</th><th scope=\"col\">Compulsion</th></tr></thead><tbody><tr><th scope=\"row\">What does it look like?</th><td>Sudden, quick, non-rhythmic movement or sound, such as blinking, sniffing or throat clearing.</td><td>Rhythmic, repeated, often longer movement, such as rocking, hand flapping or spinning.</td><td>A ritual or action done in a set way, such as checking, washing or touching until it feels right.</td></tr><tr><th scope=\"row\">What comes before it?</th><td>Often an uncomfortable urge or feeling (premonitory urge) that eases after the tic.</td><td>Usually no urge; often linked to excitement, stress, boredom or sensory need.</td><td>An unwanted thought, fear or “not right” feeling.</td></tr><tr><th scope=\"row\">How does it feel?</th><td>Often unwanted or tiring, though some people are not bothered by it.</td><td>Often enjoyable, calming or regulating.</td><td>Unwanted; done to prevent harm or ease distress.</td></tr><tr><th scope=\"row\">When does it start?</th><td>Usually around age 5 to 7, often more noticeable around 10.</td><td>Often before age 3.</td><td>Any age, often later childhood or adolescence.</td></tr><tr><th scope=\"row\">Pattern over time</th><td>Waxes and wanes; tics change type and come and go.</td><td>Fairly constant in type and pattern.</td><td>Tends to grow if not treated.</td></tr><tr><th scope=\"row\">Can it be held back?</th><td>Briefly, with effort, often with a build-up of the urge.</td><td>Usually stops when the person is distracted or engaged.</td><td>Resisting causes rising anxiety.</td></tr></tbody></table></div><p>Video recordings from home or school, and a tic diary over several weeks, can help, because tics come and go and may be held back during appointments.</p>"
+      },
+      {
+        "id": "functional",
+        "heading": "Functional tic-like behaviours",
+        "html": "<p>Since 2020, UK and international clinics have reported more young people, especially teenage girls, with tic-like movements and sounds that begin suddenly, are often complex from the start, and do not follow the usual pattern of tics. These are described as <strong>functional tic-like behaviours</strong>. They are real and not deliberate, but they are managed differently from Tourette syndrome, so refer to a specialist if the pattern is unusual.</p>"
+      },
+      {
+        "id": "tools",
+        "heading": "Assessment tools",
+        "html": "<p>Diagnosis is clinical, usually by a paediatrician, neurologist or psychiatrist. Rating scales help describe tics and track change, and should be combined with history and observation.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Tic assessment tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it measures</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">Yale Global Tic Severity Scale (YGTSS)</th><td>Number, frequency, intensity, complexity and interference of motor and vocal tics, plus overall impairment. The most widely used tic rating scale.</td><td>Clinician, with the person and family</td><td>Copyrighted and used by specialist services. Ask your service for its copy, or see the original paper (Leckman et al., 1989).</td><td><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=Leckman+1989+Yale+Global+Tic+Severity+Scale\" target=\"_blank\" rel=\"noopener\">Original paper</a></td></tr><tr><th scope=\"row\">Premonitory Urge for Tics Scale (PUTS)</th><td>How strong the urges before tics are. Useful when planning behavioural therapy.</td><td>The person (older children and adults)</td><td>Published in the research paper (Woods et al., 2005). Check the paper for terms.</td><td><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=Woods+2005+Premonitory+Urge+for+Tics+Scale\" target=\"_blank\" rel=\"noopener\">Original paper</a></td></tr><tr><th scope=\"row\">Tic diary</th><td>When tics happen, what makes them better or worse, and how they change over weeks.</td><td>Person, family or school</td><td>Free; any simple log works.</td><td>Make your own</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "support",
+        "heading": "Support and treatment",
+        "html": "<ul><li><strong>Psychoeducation first.</strong> European guidelines (Andrén et al., 2022) recommend explaining tics to the person, family and school as the first step for everyone, whatever the severity. For many people this is enough.</li><li><strong>Behavioural therapy.</strong> When more help is needed, habit reversal training or the Comprehensive Behavioural Intervention for Tics (CBIT), and exposure and response prevention (ERP) for tics, are first-line treatments.</li><li><strong>Treat what matters most.</strong> ADHD, OCD or anxiety often cause more difficulty than the tics. Treating them can also reduce tics, because stress and anxiety make tics worse.</li><li><strong>Medication.</strong> Considered by specialists when tics are severe or behavioural therapy has not helped. Having tics does not on its own rule out ADHD medication; monitor tics when starting or changing it.</li><li><strong>At school and work.</strong> Do not ask people to stop their tics, and do not punish or comment on them. Offer a quiet space, rest breaks, extra time in exams, a separate room if tics are loud, and a plan for how to explain tics to others if the person wants that.</li><li><strong>For autistic people,</strong> do not try to stop stims that are calming or harmless. Focus support on movements that cause pain, injury or distress.</li></ul>"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NHS: Tourette syndrome",
+        "url": "https://www.nhs.uk/conditions/tourettes-syndrome/"
+      },
+      {
+        "title": "Tourettes Action: What is TS?",
+        "url": "https://www.tourettes-action.org.uk/67-what-is-ts.htm"
+      },
+      {
+        "title": "Hirschtritt et al. (2015). Lifetime prevalence, age of risk, and genetic relationships of comorbid psychiatric disorders in Tourette syndrome. JAMA Psychiatry, 72(4), 325–333",
+        "url": "https://doi.org/10.1001/jamapsychiatry.2014.2650"
+      },
+      {
+        "title": "Andrén et al. (2022). European clinical guidelines for Tourette syndrome and other tic disorders, version 2.0. Part II: psychological interventions. European Child & Adolescent Psychiatry, 31, 403–423",
+        "url": "https://doi.org/10.1007/s00787-021-01845-z"
+      },
+      {
+        "title": "Termine et al. (2021). Possible tics diagnosed as stereotypies in patients with severe autism spectrum disorder: a video-based evaluation. Neurological Sciences, 42(4), 1559–1561",
+        "url": "https://doi.org/10.1007/s10072-020-04995-1"
+      },
+      {
+        "title": "Anderson, S. Tourette’s and autism (SEN Magazine, shared by Tourettes Action)",
+        "url": "https://www.tourettes-action.org.uk/storage/downloads/1610981978_Tourette's-&-Autism-article.pdf"
+      }
+    ]
+  },
+  {
     "id": "ados-2-and-online-observations",
     "parent": "professionals",
     "hub": "child-assessment",
