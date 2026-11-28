@@ -397,6 +397,115 @@
     "sources": []
   },
   {
+    "id": "screening-tools",
+    "parent": "professionals",
+    "label": "Section for professionals",
+    "title": "Screening tools",
+    "metaTitle": "Free screening tools for autism, ADHD and OCD | ND Resources",
+    "description": "Where UK professionals can download autism, ADHD and OCD screening tools from their official sources, plus the Coventry Grid, with notes on how to use them well.",
+    "lede": "Autism, ADHD and OCD screening tools in one place, with links to each official download and notes on using them well.",
+    "checked": "28 November 2026",
+    "checkedNote": "Links and terms checked on this date. Tools are linked to their official source, not copied here.",
+    "go": "Open the screening tools",
+    "summary": [
+      "A screening tool tells you whether a full assessment is worth doing. It never gives a diagnosis, and a low score never rules a condition out.",
+      "We link to each tool’s official source instead of hosting copies, because most tools are copyrighted and their authors update them.",
+      "Screen for more than one thing: autism, ADHD, OCD, anxiety and trauma often overlap or look alike.",
+      "Women and others who mask are often missed by screening questionnaires, so give weight to their history and own account."
+    ],
+    "books": [],
+    "sections": [
+      {
+        "id": "using",
+        "heading": "Using screening tools well",
+        "html": "<ul><li><strong>Screen, then assess.</strong> A score above the cut-off means a full assessment may be needed. A score below it does not mean the person is not autistic or does not have ADHD, especially if their history suggests otherwise.</li><li><strong>Use the right version.</strong> Check age, language and learning disability. NICE suggests the AQ-10 only for adults without a moderate or severe learning disability.</li><li><strong>Look wider.</strong> Repetitive behaviour, inattention and social difficulty can come from autism, ADHD, OCD, anxiety or trauma. Ask about all of them.</li><li><strong>Use the official copy.</strong> Download from the source linked below, keep the credit line, and do not change the wording.</li><li><strong>Explain the result.</strong> Tell the person what the score means, and what it does not mean.</li></ul>"
+      },
+      {
+        "id": "autism",
+        "heading": "Autism",
+        "html": "<p>Most autism screens ask about social communication, routines, focus and sensory experience.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Autism screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">AQ-10 Adult</th><td>Autistic traits. NICE suggests it for adults without a moderate or severe learning disability, to help decide on referral.</td><td>16 and over</td><td>The person</td><td>Free to download. ARC terms allow non-commercial research use with credit and no changes; NICE also provides it as a tool for clinical referral.</td><td><a href=\"https://www.autismresearchcentre.com/tests/autism-spectrum-quotient-10-items-aq-10-adult/\" target=\"_blank\" rel=\"noopener\">Autism Research Centre</a></td></tr><tr><th scope=\"row\">AQ-10 Adolescent</th><td>Autistic traits.</td><td>12 to 15</td><td>Parent or carer</td><td>Free to download, same ARC terms.</td><td><a href=\"https://www.autismresearchcentre.com/tests/autism-spectrum-quotient-10-items-aq-10-adolescent/\" target=\"_blank\" rel=\"noopener\">Autism Research Centre</a></td></tr><tr><th scope=\"row\">AQ-10 Child</th><td>Autistic traits.</td><td>4 to 11</td><td>Parent or carer</td><td>Free to download, same ARC terms.</td><td><a href=\"https://www.autismresearchcentre.com/tests/autism-spectrum-quotient-10-items-aq-10-child/\" target=\"_blank\" rel=\"noopener\">Autism Research Centre</a></td></tr><tr><th scope=\"row\">M-CHAT-R/F</th><td>Early signs of autism in toddlers, with a follow-up interview for unclear results.</td><td>16 to 30 months</td><td>Parent, then professional follow-up</td><td>Free to download for clinical use from the authors’ site.</td><td><a href=\"https://mchatscreen.com/\" target=\"_blank\" rel=\"noopener\">M-CHAT site</a></td></tr><tr><th scope=\"row\">RAADS-R</th><td>Autistic traits in adults, including in people who were missed in childhood. 80 items.</td><td>Adults</td><td>The person, ideally with a clinician</td><td>Published in the research paper. Check the paper for terms before reusing it.</td><td><a href=\"https://doi.org/10.1007/s10803-010-1133-5\" target=\"_blank\" rel=\"noopener\">Ritvo et al. (2011)</a></td></tr></tbody></table></div>"
+      },
+      {
+        "id": "adhd",
+        "heading": "ADHD",
+        "html": "<p>ADHD screens ask about attention, restlessness and impulsivity now, and how long these have been present. NICE NG87 says a rating scale should support a full assessment, not replace it.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"ADHD screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">ASRS v1.1 (Part A)</th><td>Adult ADHD. Six questions; often used by GPs before referral.</td><td>18 and over</td><td>The person</td><td>Free with no permission needed. The authors ask you to link to their site rather than share copies.</td><td><a href=\"https://www.hcp.med.harvard.edu/ncs/asrs.php\" target=\"_blank\" rel=\"noopener\">Harvard ASRS page</a></td></tr><tr><th scope=\"row\">NICHQ Vanderbilt</th><td>ADHD symptoms, with screening questions for oppositional behaviour, conduct problems, anxiety and low mood. Follow-up forms for monitoring.</td><td>6 to 12</td><td>Parent and teacher</td><td>Free to use.</td><td><a href=\"https://nichq.org/wp-content/uploads/2024/09/NICHQ-Vanderbilt-Assessment-Scales.pdf\" target=\"_blank\" rel=\"noopener\">NICHQ forms (PDF)</a></td></tr><tr><th scope=\"row\">SNAP-IV</th><td>ADHD and oppositional symptoms, rated 0 to 3.</td><td>Children and young people</td><td>Parent and teacher</td><td>Copyright Dr James Swanson. Many NHS services hold copies reprinted with permission, so ask your service for its copy.</td><td>Ask your service</td></tr><tr><th scope=\"row\">DIVA-5</th><td>Not a screen: a full diagnostic interview for adult ADHD, used after a positive screen. Young DIVA-5 covers ages 5 to 17.</td><td>Adults (and 5 to 17)</td><td>Clinician with the person</td><td>Paid per use (about €10 each, November 2026).</td><td><a href=\"https://www.divacenter.eu/\" target=\"_blank\" rel=\"noopener\">DIVA Foundation</a></td></tr></tbody></table></div>"
+      },
+      {
+        "id": "ocd",
+        "heading": "OCD",
+        "html": "<p><strong>Obsessive-compulsive disorder (OCD)</strong> involves obsessions (unwanted, distressing thoughts, images or urges) and compulsions (things a person feels they must do to ease that distress or prevent harm). It is usually diagnosed when it takes up more than an hour a day or causes clear distress or problems in daily life.</p><h3>OCD and autism</h3><p>OCD is more common in autistic people, and the two can look alike. A useful question is how the behaviour feels to the person:</p><ul><li><strong>Autistic routines, interests and repetitive movements</strong> are often calming, enjoyable or a way to manage a busy world. The person usually does not want to stop them.</li><li><strong>OCD compulsions</strong> are usually driven by fear or doubt, feel unwanted, and bring only short relief.</li></ul><p>DSM-5 says OCD should not be diagnosed when repetitive behaviour is better explained by autism, but a person can have both. When anxiety about routines grows, or rituals start to take over, consider an OCD assessment.</p><h3>Treatment in the UK</h3><p>NICE CG31 recommends cognitive behavioural therapy with exposure and response prevention (ERP), and medication for some people. For autistic people, ERP often works better when it is adapted, with clear structure, literal language and visual supports.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"OCD screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">NICE OCD questions</th><td>Six short questions about washing, checking, unwanted thoughts, slowness, order and distress, to ask people at higher risk.</td><td>Adults and young people</td><td>Professional asks the person</td><td>Free (part of NICE CG31).</td><td><a href=\"https://www.nice.org.uk/guidance/cg31/chapter/1-Guidance\" target=\"_blank\" rel=\"noopener\">NICE CG31</a></td></tr><tr><th scope=\"row\">OCI-R</th><td>OCD symptoms across six areas, including checking, washing, ordering and obsessing. 18 items.</td><td>Adults</td><td>The person</td><td>Published in the research paper. Check terms before reusing it.</td><td><a href=\"https://pubmed.ncbi.nlm.nih.gov/12501574/\" target=\"_blank\" rel=\"noopener\">Foa et al. (2002)</a></td></tr><tr><th scope=\"row\">Y-BOCS and CY-BOCS</th><td>How severe OCD is, used to plan and track treatment. CY-BOCS is the version for children.</td><td>Adults; 6 to 17 for CY-BOCS</td><td>Clinician</td><td>Copyrighted. Used by specialist services, so ask your service for its copy.</td><td>Ask your service</td></tr></tbody></table></div>"
+      },
+      {
+        "id": "coventry-grid",
+        "heading": "Coventry Grid: autism, attachment and trauma",
+        "html": "<p>Children who have had early trauma or disrupted care can show social difficulties, rigid behaviour and sensory needs that look like autism. The <strong>Coventry Grid</strong>, developed by clinical psychologist Heather Moran (first published in 2010, Version 2 in 2015), sets out side by side how these needs tend to differ across areas such as social interaction, play, routines and sensory responses.</p><p>It is very useful for structuring observation and history-taking, but it is not a diagnostic tool and has no cut-off scores. A 2022 review (Davidson, Moran and Minnis) notes that it came from clinical experience and that the research on it is still limited. A child can be autistic and also have attachment or trauma needs.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Tools for telling autism apart from other needs\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it screens</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">Coventry Grid (Version 2)</th><td>Helps compare autism with attachment difficulties and developmental trauma, area by area. Developed by clinical psychologist Heather Moran.</td><td>Children and young people</td><td>Professional, from observation and history</td><td>Free copy, credited to Heather Moran. Keep the credit if you share it.</td><td><a href=\"https://meadowfield.kent.sch.uk/assets/Uploads/Coventry-Grid-Version-2-Jan-2015.pdf\" target=\"_blank\" rel=\"noopener\">Version 2 (PDF)</a></td></tr><tr><th scope=\"row\">Coventry Grid with PDA</th><td>Adds the pathological demand avoidance (PDA) profile to the Coventry Grid Interview (Eaton, Duncan and Hesketh, 2018).</td><td>Children and young people</td><td>Professional</td><td>Shared by Solihull Council.</td><td><a href=\"https://www.solihull.gov.uk/sites/default/files/2024-02/Coventry-grid-with-PDA.pdf\" target=\"_blank\" rel=\"noopener\">PDA version (PDF)</a></td></tr></tbody></table></div>"
+      },
+      {
+        "id": "women",
+        "heading": "Women and late diagnosis",
+        "html": "<p>Many autistic women are diagnosed late, often in midlife, after years of being misunderstood or misdiagnosed. In <strong>Leedham et al. (2020)</strong>, eleven women diagnosed after the age of 40 described autism as a hidden condition. Diagnosis helped them make sense of their past and move from being self-critical to being kinder to themselves, although it took time to accept and others did not always respond well.</p><p>What this means for screening:</p><ul><li>People who mask (camouflage) their differences can score low on screening questionnaires. Give weight to their history and their own account.</li><li>Ask about effort and exhaustion, not just what others can see.</li><li>The <strong>CAT-Q</strong> (Camouflaging Autistic Traits Questionnaire, 25 items) can open a conversation about masking. Its authors say it is <strong>not</strong> a screening or diagnostic tool and has no cut-off score, so do not use it to decide on referral or diagnosis.</li><li>Offer support after diagnosis. The women in the study described needing time and help to adjust.</li></ul>"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Autism Research Centre: downloadable tests and terms of use",
+        "url": "https://www.autismresearchcentre.com/tests/"
+      },
+      {
+        "title": "NICE: Autism spectrum quotient (AQ-10) test, CG142 tool",
+        "url": "https://www.nice.org.uk/guidance/cg142/resources/autism-spectrum-quotient-aq10-test-186582493"
+      },
+      {
+        "title": "Harvard Medical School: Adult ADHD Self-Report Scales (ASRS)",
+        "url": "https://www.hcp.med.harvard.edu/ncs/asrs.php"
+      },
+      {
+        "title": "University of Washington AIMS Center: NICHQ Vanderbilt Assessment Scales",
+        "url": "https://aims.uw.edu/resource/nichq-vanderbilt-assessment-scales"
+      },
+      {
+        "title": "NICE NG87: ADHD diagnosis and management",
+        "url": "https://www.nice.org.uk/guidance/ng87"
+      },
+      {
+        "title": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder",
+        "url": "https://www.nice.org.uk/guidance/cg31/chapter/1-Guidance"
+      },
+      {
+        "title": "OCD-UK: Diagnosing OCD",
+        "url": "https://www.ocduk.org/diagnosing-ocd"
+      },
+      {
+        "title": "South West London and St George’s NHS Trust: OCD, a professionals’ guide",
+        "url": "https://swlstg.nhs.uk/ocd-guide"
+      },
+      {
+        "title": "Foa et al. (2002). The Obsessive-Compulsive Inventory: development and validation of a short version. Psychological Assessment, 14(4), 485–495",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12501574/"
+      },
+      {
+        "title": "Ritvo et al. (2011). The Ritvo Autism Asperger Diagnostic Scale-Revised (RAADS-R). Journal of Autism and Developmental Disorders",
+        "url": "https://doi.org/10.1007/s10803-010-1133-5"
+      },
+      {
+        "title": "Davidson, Moran and Minnis (2022). Autism and attachment disorders: how do we tell the difference? BJPsych Advances, 28, 371–380",
+        "url": "https://doi.org/10.1192/bja.2022.2"
+      },
+      {
+        "title": "Leedham, Thompson, Smith and Freeth (2020). ‘I was exhausted trying to figure it out’: the experiences of females receiving an autism diagnosis in middle to late adulthood. Autism, 24(1), 135–146",
+        "url": "https://doi.org/10.1177/1362361319853442"
+      },
+      {
+        "title": "Hull et al. (2019). Development and validation of the Camouflaging Autistic Traits Questionnaire (CAT-Q). Journal of Autism and Developmental Disorders",
+        "url": "https://doi.org/10.1007/s10803-018-3792-6"
+      },
+      {
+        "title": "Hannon, Hull, Lai, Magiati and Mandy. The use and misuse of the CAT-Q in autism research and clinical practice (UCL)",
+        "url": "https://discovery.ucl.ac.uk/10225147/"
+      }
+    ]
+  },
+  {
     "id": "ados-2-and-online-observations",
     "parent": "professionals",
     "hub": "child-assessment",
