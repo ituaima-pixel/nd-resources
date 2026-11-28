@@ -394,7 +394,8 @@
         "html": "<figure class=\"illus\"><img src=\"/images/illustrations/child-assessment.svg\" alt=\"Three overlapping circles labelled observe, listen and play\" width=\"400\" height=\"240\" loading=\"lazy\"><figcaption>Assessment brings together what we observe, what families tell us, and how a child plays.</figcaption></figure><p>Assessing a child for autism or another neurodevelopmental condition brings together several kinds of information: what parents and teachers have noticed, the child's developmental history, and time spent observing and playing with the child. These articles explain the main methods used in the UK in plain language, compare them, and point to the evidence.</p><p>They are written for clinicians, students, SENCOs and anyone who works alongside assessment teams. They are not a substitute for formal training in any assessment tool.</p><p>Related guides: <a href=\"/professionals/autism-assessors/\">Becoming an autism assessor in the UK</a> and <a href=\"/professionals/adhd-assessors/\">Becoming an ADHD assessor in the UK</a>.</p>"
       }
     ],
-    "sources": []
+    "sources": [],
+    "group": "assessment"
   },
   {
     "id": "screening-tools",
@@ -482,7 +483,8 @@
         "title": "Hannon, Hull, Lai, Magiati and Mandy. The use and misuse of the CAT-Q in autism research and clinical practice (UCL)",
         "url": "https://discovery.ucl.ac.uk/10225147/"
       }
-    ]
+    ],
+    "group": "assessment"
   },
   {
     "id": "ocd-and-neurodivergence",
