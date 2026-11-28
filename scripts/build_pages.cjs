@@ -92,7 +92,7 @@ const pages = [
   },
   {
     url: "/about/", title: "About ND Resources",
-    description: "Who ND Resources is for, how the site is designed to be accessible and easy on the senses, and how book recommendations and links work.",
+    description: "ND Resources brings trusted information about autism, ADHD and neurodivergence together in one place for neurodivergent people, families and practitioners.",
     ld: [crumbs([["Home", "/"], ["About", "/about/"]])],
   },
   ...guides.map((g) => {

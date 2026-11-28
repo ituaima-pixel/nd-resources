@@ -449,12 +449,16 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
         '<aside class="aside" aria-label="Books for professionals"><h3>Books for professionals</h3>' + (prods.length ? prods.map(function (p) { return '<a href="/books/' + esc(p.id) + '/">' + esc(p.title) + '</a>'; }).join("<br>") : '<p class="muted">Coming soon.</p>') + '<p class="muted" style="font-size:.9rem">Ask about licences for whole schools or services.</p></aside></div></section>';
     },
     about: function () {
-      return '<div class="prose"><span class="label">About</span><h1>About these resources</h1>' +
-        '<p>This shop offers small, practical resources about autism and ADHD: books, printables and guides you can download and use the same day.</p>' +
-        '<p>Every resource is written to be clear and kind. That means literal language, visible structure and room to go at your own pace.</p>' +
-        '<p class="notice">Preview note: add your own story here, such as who you are, why you make these resources and how to get in touch.</p>' +
-        '<h2>Accessibility</h2><p>The site works with a keyboard and screen readers, follows your device\'s light or dark setting, and has Comfort settings at the top of every page for larger text, more spacing and softer colours.</p>' +
-        '<h2>Downloads and refunds</h2><p>Files arrive by email straight after payment. If a file does not arrive or will not open, get in touch and we will sort it out.</p></div>';
+      return '<div class="prose"><span class="label">About</span><h1>About ND Resources</h1>' +
+        '<p>ND Resources brings trusted information about neurodivergence together in one place, so you don\'t have to search for it.</p>' +
+        '<p>It is for everyone touched by autism, ADHD and related conditions:</p>' +
+        '<ul><li><strong>Neurodivergent people</strong>, with help for everyday life and work.</li>' +
+        '<li><strong>Families and carers</strong>, with clear explanations and places to turn for support.</li>' +
+        '<li><strong>Practitioners</strong>, with professional guides, assessment and screening tools, and recommended reading.</li></ul>' +
+        '<p>We explain what you need to know in plain language: what things mean, what to do next, and where to find more help.</p>' +
+        '<p>ND Resources is part of an organisation that supports neurodivergent people, families and the professionals who work with them.</p>' +
+        '<h2>Books and links</h2><p>We recommend books we think are useful. Book links go to Amazon UK. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you. Other links go to free, trusted sources and open in a new tab.</p>' +
+        '<h2>Accessibility</h2><p>The site works with a keyboard and screen readers and follows your device\'s light or dark setting. Comfort settings at the top of every page give you larger text, more spacing and softer colours.</p></div>';
     },
     guide: function (id, parent, hub) {
       var g = guides.filter(function (x) { return x.id === id && x.parent === parent && (x.hub || "") === (hub || ""); })[0];
