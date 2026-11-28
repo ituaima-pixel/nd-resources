@@ -3850,7 +3850,8 @@
     "coverUrls": [
       "https://images-us.bookshop.org/ingram/9781890627829.jpg",
       "https://covers.openlibrary.org/b/isbn/9781890627829-L.jpg?default=false"
-    ]
+    ],
+    "coverLookup": false
   },
   {
     "id": "tic-disorders",
@@ -4115,7 +4116,8 @@
       "https://images.cdn.europe-west1.gcp.commercetools.com/b0c1af64-23c6-499f-8892-0976d37c1c31/default-hlLWrQ-g.jpg",
       "https://images-us.bookshop.org/ingram/9780199363346.jpg",
       "https://covers.openlibrary.org/b/isbn/9780199363346-L.jpg?default=false"
-    ]
+    ],
+    "coverLookup": false
   },
   {
     "id": "tourette-syndrome-the-facts",
