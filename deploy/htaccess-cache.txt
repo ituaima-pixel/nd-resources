@@ -1,9 +1,14 @@
-
 # BEGIN ND-RESOURCES-CACHE
 <IfModule mod_headers.c>
-<FilesMatch "\.(html|json)$">
+<FilesMatch "\.(html|json|xml|txt)$">
 Header set Cache-Control "no-cache, must-revalidate"
 Header unset Expires
 </FilesMatch>
+</IfModule>
+# One address for search engines: www.neurodivergentresources.co.uk -> neurodivergentresources.co.uk
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.neurodivergentresources\.co\.uk$ [NC]
+RewriteRule ^(.*)$ https://neurodivergentresources.co.uk/$1 [R=301,L]
 </IfModule>
 # END ND-RESOURCES-CACHE
