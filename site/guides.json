@@ -564,7 +564,86 @@
         "url": "https://swlstg.nhs.uk/ocd-guide"
       }
     ],
-    "group": "co-occurring"
+    "group": "co-occurring",
+    "booksHeading": "Recommended books on OCD",
+    "booksIntro": "Books about OCD in autistic people, plus trusted OCD books for clinicians, families and young people. Open a book to see details and buy it on Amazon UK.",
+    "bookGroups": [
+      {
+        "heading": "OCD in autistic people",
+        "note": "Written specifically about OCD alongside autism, including how to adapt CBT and exposure work.",
+        "ids": [
+          "ocd-and-autism",
+          "challenging-ocd-in-young-people-with-asd",
+          "challenge-your-ocd",
+          "addressing-obsessive-compulsive-behavior-in-autism-with-func",
+          "anxiety-in-children-and-adolescents-with-autism-spectrum-dis",
+          "a-clinician-s-guide-to-mental-health-conditions-in-adults-wi"
+        ]
+      },
+      {
+        "heading": "Anxiety in autistic children and adults",
+        "note": "Anxiety often sits alongside OCD. These CBT-based books are written for autistic people and their families.",
+        "ids": [
+          "overcoming-anxiety-and-depression-on-the-autism-spectrum",
+          "helping-autistic-teens-to-manage-their-anxiety",
+          "the-parents-guide-to-managing-anxiety-in-children-with-autis",
+          "10-steps-to-reducing-your-child-s-anxiety-on-the-autism-spec"
+        ]
+      },
+      {
+        "heading": "Clinician manuals for OCD",
+        "note": "Core treatment manuals for exposure and response prevention, in children and adults.",
+        "ids": [
+          "exposure-and-response-ritual-prevention-for-ocd",
+          "a-clinician-s-guide-to-treating-ocd",
+          "treating-ocd-in-children-and-adolescents",
+          "ocd-in-children-and-adolescents"
+        ]
+      },
+      {
+        "heading": "Books for children and teens",
+        "note": "Picture books, stories and workbooks that explain OCD to young people.",
+        "ids": [
+          "what-to-do-when-your-brain-gets-stuck",
+          "can-i-tell-you-about-ocd",
+          "chloe-and-the-bossy-cloud",
+          "crushing-ocd-workbook-for-kids",
+          "when-i-see-blue",
+          "stand-up-to-ocd",
+          "obsessive-compulsive-disorder-diary",
+          "ocd-tools-to-help-young-people-fight-back"
+        ]
+      },
+      {
+        "heading": "Guides for parents and carers",
+        "note": "Helping a child with OCD, including how to reduce family accommodation of rituals.",
+        "ids": [
+          "freeing-your-child-from-obsessive-compulsive-disorder",
+          "breaking-free-of-child-anxiety-and-ocd",
+          "breaking-free-from-ocd",
+          "the-family-guide-to-getting-over-ocd",
+          "talking-back-to-ocd"
+        ]
+      },
+      {
+        "heading": "Self-help and lived experience for adults",
+        "note": "CBT self-help workbooks and memoirs by people with OCD.",
+        "ids": [
+          "overcoming-obsessive-compulsive-disorder",
+          "break-free-from-ocd",
+          "getting-over-ocd",
+          "the-mindfulness-workbook-for-ocd",
+          "overcoming-unwanted-intrusive-thoughts",
+          "because-we-are-bad",
+          "the-man-who-couldn-t-stop"
+        ]
+      }
+    ],
+    "shopLink": {
+      "url": "/shop/?for=ocd",
+      "label": "See all OCD books in the shop"
+    },
+    "carousel": true
   },
   {
     "id": "ados-2-and-online-observations",

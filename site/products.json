@@ -2654,5 +2654,1103 @@
       "https://images-us.bookshop.org/ingram/9781032546940.jpg",
       "https://covers.openlibrary.org/b/isbn/9781032546940-L.jpg?default=false"
     ]
+  },
+  {
+    "id": "ocd-and-autism",
+    "kind": "book",
+    "title": "OCD and Autism",
+    "subtitle": "A Clinician's Guide to Adapting CBT",
+    "author": "Ailsa Russell, Amita Jassi, Kate Johnston",
+    "publisher": "Jessica Kingsley",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "Autism and OCD",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "The key UK text on spotting OCD in autistic people (vs repetitive behaviour and special interests) and adapting CBT/ERP. Written by the Maudsley national OCD team.",
+    "isbn": "9781785923791",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/178592379X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/products/9781785923791-original.jpg?v=1771056462",
+      "https://images-us.bookshop.org/ingram/9781785923791.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781785923791-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "challenging-ocd-in-young-people-with-asd",
+    "kind": "book",
+    "title": "Challenging OCD in Young People with ASD",
+    "subtitle": "A CBT Manual for Therapists",
+    "author": "Amita Jassi",
+    "publisher": "Jessica Kingsley",
+    "edition": "2020",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "Autism and OCD",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Session-by-session CBT manual for autistic young people with OCD. Pairs with Challenge Your OCD!, the matching workbook for young people.",
+    "isbn": "9781787752887",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787752887?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/products/9781787752887-original.jpg?v=1770370738",
+      "https://images-us.bookshop.org/ingram/9781787752887.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781787752887-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "challenge-your-ocd",
+    "kind": "book",
+    "title": "Challenge Your OCD!",
+    "subtitle": "A CBT Workbook for Young People with ASD",
+    "author": "Amita Jassi",
+    "publisher": "Jessica Kingsley",
+    "edition": "2020",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "Autism and OCD",
+    "bestFor": "Teenagers",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Visual, concrete workbook written for autistic young people working on OCD.",
+    "isbn": "9781787752863",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787752860?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/products/9781787752863-original.jpg?v=1770794898",
+      "https://images-us.bookshop.org/ingram/9781787752863.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781787752863-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "addressing-obsessive-compulsive-behavior-in-autism-with-func",
+    "kind": "book",
+    "title": "Addressing Obsessive-Compulsive Behavior in Autism with Functional Behavior-based CBT",
+    "subtitle": "A Clinician's Manual",
+    "author": "Tricia Vause, Nicole Neil, Brianna M. Anderson, Maurice A. Feldman",
+    "publisher": "Routledge",
+    "edition": "2025",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "Autism and OCD",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Newest clinician manual on obsessive-compulsive behaviour in autism, combining functional assessment with CBT.",
+    "isbn": "9781032712307",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1032712309?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781032712307.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781032712307-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "anxiety-in-children-and-adolescents-with-autism-spectrum-dis",
+    "kind": "book",
+    "title": "Anxiety in Children and Adolescents with Autism Spectrum Disorder",
+    "subtitle": "Evidence-Based Assessment and Treatment",
+    "author": "Connor M. Kerns, Patricia Renno, Eric A. Storch, Philip C. Kendall, Jeffrey J. Wood (eds)",
+    "publisher": "Academic Press",
+    "edition": "2017 (hardback)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "Autism and OCD",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Academic reference on anxiety and OCD in autistic youth, including how to tell them apart from core autism features.",
+    "isbn": "9780128051221",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0128051221?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780128051221.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780128051221-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "a-clinician-s-guide-to-mental-health-conditions-in-adults-wi",
+    "kind": "book",
+    "title": "A Clinician's Guide to Mental Health Conditions in Adults with Autism Spectrum Disorders",
+    "subtitle": "",
+    "author": "Eddie Chaplin, Debbie Spain, Jane McCarthy (eds)",
+    "publisher": "Jessica Kingsley",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "Autism and OCD",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "UK guide to co-occurring conditions in autistic adults, with a chapter on OCD.",
+    "isbn": "9781785924262",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1785924265?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781785924262.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781785924262-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "overcoming-anxiety-and-depression-on-the-autism-spectrum",
+    "kind": "book",
+    "title": "Overcoming Anxiety and Depression on the Autism Spectrum",
+    "subtitle": "",
+    "author": "Lee A. Wilkinson",
+    "publisher": "Jessica Kingsley",
+    "edition": "2015",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "Autism and anxiety",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "CBT self-help written for autistic adults, covering anxiety and worry that often sits alongside OCD.",
+    "isbn": "9781849059275",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1849059276?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781849059275.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781849059275-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "helping-autistic-teens-to-manage-their-anxiety",
+    "kind": "book",
+    "title": "Helping Autistic Teens to Manage their Anxiety",
+    "subtitle": "Strategies and Worksheets using CBT, DBT, and ACT Skills",
+    "author": "Theresa Kidd",
+    "publisher": "Jessica Kingsley",
+    "edition": "2022",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "professionals",
+      "ocd"
+    ],
+    "topic": "Autism and anxiety",
+    "bestFor": "Parents, school staff, clinicians",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Practical worksheets for autistic teenagers. Useful for parents and school staff.",
+    "isbn": "9781787754508",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787754502?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/products/9781787754508-original.jpg?v=1707165205",
+      "https://images-us.bookshop.org/ingram/9781787754508.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781787754508-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-parents-guide-to-managing-anxiety-in-children-with-autis",
+    "kind": "book",
+    "title": "The Parents' Guide to Managing Anxiety in Children with Autism",
+    "subtitle": "",
+    "author": "Raelene Dundon",
+    "publisher": "Jessica Kingsley",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "Autism and anxiety",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Plain-English parent guide to anxiety in autistic children, including rituals and need for sameness.",
+    "isbn": "9781785926556",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1785926551?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781785926556.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781785926556-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "10-steps-to-reducing-your-child-s-anxiety-on-the-autism-spec",
+    "kind": "book",
+    "title": "10 Steps to Reducing Your Child's Anxiety on the Autism Spectrum",
+    "subtitle": "",
+    "author": "Michelle Garnett, Tony Attwood et al.",
+    "publisher": "Jessica Kingsley",
+    "edition": "2020",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "Autism and anxiety",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "CBT-based parent programme from Attwood and Garnett.",
+    "isbn": "9781787753259",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787753255?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781787753259.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781787753259-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "what-to-do-when-your-brain-gets-stuck",
+    "kind": "book",
+    "title": "What to Do When Your Brain Gets Stuck",
+    "subtitle": "A Kid's Guide to Overcoming OCD (2nd ed.)",
+    "author": "Dawn Huebner",
+    "publisher": "Magination Press (APA)",
+    "edition": "2026 (2nd ed.)",
+    "type": "Book",
+    "format": "Kindle edition, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "The best-known children's OCD self-help book, ages 7-11.",
+    "isbn": "9781433849329",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/B0GM1TPK7C?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://www.sanity.com.au/media/Images/fullimage/1836936/SDC_3629985_2026-13-3--11-58-33.jpg",
+      "https://images-us.bookshop.org/ingram/9781433849329.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781433849329-L.jpg?default=false"
+    ],
+    "note": "The new 2nd edition is on Kindle at Amazon UK for now. The paperback should follow."
+  },
+  {
+    "id": "can-i-tell-you-about-ocd",
+    "kind": "book",
+    "title": "Can I tell you about OCD?",
+    "subtitle": "",
+    "author": "Amita Jassi",
+    "publisher": "Jessica Kingsley",
+    "edition": "2013",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Short illustrated explainer told by a child with OCD, age 7+. Same series as Can I tell you about Autism?",
+    "isbn": "9781849053815",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1849053812?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781849053815.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781849053815-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "chloe-and-the-bossy-cloud",
+    "kind": "book",
+    "title": "Chloe and the Bossy Cloud",
+    "subtitle": "A Children's Book About OCD",
+    "author": "Natasha Daniels",
+    "publisher": "Jessica Kingsley",
+    "edition": "2025",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Picture book for ages 3-6 explaining OCD gently.",
+    "isbn": "9781805018490",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1805018493?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://uk.jkp.com/cdn/shop/files/9781805018490-original.jpg?v=1757569143&width=1946",
+      "https://images-us.bookshop.org/ingram/9781805018490.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781805018490-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "crushing-ocd-workbook-for-kids",
+    "kind": "book",
+    "title": "Crushing OCD Workbook for Kids",
+    "subtitle": "50 Fun Activities to Overcome OCD with CBT and Exposures",
+    "author": "Natasha Daniels",
+    "publisher": "Jessica Kingsley",
+    "edition": "2024",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Activity workbook for ages 8-12 using CBT and exposure.",
+    "isbn": "9781839978883",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1839978880?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://us.jkp.com/cdn/shop/products/9781839978883-original.jpg?v=1770383809",
+      "https://images-us.bookshop.org/ingram/9781839978883.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781839978883-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "when-i-see-blue",
+    "kind": "book",
+    "title": "When I See Blue",
+    "subtitle": "",
+    "author": "Lily Bailey",
+    "publisher": "Orion Children's Books",
+    "edition": "2022",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Children",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Middle-grade novel (ages 9-12) about a boy with OCD, by an author with lived experience.",
+    "isbn": "9781510109803",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1510109803?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781510109803.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781510109803-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "stand-up-to-ocd",
+    "kind": "book",
+    "title": "Stand Up to OCD!",
+    "subtitle": "",
+    "author": "Kelly Wood, Douglas Fletcher",
+    "publisher": "Jessica Kingsley",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Teenagers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Self-help workbook for ages 12-17.",
+    "isbn": "9781785928352",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/178592835X?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781785928352.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781785928352-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "obsessive-compulsive-disorder-diary",
+    "kind": "book",
+    "title": "Obsessive Compulsive Disorder Diary",
+    "subtitle": "A Self-Help Diary with CBT Activities to Challenge Your OCD",
+    "author": "Charlotte Dennis, Amita Jassi, Zoe Kindynis",
+    "publisher": "Jessica Kingsley",
+    "edition": "2019",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Teenagers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Maudsley-team diary for young people 12+, handy between therapy sessions.",
+    "isbn": "9781787750531",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1787750531?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781787750531.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781787750531-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "ocd-tools-to-help-young-people-fight-back",
+    "kind": "book",
+    "title": "OCD - Tools to Help Young People Fight Back!",
+    "subtitle": "",
+    "author": "Georgina Krebs, Cynthia Turner, Chloe Volz",
+    "publisher": "Jessica Kingsley",
+    "edition": "2018",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "children",
+      "ocd"
+    ],
+    "topic": "OCD: books for children and teens",
+    "bestFor": "Teenagers",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "CBT workbook from the Maudsley team for young people.",
+    "isbn": "9781849054034",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1849054037?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781849054034.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781849054034-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "freeing-your-child-from-obsessive-compulsive-disorder",
+    "kind": "book",
+    "title": "Freeing Your Child from Obsessive-Compulsive Disorder",
+    "subtitle": "(Revised and Updated)",
+    "author": "Tamar E. Chansky",
+    "publisher": "Harmony",
+    "edition": "2025 (revised ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "OCD: guides for parents",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Newly updated classic parent guide to childhood OCD.",
+    "isbn": "9780593980521",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0593980522?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://target.scene7.com/is/image/Target/GUEST_e59dc5f2-634c-485a-bce2-3ca706f2e97c",
+      "https://images-us.bookshop.org/ingram/9780593980521.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780593980521-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "breaking-free-of-child-anxiety-and-ocd",
+    "kind": "book",
+    "title": "Breaking Free of Child Anxiety and OCD",
+    "subtitle": "A Scientifically Proven Program for Parents",
+    "author": "Eli R. Lebowitz",
+    "publisher": "Oxford University Press",
+    "edition": "2021",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "OCD: guides for parents",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "The SPACE parent programme: helps parents reduce accommodating rituals. Works well for families of autistic children who resist direct therapy.",
+    "isbn": "9780190883522",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0190883529?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780190883522.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780190883522-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "breaking-free-from-ocd",
+    "kind": "book",
+    "title": "Breaking Free from OCD",
+    "subtitle": "A CBT Guide for Young People and Their Families",
+    "author": "Jo Derisley, Isobel Heyman, Sarah Robinson, Cynthia Turner",
+    "publisher": "Jessica Kingsley",
+    "edition": "2008",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "OCD: guides for parents",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "UK Maudsley guide for families working through CBT together.",
+    "isbn": "9781843105749",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1843105748?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781843105749.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781843105749-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-family-guide-to-getting-over-ocd",
+    "kind": "book",
+    "title": "The Family Guide to Getting Over OCD",
+    "subtitle": "Reclaim Your Life and Help Your Loved One",
+    "author": "Jonathan S. Abramowitz",
+    "publisher": "Guilford Press",
+    "edition": "2021",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "OCD: guides for parents",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "For partners and families of teens or adults with OCD.",
+    "isbn": "9781462541362",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462541364?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781462541362.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781462541362-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "talking-back-to-ocd",
+    "kind": "book",
+    "title": "Talking Back to OCD",
+    "subtitle": "",
+    "author": "John S. March",
+    "publisher": "Guilford Press",
+    "edition": "2007",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "parents",
+      "ocd"
+    ],
+    "topic": "OCD: guides for parents",
+    "bestFor": "Parents and carers",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Well-known programme for kids and teens with a parent section. Older but still widely recommended.",
+    "isbn": "9781593853556",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1593853556?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781593853556.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781593853556-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "overcoming-obsessive-compulsive-disorder",
+    "kind": "book",
+    "title": "Overcoming Obsessive Compulsive Disorder",
+    "subtitle": "(2nd ed.)",
+    "author": "David Veale, Rob Willson",
+    "publisher": "Robinson",
+    "edition": "2021 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Long-standing UK CBT self-help classic, updated in 2021.",
+    "isbn": "9781472136015",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1472136012?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781472136015.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781472136015-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "break-free-from-ocd",
+    "kind": "book",
+    "title": "Break Free from OCD",
+    "subtitle": "Overcoming Obsessive Compulsive Disorder with CBT",
+    "author": "Fiona Challacombe, Victoria Bream Oldfield, Paul Salkovskis",
+    "publisher": "Vermilion",
+    "edition": "2011",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Maudsley/Oxford CBT self-help, very popular in the UK.",
+    "isbn": "9780091939694",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0091939690?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780091939694.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780091939694-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "getting-over-ocd",
+    "kind": "book",
+    "title": "Getting Over OCD",
+    "subtitle": "A 10-Step Workbook for Taking Back Your Life (2nd ed.)",
+    "author": "Jonathan S. Abramowitz",
+    "publisher": "Guilford Press",
+    "edition": "2018 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Structured ERP workbook. Clear, step-by-step layout suits many autistic readers.",
+    "isbn": "9781462529704",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462529704?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781462529704.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781462529704-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-mindfulness-workbook-for-ocd",
+    "kind": "book",
+    "title": "The Mindfulness Workbook for OCD",
+    "subtitle": "(2nd ed.)",
+    "author": "Jon Hershfield, Tom Corboy",
+    "publisher": "New Harbinger",
+    "edition": "2021 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Combines mindfulness with CBT/ERP.",
+    "isbn": "9781684035632",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1684035635?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781684035632.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781684035632-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "overcoming-unwanted-intrusive-thoughts",
+    "kind": "book",
+    "title": "Overcoming Unwanted Intrusive Thoughts",
+    "subtitle": "",
+    "author": "Sally M. Winston, Martin N. Seif",
+    "publisher": "New Harbinger",
+    "edition": "2017",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Focused on intrusive thoughts ('Pure O'), a common worry for autistic adults.",
+    "isbn": "9781626254343",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1626254346?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781626254343.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781626254343-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "because-we-are-bad",
+    "kind": "book",
+    "title": "Because We Are Bad",
+    "subtitle": "OCD and a Girl Lost in Thought",
+    "author": "Lily Bailey",
+    "publisher": "Canbury",
+    "edition": "2018",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "UK memoir of OCD from childhood. Lived-experience read.",
+    "isbn": "9780993040740",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0993040748?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780993040740.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780993040740-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "the-man-who-couldn-t-stop",
+    "kind": "book",
+    "title": "The Man Who Couldn't Stop",
+    "subtitle": "The Truth About OCD",
+    "author": "David Adam",
+    "publisher": "Picador",
+    "edition": "2015",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "adults",
+      "ocd"
+    ],
+    "topic": "OCD: self-help and memoirs",
+    "bestFor": "Adults with OCD",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Science journalist's account of his own OCD and the research behind it.",
+    "isbn": "9781447277682",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1447277686?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781447277682.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781447277682-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "exposure-and-response-ritual-prevention-for-ocd",
+    "kind": "book",
+    "title": "Exposure and Response (Ritual) Prevention for OCD",
+    "subtitle": "Therapist Guide (2nd ed.)",
+    "author": "Edna B. Foa, Elna Yadin, Tracey K. Lichner",
+    "publisher": "Oxford University Press",
+    "edition": "2012 (2nd ed.)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "OCD: clinician manuals",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Gold-standard ERP therapist manual.",
+    "isbn": "9780195335286",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/0195335287?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9780195335286.jpg",
+      "https://covers.openlibrary.org/b/isbn/9780195335286-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "a-clinician-s-guide-to-treating-ocd",
+    "kind": "book",
+    "title": "A Clinician's Guide to Treating OCD",
+    "subtitle": "",
+    "author": "Jan van Niekerk, Christine Purdon",
+    "publisher": "New Harbinger",
+    "edition": "2018",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "OCD: clinician manuals",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "mustard",
+    "summary": "Practical guide to the main CBT approaches for OCD.",
+    "isbn": "9781626258952",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1626258953?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781626258952.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781626258952-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "treating-ocd-in-children-and-adolescents",
+    "kind": "book",
+    "title": "Treating OCD in Children and Adolescents",
+    "subtitle": "A Cognitive-Behavioral Approach",
+    "author": "Martin E. Franklin, Jennifer B. Freeman, John S. March",
+    "publisher": "Guilford Press",
+    "edition": "2019 (hardback)",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "OCD: clinician manuals",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "brown",
+    "summary": "Leading clinician text on paediatric OCD treatment.",
+    "isbn": "9781462538034",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462538037?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781462538034.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781462538034-L.jpg?default=false"
+    ]
+  },
+  {
+    "id": "ocd-in-children-and-adolescents",
+    "kind": "book",
+    "title": "OCD in Children and Adolescents",
+    "subtitle": "The 'OCD Is Not the Boss of Me' Manual",
+    "author": "Katherine McKenney, Annie Simpson, S. Evelyn Stewart",
+    "publisher": "Guilford Press",
+    "edition": "2020",
+    "type": "Book",
+    "format": "Printed book, sold by Amazon UK",
+    "audience": [
+      "professionals",
+      "ocd"
+    ],
+    "topic": "OCD: clinician manuals",
+    "bestFor": "Clinicians and therapists",
+    "tags": [],
+    "coverColor": "teal",
+    "summary": "Session-by-session manual for child OCD, with family involvement.",
+    "isbn": "9781462542031",
+    "buy": [
+      {
+        "retailer": "amazon",
+        "url": "https://www.amazon.co.uk/dp/1462542034?tag=ndresources-21"
+      }
+    ],
+    "previews": [],
+    "coverUrls": [
+      "https://images-us.bookshop.org/ingram/9781462542031.jpg",
+      "https://covers.openlibrary.org/b/isbn/9781462542031-L.jpg?default=false"
+    ]
   }
 ]
