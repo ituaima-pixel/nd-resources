@@ -487,6 +487,99 @@
     "group": "assessment"
   },
   {
+    "id": "anxiety-and-neurodivergence",
+    "parent": "professionals",
+    "group": "co-occurring",
+    "label": "Guide for professionals",
+    "title": "Anxiety and neurodivergence",
+    "metaTitle": "Anxiety with autism, ADHD and other neurodivergence: a guide for professionals | ND Resources",
+    "description": "A UK guide for professionals on anxiety in autistic people, people with ADHD and other neurodivergent people: how common it is, how to tell it apart, screening tools and adapting support.",
+    "lede": "How anxiety shows up with autism, ADHD, PDA, tics and learning disability, how to tell it apart, which tools to use, and how to adapt support.",
+    "checked": "28 November 2026",
+    "summary": [
+      "Anxiety is one of the most common co-occurring conditions for neurodivergent people. About 4 in 10 autistic children and young people have at least one anxiety disorder, and many adults with ADHD do too.",
+      "Anxiety can look like autism or ADHD, and autism or ADHD can look like anxiety. Ask when it started, what drives it and how it feels to the person.",
+      "Use measures designed for autistic people where you can, such as the ASA-A for adults and ASC-ASD for young people.",
+      "Change the environment first, then adapt therapy: clear structure, literal language, visual supports and room for sensory needs."
+    ],
+    "books": [
+      "exploring-feelings",
+      "understanding-pathological-demand-avoidance-syndrome-in-chil",
+      "collaborative-approaches-to-learning-for-pupils-with-pda"
+    ],
+    "booksHeading": "Recommended books",
+    "sections": [
+      {
+        "id": "why",
+        "heading": "Why anxiety is so common",
+        "html": "<p>Many neurodivergent people live in environments that were not designed for them. Daily life can bring sensory overload, unclear social rules, sudden change, repeated criticism and the effort of masking. Over time this can lead to anxiety. For some people, anxiety also comes from the way their brain processes uncertainty and threat.</p><p>Anxiety is not just part of being autistic or having ADHD. It is a separate need that can be recognised and treated, and it often makes other difficulties worse.</p>"
+      },
+      {
+        "id": "autism",
+        "heading": "Anxiety and autism",
+        "html": "<p>A meta-analysis of children and young people (van Steensel et al., 2011) found that about <strong>40%</strong> of autistic young people had at least one anxiety disorder. Specific phobias were most common, followed by OCD, social anxiety and generalised anxiety. In autistic adults, a later meta-analysis (Hollocks et al., 2019) found that about <strong>27%</strong> currently had an anxiety disorder and <strong>42%</strong> had one at some point in their lives.</p><p>Anxiety in autistic people often centres on <strong>uncertainty</strong>: not knowing what will happen, when or how. It can also be hidden, because many autistic people find it hard to name emotions (alexithymia) or have learned to mask distress.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Autism or anxiety\"><table class=\"wide\"><thead><tr><th scope=\"col\">What you see</th><th scope=\"col\">Can be part of autism</th><th scope=\"col\">Can be anxiety</th></tr></thead><tbody><tr><th scope=\"row\">Need for sameness and routine</th><td>A lifelong preference that makes the world predictable. Calm when routines are kept.</td><td>Rigidity that increases at stressful times, with fear about what will happen if things change.</td></tr><tr><th scope=\"row\">Avoiding social situations</th><td>Social contact is tiring or confusing; the person may be content alone.</td><td>The person wants contact but fears judgement or getting it wrong (social anxiety).</td></tr><tr><th scope=\"row\">Sensory distress</th><td>Pain or overload from noise, light or touch, in the moment.</td><td>Dread before situations where sensory overload might happen.</td></tr><tr><th scope=\"row\">Shutdown or meltdown</th><td>Response to overload when coping resources run out.</td><td>Panic: racing heart, fear of losing control, often with a trigger thought.</td></tr><tr><th scope=\"row\">Repetitive questions</th><td>Seeking information, or enjoying a topic.</td><td>Seeking reassurance about a worry, with only short relief.</td></tr></tbody></table></div><p>A useful question is whether the behaviour has always been part of how the person is, or whether it has grown, changed or become more distressing. Change points to anxiety.</p>"
+      },
+      {
+        "id": "adhd",
+        "heading": "Anxiety and ADHD",
+        "html": "<p>Anxiety disorders are among the most common co-occurring conditions in ADHD, with a 2025 review estimating that they affect about 25% to 50% of people with ADHD. A 2022 systematic review (Choi et al.) also found anxiety more common in adults with ADHD than in adults without it. Some anxiety grows from years of missed deadlines, criticism and feeling behind.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"ADHD or anxiety\"><table class=\"wide\"><thead><tr><th scope=\"col\">What you see</th><th scope=\"col\">Can come from ADHD</th><th scope=\"col\">Can come from anxiety</th></tr></thead><tbody><tr><th scope=\"row\">Poor concentration</th><td>Attention drifts to whatever is more interesting, across most situations.</td><td>Attention is taken up by worry, worse when anxious.</td></tr><tr><th scope=\"row\">Restlessness</th><td>Lifelong need to move, from early childhood.</td><td>Tension and feeling on edge, linked to worry.</td></tr><tr><th scope=\"row\">Sleep problems</th><td>Racing ideas and a later body clock.</td><td>Lying awake worrying about specific things.</td></tr><tr><th scope=\"row\">Avoiding tasks</th><td>Hard to start boring tasks; better with interest or urgency.</td><td>Avoiding tasks that might lead to failure or criticism.</td></tr><tr><th scope=\"row\">Onset</th><td>Present since childhood.</td><td>Can start at any age, often after stress.</td></tr></tbody></table></div><p>Ask what the person is thinking about when they lose focus. A specific worry points to anxiety; drifting to something more interesting points to ADHD. Both can be present.</p>"
+      },
+      {
+        "id": "other",
+        "heading": "Other neurodivergence",
+        "html": "<ul><li><strong>PDA (pathological demand avoidance)</strong> is a profile described in some autistic people, in which everyday demands cause high anxiety and avoidance. It is not a separate diagnosis in DSM-5 or ICD-11. Approaches that lower demands and share control are usually more helpful than rewards and consequences.</li><li><strong>Tics and Tourette’s.</strong> Stress and anxiety often make tics worse, and worry about tics can add to anxiety. Reduce pressure to suppress tics.</li><li><strong>Learning disability.</strong> Anxiety may show through behaviour, sleep, appetite or physical complaints more than words. Use observation and the views of people who know the person well.</li><li><strong>Dyslexia, dyspraxia and dyscalculia.</strong> Repeated difficulty with tasks that others find easy can lead to anxiety about school, work or performance.</li><li><strong>OCD.</strong> See <a href=\"/professionals/ocd-and-neurodivergence/\">OCD and neurodivergence</a>.</li></ul>"
+      },
+      {
+        "id": "screening",
+        "heading": "Screening tools for anxiety",
+        "html": "<p>General anxiety measures can miss or misread anxiety in autistic people, because they were designed for non-autistic people. Use autism-specific tools where you can, and combine any score with history and observation. More tools are on the <a href=\"/professionals/screening-tools/\">Screening tools</a> page.</p><div class=\"table-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Anxiety screening tools\"><table class=\"wide\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">What it measures</th><th scope=\"col\">Age</th><th scope=\"col\">Completed by</th><th scope=\"col\">Access</th><th scope=\"col\">Get it</th></tr></thead><tbody><tr><th scope=\"row\">ASA-A</th><td>Anxiety in autistic adults, including uncertainty and social anxiety. 20 items, developed with autistic adults.</td><td>Adults</td><td>The person</td><td>Download from Newcastle University with user guide and scoring. Contact them about translation.</td><td><a href=\"https://research.ncl.ac.uk/neurodisability/leafletsandmeasures/anxietyscaleforautism-adultsasa-a\" target=\"_blank\" rel=\"noopener\">Newcastle University</a></td></tr><tr><th scope=\"row\">ASC-ASD</th><td>Anxiety in autistic young people, including uncertainty, separation and performance anxiety. 24 items.</td><td>8 to 16</td><td>Young person and parent</td><td>Parent and child versions with scoring guidelines from Newcastle University.</td><td><a href=\"https://research.ncl.ac.uk/cargo-ne/ASC.html\" target=\"_blank\" rel=\"noopener\">Newcastle University</a></td></tr><tr><th scope=\"row\">GAD-7</th><td>General anxiety over the last two weeks. 7 items, widely used in NHS Talking Therapies.</td><td>Adults (also used with older teens)</td><td>The person</td><td>Free to use.</td><td><a href=\"https://corc.uk.net/outcome-experience-measures/generalised-anxiety-disorder-assessment-gad-7\" target=\"_blank\" rel=\"noopener\">CORC</a></td></tr><tr><th scope=\"row\">SCAS</th><td>Child anxiety across types such as separation, social, panic and generalised worry. Parent and preschool versions too.</td><td>2.5 to 18 (by version)</td><td>Child and parent</td><td>Free to download from the author’s site.</td><td><a href=\"https://www.scaswebsite.com/\" target=\"_blank\" rel=\"noopener\">SCAS website</a></td></tr></tbody></table></div>"
+      },
+      {
+        "id": "support",
+        "heading": "Support and treatment",
+        "html": "<ul><li><strong>Change the environment first.</strong> Reduce uncertainty with clear plans and warnings about change, offer quiet space, and reduce sensory load. This often lowers anxiety more than any therapy.</li><li><strong>Adapt talking therapy.</strong> NICE autism guidance (CG142 for adults, CG170 for children and young people) supports adapted CBT for anxiety. Useful changes include clear structure, literal language, written and visual materials, more time, breaks, using the person’s interests and involving family or carers.</li><li><strong>Help with naming feelings.</strong> Many autistic people benefit from work on noticing body signals (interoception) and naming emotions before working on thoughts.</li><li><strong>Medication.</strong> For people with ADHD and anxiety, ADHD medication can sometimes ease anxiety and sometimes worsen it, and evidence is mixed. Start or change one medicine at a time, and monitor both.</li><li><strong>Do not treat neurodivergent traits as symptoms.</strong> The goal is to reduce distress, not to make someone appear less autistic or less ADHD.</li></ul>"
+      }
+    ],
+    "sources": [
+      {
+        "title": "van Steensel, Bögels and Perrin (2011). Anxiety disorders in children and adolescents with autistic spectrum disorders: a meta-analysis. Clinical Child and Family Psychology Review, 14(3), 302–317",
+        "url": "https://doi.org/10.1007/s10567-011-0097-0"
+      },
+      {
+        "title": "Hollocks, Lerh, Magiati, Meiser-Stedman and Brugha (2019). Anxiety and depression in adults with autism spectrum disorder: a systematic review and meta-analysis. Psychological Medicine, 49(4), 559–572",
+        "url": "https://doi.org/10.1017/S0033291718002283"
+      },
+      {
+        "title": "Choi et al. (2022). The prevalence of psychiatric comorbidities in adult ADHD compared with non-ADHD populations: a systematic literature review. PLoS ONE, 17(11), e0277175",
+        "url": "https://doi.org/10.1371/journal.pone.0277175"
+      },
+      {
+        "title": "Fu et al. (2025). Adult ADHD and comorbid anxiety and depressive disorders: a review of etiology and treatment. Frontiers in Psychiatry, 16, 1597559",
+        "url": "https://doi.org/10.3389/fpsyt.2025.1597559"
+      },
+      {
+        "title": "Moore et al. (2025). A measurement invariance analysis of the Anxiety Scale for Autism–Adults. Journal of Autism and Developmental Disorders, 55(3), 981–996",
+        "url": "https://doi.org/10.1007/s10803-024-06260-2"
+      },
+      {
+        "title": "Newcastle University: Anxiety Scale for Autism–Adults (ASA-A)",
+        "url": "https://research.ncl.ac.uk/neurodisability/leafletsandmeasures/anxietyscaleforautism-adultsasa-a"
+      },
+      {
+        "title": "Newcastle University: Anxiety Scale for Children – ASD (ASC-ASD)",
+        "url": "https://research.ncl.ac.uk/cargo-ne/ASC.html"
+      },
+      {
+        "title": "NICE CG142: Autism spectrum disorder in adults",
+        "url": "https://www.nice.org.uk/guidance/cg142"
+      },
+      {
+        "title": "NICE CG170: Autism spectrum disorder in under 19s, support and management",
+        "url": "https://www.nice.org.uk/guidance/cg170"
+      }
+    ]
+  },
+  {
     "id": "ocd-and-neurodivergence",
     "parent": "professionals",
     "label": "Guide for professionals",
