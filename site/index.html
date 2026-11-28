@@ -226,12 +226,13 @@ section + section { margin-top: 3.5rem; }
 .rail-track .cover .ct, .book-row .cover .ct { font-size: .8rem; }
 .rail-track .cover:has(img.book-img), .book-row .cover:has(img.book-img) { background: none; }
 .rail-track .cover:has(img.book-img) > :not(img), .book-row .cover:has(img.book-img) > :not(img) { display: none; }
-.rail-track .cover img.book-img, .book-row .cover img.book-img { padding: 0; background: none; object-position: center bottom; filter: drop-shadow(0 2px 5px rgba(0,0,0,.16)); }
+.rail-track .cover img.book-img, .book-row .cover img.book-img { padding: 0; background: none; object-fit: cover; object-position: center top; border-radius: 4px; filter: none; box-shadow: 0 2px 6px rgba(0,0,0,.16); }
+.rail-track .cover img.book-img.wide, .book-row .cover img.book-img.wide { object-fit: contain; object-position: center; box-shadow: none; filter: drop-shadow(0 2px 5px rgba(0,0,0,.16)); }
 .rail-track .card-body, .book-row .card-body { padding: .5rem 0 0; gap: 0; }
 .rail-track .card-body .label, .rail-track .card-body p, .book-row .card-body .label, .book-row .card-body p { display: none; }
 .rail-track .card-body h3, .book-row .card-body h3 { font-size: .85rem; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .rail-track .card:hover h3, .book-row .card:hover h3 { color: var(--accent); text-decoration: underline; }
-.rail-track .card:hover .book-img, .book-row .card:hover .book-img { filter: drop-shadow(0 4px 10px rgba(0,0,0,.24)); }
+.rail-track .card:hover .book-img, .book-row .card:hover .book-img { box-shadow: 0 4px 12px rgba(0,0,0,.24); }
 .rail-btn { position: absolute; z-index: 2; top: 36%; transform: translateY(-50%); width: 34px; height: 34px; font-size: 1rem; background: var(--surface); box-shadow: 0 1px 4px rgba(0,0,0,.12); transition: opacity .15s; }
 .rail-btn.prev { left: -10px; } .rail-btn.next { right: -10px; }
 .rail-btn:disabled { opacity: 0; pointer-events: none; }
@@ -373,7 +374,7 @@ footer ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin:
   function cover(p, big) {
     var src = p.cover || (isBook(p) ? "/images/" + p.id + ".jpg?v=" + BUILD : "");
     var plain = '<svg class="lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path d="M-5 70 C 25 50, 45 85, 105 55 M-5 82 C 30 62, 55 95, 105 68 M-5 94 C 35 76, 60 104, 105 80" stroke="#fff" stroke-width="1.2" fill="none"/></svg><span class="ct">' + esc(p.title) + '</span>';
-    var img = src ? '<img class="book-img" src="' + esc(src) + '" alt="Cover of ' + esc(p.title) + '" loading="lazy" onerror="this.remove()">' : "";
+    var img = src ? '<img class="book-img" src="' + esc(src) + '" alt="Cover of ' + esc(p.title) + '" loading="lazy" onload="if(this.naturalWidth/this.naturalHeight>0.8)this.classList.add(&quot;wide&quot;)" onerror="this.remove()">' : "";
     return '<div class="cover ' + esc(p.coverColor || "teal") + '">' + plain + img + (p.example ? '<span class="ex">Example</span>' : "") + '</div>';
   }
   var BUILD = "__BUILD__";
